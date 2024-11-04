@@ -1,20 +1,20 @@
 {
-  "alignment": "processed_data/alignment_brazil.fasta",
+  "alignment": "processed_data/alignment_assignment.fasta",
   "clock": {
     "cov": [
       [
-        1.1282054533005744e-08,
-        -2.282140013133842e-05
+        1.4783715149362483e-08,
+        -2.9901869662388887e-05
       ],
       [
-        -2.282140013133842e-05,
-        0.046163252964154744
+        -2.9901869662388887e-05,
+        0.06048018787182077
       ]
     ],
-    "intercept": -1.1677522920410128,
-    "rate": 0.0005776276021612006,
-    "rate_std": 0.0001062170162121199,
-    "rtt_Tmrca": 2021.6351983039826
+    "intercept": -1.4169705768005676,
+    "rate": 0.000700848664901414,
+    "rate_std": 0.00012158830186067443,
+    "rtt_Tmrca": 2021.7925035212675
   },
   "generated_by": {
     "program": "augur",
@@ -22,1437 +22,996 @@
   },
   "input_tree": "processed_data/tree_raw.nwk",
   "nodes": {
-    "NODE_0000000": {
-      "branch_length": 0,
-      "clock_length": 0.001,
-      "date": "2021-10-14",
-      "mutation_length": 0,
-      "numdate": 2021.785909473744
-    },
     "NODE_0000001": {
       "branch_length": 0,
-      "clock_length": 0.0,
-      "date": "2021-10-14",
+      "clock_length": 0.001,
+      "date": "2021-11-15",
       "mutation_length": 0,
-      "numdate": 2021.785909473744
+      "numdate": 2021.8737425625925
     },
     "NODE_0000002": {
-      "branch_length": 3,
-      "clock_length": 0.00037244391804223736,
-      "date": "2022-06-07",
-      "mutation_length": 3,
-      "numdate": 2022.4306915386048
+      "branch_length": 0,
+      "clock_length": 2.4349163932125426e-05,
+      "date": "2021-11-28",
+      "mutation_length": 0,
+      "numdate": 2021.9084849615604
     },
     "NODE_0000003": {
-      "branch_length": 8,
-      "clock_length": 0.00017785144398606441,
-      "date": "2022-09-27",
-      "mutation_length": 8,
-      "numdate": 2022.738591374625
+      "branch_length": 2,
+      "clock_length": 0.0002392658480735283,
+      "date": "2022-04-02",
+      "mutation_length": 2,
+      "numdate": 2022.2498794166772
+    },
+    "NODE_0000004": {
+      "branch_length": 1,
+      "clock_length": 3.392168339615576e-05,
+      "date": "2022-04-19",
+      "mutation_length": 1,
+      "numdate": 2022.2982802842182
     },
     "NODE_0000005": {
       "branch_length": 3,
-      "clock_length": 0.00017815578653134173,
-      "date": "2022-09-27",
+      "clock_length": 6.212214103208506e-05,
+      "date": "2022-05-22",
       "mutation_length": 3,
-      "numdate": 2022.739118258285
+      "numdate": 2022.3869187366306
     },
-    "NODE_0000008": {
-      "branch_length": 0,
-      "clock_length": 9.371370647629217e-07,
-      "date": "2022-09-28",
-      "mutation_length": 0,
-      "numdate": 2022.7407406479724
-    },
-    "NODE_0000009": {
-      "branch_length": 1,
-      "clock_length": 6.999663789773562e-05,
-      "date": "2022-11-11",
-      "mutation_length": 1,
-      "numdate": 2022.8619201720046
-    },
-    "NODE_0000010": {
-      "branch_length": 0,
-      "clock_length": 3.1650827516536886e-06,
-      "date": "2022-12-02",
-      "mutation_length": 0,
-      "numdate": 2022.9191780821918
-    },
-    "NODE_0000011": {
-      "branch_length": 0,
-      "clock_length": 4.7476241272831e-06,
-      "date": "2022-12-05",
-      "mutation_length": 0,
-      "numdate": 2022.927397260274
+    "NODE_0000006": {
+      "branch_length": 6,
+      "clock_length": 0.00027966938205574774,
+      "date": "2022-04-10",
+      "mutation_length": 6,
+      "numdate": 2022.2727864590306
     },
     "NODE_0000012": {
-      "branch_length": 0,
-      "clock_length": 3.412489615757996e-05,
-      "date": "2022-10-25",
-      "mutation_length": 0,
-      "numdate": 2022.8160417714819
-    },
-    "NODE_0000013": {
-      "branch_length": 0,
-      "clock_length": 2.4922213741759673e-05,
-      "date": "2022-11-10",
-      "mutation_length": 0,
-      "numdate": 2022.8591875866205
-    },
-    "NODE_0000014": {
-      "branch_length": 0,
-      "clock_length": 1.2983096733675155e-06,
-      "date": "2022-11-11",
-      "mutation_length": 0,
-      "numdate": 2022.861435245265
-    },
-    "NODE_0000015": {
-      "branch_length": 0,
-      "clock_length": 2.4827087838391127e-05,
-      "date": "2022-11-27",
-      "mutation_length": 0,
-      "numdate": 2022.9044163766125
+      "branch_length": 1,
+      "clock_length": 7.293130102354901e-06,
+      "date": "2022-05-26",
+      "mutation_length": 1,
+      "numdate": 2022.3973248777386
     },
     "NODE_0000016": {
       "branch_length": 0,
-      "clock_length": 1.8897964067191454e-06,
-      "date": "2022-11-28",
+      "clock_length": 4.380114844568044e-05,
+      "date": "2022-11-16",
       "mutation_length": 0,
-      "numdate": 2022.9076880284513
-    },
-    "NODE_0000017": {
-      "branch_length": 2,
-      "clock_length": 7.044214288868763e-05,
-      "date": "2022-11-11",
-      "mutation_length": 2,
-      "numdate": 2022.861069049115
-    },
-    "NODE_0000018": {
-      "branch_length": 1,
-      "clock_length": 3.0400298688420656e-05,
-      "date": "2022-11-30",
-      "mutation_length": 1,
-      "numdate": 2022.9136986301369
-    },
-    "NODE_0000019": {
-      "branch_length": 0,
-      "clock_length": 1.8893480634464815e-06,
-      "date": "2022-11-29",
-      "mutation_length": 0,
-      "numdate": 2022.9109589041095
+      "numdate": 2022.875542136996
     },
     "NODE_0000020": {
-      "branch_length": 0,
-      "clock_length": 1.0308248320083351e-05,
-      "date": "2022-10-04",
-      "mutation_length": 0,
-      "numdate": 2022.756964095779
+      "branch_length": 4,
+      "clock_length": 6.345056264453662e-05,
+      "date": "2021-12-31",
+      "mutation_length": 4,
+      "numdate": 2021.999018861134
     },
     "NODE_0000021": {
-      "branch_length": 1,
-      "clock_length": 7.849982602797048e-06,
-      "date": "2022-10-02",
-      "mutation_length": 1,
-      "numdate": 2022.7527082989504
+      "branch_length": 2,
+      "clock_length": 3.917282611762534e-05,
+      "date": "2022-01-21",
+      "mutation_length": 2,
+      "numdate": 2022.0549122773298
     },
     "NODE_0000022": {
-      "branch_length": 2,
-      "clock_length": 3.225419104079375e-05,
-      "date": "2022-10-23",
-      "mutation_length": 2,
-      "numdate": 2022.8085473740225
+      "branch_length": 0,
+      "clock_length": 2.879998672119296e-06,
+      "date": "2022-11-18",
+      "mutation_length": 0,
+      "numdate": 2022.8796514387843
+    },
+    "NODE_0000023": {
+      "branch_length": 0,
+      "clock_length": 7.322883105629088e-07,
+      "date": "2022-11-18",
+      "mutation_length": 0,
+      "numdate": 2022.8806962981773
     },
     "NODE_0000024": {
-      "branch_length": 0,
-      "clock_length": 3.0413690149137676e-05,
-      "date": "2022-11-11",
-      "mutation_length": 0,
-      "numdate": 2022.8612001385986
+      "branch_length": 1,
+      "clock_length": 1.4244680677219414e-05,
+      "date": "2022-01-28",
+      "mutation_length": 1,
+      "numdate": 2022.0752371796812
     },
     "NODE_0000025": {
       "branch_length": 0,
-      "clock_length": 2.0829329529682174e-05,
-      "date": "2022-11-24",
+      "clock_length": 7.947124782857777e-05,
+      "date": "2022-12-29",
       "mutation_length": 0,
-      "numdate": 2022.8972602739725
-    },
-    "NODE_0000026": {
-      "branch_length": 2,
-      "clock_length": 3.683198569633377e-05,
-      "date": "2022-10-26",
-      "mutation_length": 2,
-      "numdate": 2022.816472540061
-    },
-    "NODE_0000027": {
-      "branch_length": 2,
-      "clock_length": 3.218613044854023e-05,
-      "date": "2022-11-15",
-      "mutation_length": 2,
-      "numdate": 2022.8721937873286
-    },
-    "NODE_0000028": {
-      "branch_length": 5,
-      "clock_length": 0.0001450226346588336,
-      "date": "2022-09-06",
-      "mutation_length": 5,
-      "numdate": 2022.681757509338
+      "numdate": 2022.9940891771375
     },
     "NODE_0000029": {
-      "branch_length": 1,
-      "clock_length": 1.9859281765158623e-05,
-      "date": "2022-09-19",
-      "mutation_length": 1,
-      "numdate": 2022.7161382793893
-    },
-    "NODE_0000031": {
-      "branch_length": 1,
-      "clock_length": 8.433245892946312e-05,
-      "date": "2022-11-11",
-      "mutation_length": 1,
-      "numdate": 2022.8621362521558
+      "branch_length": 3,
+      "clock_length": 0.0001373123306012609,
+      "date": "2022-04-02",
+      "mutation_length": 3,
+      "numdate": 2022.2508352168713
     },
     "NODE_0000032": {
-      "branch_length": 1,
-      "clock_length": 9.394568185610349e-06,
-      "date": "2022-09-25",
-      "mutation_length": 1,
-      "numdate": 2022.7324023362842
+      "branch_length": 7,
+      "clock_length": 7.967383832268833e-05,
+      "date": "2022-03-03",
+      "mutation_length": 7,
+      "numdate": 2022.168594220826
     },
     "NODE_0000033": {
-      "branch_length": 0,
-      "clock_length": 0.0,
-      "date": "2022-10-13",
-      "mutation_length": 0,
-      "numdate": 2022.7827845416382
-    },
-    "NODE_0000035": {
       "branch_length": 2,
-      "clock_length": 4.666648644511769e-05,
-      "date": "2022-11-12",
-      "mutation_length": 2,
-      "numdate": 2022.8635744593473
-    },
-    "NODE_0000036": {
-      "branch_length": 0,
-      "clock_length": 0.0,
-      "date": "2022-11-12",
-      "mutation_length": 0,
-      "numdate": 2022.8635744593473
-    },
-    "NODE_0000038": {
-      "branch_length": 1,
-      "clock_length": 4.172221229456793e-05,
-      "date": "2022-11-25",
-      "mutation_length": 1,
-      "numdate": 2022.8994733873883
-    },
-    "NODE_0000042": {
-      "branch_length": 0,
-      "clock_length": 0.0,
-      "date": "2022-11-04",
-      "mutation_length": 0,
-      "numdate": 2022.8417250031373
-    },
-    "NODE_0000043": {
-      "branch_length": 0,
-      "clock_length": 8.434298653145077e-05,
-      "date": "2022-11-28",
-      "mutation_length": 0,
-      "numdate": 2022.9082766614831
-    },
-    "NODE_0000044": {
-      "branch_length": 6,
-      "clock_length": 0.00011263445037778424,
-      "date": "2022-12-05",
-      "mutation_length": 6,
-      "numdate": 2022.927397260274
-    },
-    "NODE_0000045": {
-      "branch_length": 0,
-      "clock_length": 7.785239955729502e-07,
-      "date": "2022-11-29",
-      "mutation_length": 0,
-      "numdate": 2022.9096244571783
-    },
-    "NODE_0000046": {
-      "branch_length": 0,
-      "clock_length": 3.244903856700239e-05,
-      "date": "2022-12-19",
-      "mutation_length": 0,
-      "numdate": 2022.9658008560305
-    },
-    "NODE_0000047": {
-      "branch_length": 0,
-      "clock_length": 2.1738527127358135e-05,
-      "date": "2023-01-02",
-      "mutation_length": 0,
-      "numdate": 2023.0034350117494
-    },
-    "NODE_0000049": {
-      "branch_length": 0,
-      "clock_length": 1.972195839144422e-06,
-      "date": "2023-01-03",
-      "mutation_length": 0,
-      "numdate": 2023.0068493150684
-    },
-    "NODE_0000050": {
-      "branch_length": 0,
-      "clock_length": 6.022323595760706e-07,
-      "date": "2022-09-25",
-      "mutation_length": 0,
-      "numdate": 2022.7334449325128
-    },
-    "NODE_0000051": {
-      "branch_length": 1,
-      "clock_length": 3.990216659866251e-06,
-      "date": "2022-09-27",
-      "mutation_length": 1,
-      "numdate": 2022.7393102760102
-    },
-    "NODE_0000052": {
-      "branch_length": 1,
-      "clock_length": 6.489786106476013e-06,
-      "date": "2022-10-01",
-      "mutation_length": 1,
-      "numdate": 2022.7505455183743
-    },
-    "NODE_0000053": {
-      "branch_length": 2,
-      "clock_length": 1.0871583678420246e-05,
-      "date": "2022-10-04",
-      "mutation_length": 2,
-      "numdate": 2022.758131370497
-    },
-    "NODE_0000054": {
-      "branch_length": 1,
-      "clock_length": 2.6586519168988625e-05,
-      "date": "2022-10-21",
-      "mutation_length": 1,
-      "numdate": 2022.8038335288552
-    },
-    "NODE_0000055": {
-      "branch_length": 0,
-      "clock_length": 1.4071876955783864e-05,
-      "date": "2022-10-04",
-      "mutation_length": 0,
-      "numdate": 2022.7578064361928
-    },
-    "NODE_0000056": {
-      "branch_length": 1,
-      "clock_length": 2.4765227507890132e-05,
-      "date": "2022-11-06",
-      "mutation_length": 1,
-      "numdate": 2022.8467075664103
-    },
-    "NODE_0000057": {
-      "branch_length": 0,
-      "clock_length": 0.0,
-      "date": "2022-10-21",
-      "mutation_length": 0,
-      "numdate": 2022.8038335288552
-    },
-    "NODE_0000058": {
-      "branch_length": 2,
-      "clock_length": 1.7246878214983588e-05,
-      "date": "2022-10-06",
-      "mutation_length": 2,
-      "numdate": 2022.76226046313
-    },
-    "NODE_0000059": {
-      "branch_length": 0,
-      "clock_length": 1.4428043154902318e-05,
-      "date": "2022-10-13",
-      "mutation_length": 0,
-      "numdate": 2022.7827845416382
-    },
-    "NODE_0000060": {
-      "branch_length": 0,
-      "clock_length": 0.0,
-      "date": "2022-10-21",
-      "mutation_length": 0,
-      "numdate": 2022.8038335288552
-    },
-    "NODE_0000061": {
-      "branch_length": 2,
-      "clock_length": 1.7279486526733562e-05,
-      "date": "2022-10-17",
-      "mutation_length": 2,
-      "numdate": 2022.7921750421115
-    },
-    "NODE_0000063": {
-      "branch_length": 4,
-      "clock_length": 6.703029600560809e-05,
-      "date": "2022-11-28",
-      "mutation_length": 4,
-      "numdate": 2022.9082191780822
-    },
-    "NODE_0000064": {
-      "branch_length": 2,
-      "clock_length": 2.862142517452364e-05,
-      "date": "2022-11-04",
-      "mutation_length": 2,
-      "numdate": 2022.8417250031373
-    },
-    "NODE_0000065": {
-      "branch_length": 0,
-      "clock_length": 2.036135253604939e-06,
-      "date": "2022-10-15",
-      "mutation_length": 0,
-      "numdate": 2022.7863095380997
-    },
-    "NODE_0000066": {
-      "branch_length": 1,
-      "clock_length": 1.0575656484777358e-05,
-      "date": "2022-11-10",
-      "mutation_length": 1,
-      "numdate": 2022.8600337827822
-    },
-    "NODE_0000067": {
-      "branch_length": 2,
-      "clock_length": 2.1503048843131336e-05,
-      "date": "2022-11-24",
-      "mutation_length": 2,
-      "numdate": 2022.8972602739725
-    },
-    "NODE_0000068": {
-      "branch_length": 0,
-      "clock_length": 0.0,
-      "date": "2022-10-15",
-      "mutation_length": 0,
-      "numdate": 2022.7863095380997
-    },
-    "NODE_0000069": {
-      "branch_length": 1,
-      "clock_length": 2.2618363526044844e-05,
-      "date": "2022-10-20",
-      "mutation_length": 1,
-      "numdate": 2022.8014178085225
-    },
-    "NODE_0000070": {
-      "branch_length": 1,
-      "clock_length": 2.3709073023660767e-05,
-      "date": "2022-11-04",
-      "mutation_length": 1,
-      "numdate": 2022.8424634111477
-    },
-    "NODE_0000071": {
-      "branch_length": 1,
-      "clock_length": 1.601522810038664e-05,
-      "date": "2022-11-14",
-      "mutation_length": 1,
-      "numdate": 2022.8701892816575
-    },
-    "NODE_0000072": {
-      "branch_length": 0,
-      "clock_length": 1.8018764038823165e-05,
-      "date": "2022-10-26",
-      "mutation_length": 0,
-      "numdate": 2022.8175039685102
-    },
-    "NODE_0000073": {
-      "branch_length": 0,
-      "clock_length": 5.625586582542998e-06,
-      "date": "2022-10-29",
-      "mutation_length": 0,
-      "numdate": 2022.8272430920588
-    },
-    "NODE_0000074": {
-      "branch_length": 1,
-      "clock_length": 2.6385673478435694e-05,
-      "date": "2022-12-15",
-      "mutation_length": 1,
-      "numdate": 2022.953956046228
-    },
-    "NODE_0000075": {
-      "branch_length": 0,
-      "clock_length": 0.0,
-      "date": "2022-10-29",
-      "mutation_length": 0,
-      "numdate": 2022.8272430920588
-    },
-    "NODE_0000076": {
-      "branch_length": 1,
-      "clock_length": 3.787425199120362e-05,
-      "date": "2022-11-06",
-      "mutation_length": 1,
-      "numdate": 2022.8483531741786
-    },
-    "NODE_0000077": {
-      "branch_length": 2,
-      "clock_length": 8.426434738003415e-05,
-      "date": "2023-02-24",
-      "mutation_length": 2,
-      "numdate": 2023.1493150684933
-    },
-    "NODE_0000078": {
-      "branch_length": 1,
-      "clock_length": 8.617016529105645e-06,
-      "date": "2022-10-01",
-      "mutation_length": 1,
-      "numdate": 2022.7483628770447
-    },
-    "NODE_0000083": {
-      "branch_length": 5,
-      "clock_length": 6.368099432366128e-05,
-      "date": "2022-11-10",
-      "mutation_length": 5,
-      "numdate": 2022.8586086376097
-    },
-    "NODE_0000084": {
-      "branch_length": 0,
-      "clock_length": 4.051254673708934e-05,
-      "date": "2022-10-31",
-      "mutation_length": 0,
-      "numdate": 2022.8305525349006
-    },
-    "NODE_0000087": {
-      "branch_length": 0,
-      "clock_length": 1.6694796476370575e-05,
-      "date": "2022-11-10",
-      "mutation_length": 0,
-      "numdate": 2022.859454887236
-    },
-    "NODE_0000088": {
-      "branch_length": 0,
-      "clock_length": 1.380005383048435e-06,
-      "date": "2022-11-11",
-      "mutation_length": 0,
-      "numdate": 2022.8618439790625
-    },
-    "NODE_0000089": {
-      "branch_length": 0,
-      "clock_length": 0.0,
-      "date": "2022-10-31",
-      "mutation_length": 0,
-      "numdate": 2022.8305525349006
-    },
-    "NODE_0000090": {
-      "branch_length": 1,
-      "clock_length": 1.8590367635695354e-05,
-      "date": "2022-11-11",
-      "mutation_length": 1,
-      "numdate": 2022.8627365364373
-    },
-    "NODE_0000091": {
-      "branch_length": 0,
-      "clock_length": 2.780031637884925e-05,
-      "date": "2022-11-29",
-      "mutation_length": 0,
-      "numdate": 2022.9099724207692
-    },
-    "NODE_0000092": {
-      "branch_length": 0,
-      "clock_length": 7.343020881485566e-07,
-      "date": "2022-11-29",
-      "mutation_length": 0,
-      "numdate": 2022.9112436586488
-    },
-    "NODE_0000093": {
-      "branch_length": 5,
-      "clock_length": 5.7714873857876105e-05,
-      "date": "2022-11-06",
-      "mutation_length": 5,
-      "numdate": 2022.8482799752614
-    },
-    "NODE_0000094": {
-      "branch_length": 0,
-      "clock_length": 0.0,
-      "date": "2022-11-10",
-      "mutation_length": 0,
-      "numdate": 2022.8586086376097
-    },
-    "NODE_0000095": {
-      "branch_length": 0,
-      "clock_length": 5.386203575944359e-05,
-      "date": "2022-11-24",
-      "mutation_length": 0,
-      "numdate": 2022.8972602739725
-    },
-    "NODE_0000096": {
-      "branch_length": 2,
-      "clock_length": 3.955691670323334e-05,
-      "date": "2022-10-26",
-      "mutation_length": 2,
-      "numdate": 2022.8168445710553
-    },
-    "NODE_0000097": {
-      "branch_length": 4,
-      "clock_length": 0.00025218070850419624,
-      "date": "2023-04-03",
-      "mutation_length": 4,
-      "numdate": 2023.2534246575342
-    },
-    "NODE_0000098": {
-      "branch_length": 0,
-      "clock_length": 2.2074889378789113e-05,
-      "date": "2022-11-09",
-      "mutation_length": 0,
-      "numdate": 2022.8552084822627
-    },
-    "NODE_0000099": {
-      "branch_length": 2,
-      "clock_length": 7.810115716798188e-05,
-      "date": "2022-12-14",
-      "mutation_length": 2,
-      "numdate": 2022.9520547945206
-    },
-    "NODE_0000100": {
-      "branch_length": 2,
-      "clock_length": 2.152903273817952e-05,
-      "date": "2022-10-14",
-      "mutation_length": 2,
-      "numdate": 2022.7856343520532
-    },
-    "NODE_0000101": {
-      "branch_length": 0,
-      "clock_length": 1.3070413581993455e-05,
-      "date": "2022-11-14",
-      "mutation_length": 0,
-      "numdate": 2022.8709077263127
-    },
-    "NODE_0000102": {
-      "branch_length": 1,
-      "clock_length": 1.7969467490461547e-05,
-      "date": "2022-10-26",
-      "mutation_length": 1,
-      "numdate": 2022.8167434393324
-    },
-    "NODE_0000103": {
-      "branch_length": 0,
-      "clock_length": 0.00026212744514103234,
-      "date": "2022-04-10",
-      "mutation_length": 0,
-      "numdate": 2022.271632604091
-    },
-    "NODE_0000104": {
-      "branch_length": 0,
-      "clock_length": 0.0,
-      "date": "2022-10-26",
-      "mutation_length": 0,
-      "numdate": 2022.8168445710553
-    },
-    "NODE_0000107": {
-      "branch_length": 0,
-      "clock_length": 4.792554395739376e-06,
-      "date": "2022-10-04",
-      "mutation_length": 0,
-      "numdate": 2022.7566598392705
-    },
-    "NODE_0000108": {
-      "branch_length": 1,
-      "clock_length": 1.811304862661676e-05,
-      "date": "2022-10-26",
-      "mutation_length": 1,
-      "numdate": 2022.8169920097532
-    },
-    "NODE_0000109": {
-      "branch_length": 2,
-      "clock_length": 2.253989074272755e-05,
-      "date": "2022-11-09",
-      "mutation_length": 2,
-      "numdate": 2022.8560135015557
-    },
-    "NODE_0000110": {
-      "branch_length": 3,
-      "clock_length": 0.00012036029817081499,
-      "date": "2023-01-24",
-      "mutation_length": 3,
-      "numdate": 2023.0643835616438
-    },
-    "NODE_0000111": {
-      "branch_length": 0,
-      "clock_length": 2.1699138569013926e-06,
-      "date": "2022-10-05",
-      "mutation_length": 0,
-      "numdate": 2022.7604164358195
-    },
-    "NODE_0000113": {
-      "branch_length": 1,
-      "clock_length": 1.8439641955674346e-05,
-      "date": "2021-10-26",
-      "mutation_length": 1,
-      "numdate": 2021.8178325360884
-    },
-    "NODE_0000115": {
-      "branch_length": 2,
-      "clock_length": 9.116674296482871e-05,
-      "date": "2022-06-06",
-      "mutation_length": 2,
-      "numdate": 2022.4294622206532
-    },
-    "NODE_0000116": {
-      "branch_length": 7,
-      "clock_length": 0.0001809936577163928,
-      "date": "2022-09-29",
-      "mutation_length": 7,
-      "numdate": 2022.7428019174392
-    },
-    "NODE_0000117": {
-      "branch_length": 2,
-      "clock_length": 6.922949024458969e-05,
-      "date": "2022-11-11",
-      "mutation_length": 2,
-      "numdate": 2022.862653340719
-    },
-    "NODE_0000118": {
-      "branch_length": 2,
-      "clock_length": 6.490726841769071e-05,
-      "date": "2022-05-21",
-      "mutation_length": 2,
-      "numdate": 2022.3840013139222
-    },
-    "NODE_0000119": {
-      "branch_length": 0,
-      "clock_length": 1.7333138353279372e-05,
-      "date": "2022-06-01",
-      "mutation_length": 0,
-      "numdate": 2022.4142155751897
-    },
-    "NODE_0000120": {
-      "branch_length": 0,
-      "clock_length": 1.1570458587133571e-05,
-      "date": "2022-06-08",
-      "mutation_length": 0,
-      "numdate": 2022.4342465753425
-    },
-    "NODE_0000121": {
-      "branch_length": 0,
-      "clock_length": 1.8990496509395643e-05,
-      "date": "2022-06-20",
-      "mutation_length": 0,
-      "numdate": 2022.4671232876713
-    },
-    "NODE_0000122": {
-      "branch_length": 1,
-      "clock_length": 2.6409002314023997e-05,
-      "date": "2022-06-06",
-      "mutation_length": 1,
-      "numdate": 2022.4297210859954
-    },
-    "NODE_0000123": {
-      "branch_length": 0,
-      "clock_length": 1.833502008018748e-05,
-      "date": "2022-06-04",
-      "mutation_length": 0,
-      "numdate": 2022.423972219898
-    },
-    "NODE_0000124": {
-      "branch_length": 5,
-      "clock_length": 0.00016452570462588672,
-      "date": "2022-09-18",
-      "mutation_length": 5,
-      "numdate": 2022.7145511460728
-    },
-    "NODE_0000125": {
-      "branch_length": 8,
-      "clock_length": 0.0001189110456322745,
-      "date": "2022-12-02",
-      "mutation_length": 8,
-      "numdate": 2022.9204122323285
-    },
-    "NODE_0000126": {
-      "branch_length": 1,
-      "clock_length": 1.2037025061762461e-05,
-      "date": "2021-11-03",
-      "mutation_length": 1,
-      "numdate": 2021.8386712650838
-    },
-    "NODE_0000127": {
-      "branch_length": 6,
-      "clock_length": 5.469381516073858e-05,
-      "date": "2021-12-07",
-      "mutation_length": 6,
-      "numdate": 2021.9333582484553
-    },
-    "NODE_0000128": {
-      "branch_length": 2,
-      "clock_length": 0.000193929210413577,
-      "date": "2022-04-09",
-      "mutation_length": 2,
-      "numdate": 2022.2690922225383
-    },
-    "NODE_0000129": {
-      "branch_length": 1,
-      "clock_length": 2.0143321440349195e-05,
-      "date": "2022-04-21",
-      "mutation_length": 1,
-      "numdate": 2022.3039647275311
-    },
-    "NODE_0000130": {
-      "branch_length": 3,
-      "clock_length": 0.00018843098777379967,
-      "date": "2022-08-19",
-      "mutation_length": 3,
-      "numdate": 2022.6301800729696
-    },
-    "NODE_0000131": {
-      "branch_length": 3,
-      "clock_length": 4.6038209427252865e-05,
-      "date": "2022-05-21",
-      "mutation_length": 3,
-      "numdate": 2022.383666959999
-    },
-    "NODE_0000132": {
-      "branch_length": 0,
-      "clock_length": 3.702773651962331e-06,
-      "date": "2022-06-07",
-      "mutation_length": 0,
-      "numdate": 2022.4303825327675
-    },
-    "NODE_0000133": {
-      "branch_length": 0,
-      "clock_length": 1.587299855080812e-06,
-      "date": "2022-06-08",
-      "mutation_length": 0,
-      "numdate": 2022.4331304967657
-    },
-    "NODE_0000134": {
-      "branch_length": 0,
-      "clock_length": 3.3878046683540703e-05,
-      "date": "2022-06-29",
-      "mutation_length": 0,
-      "numdate": 2022.4917808219177
-    },
-    "NODE_0000135": {
-      "branch_length": 1,
-      "clock_length": 3.737890006217542e-05,
-      "date": "2022-11-23",
-      "mutation_length": 1,
-      "numdate": 2022.8952636046665
-    },
-    "NODE_0000138": {
-      "branch_length": 1,
-      "clock_length": 4.94641054980893e-06,
-      "date": "2022-05-24",
-      "mutation_length": 1,
-      "numdate": 2022.392230280954
-    },
-    "NODE_0000139": {
-      "branch_length": 0,
-      "clock_length": 4.715779817271687e-05,
-      "date": "2022-04-25",
-      "mutation_length": 0,
-      "numdate": 2022.313698630137
-    },
-    "NODE_0000142": {
-      "branch_length": 0,
-      "clock_length": 0.00010444773080180766,
-      "date": "2022-05-17",
-      "mutation_length": 0,
-      "numdate": 2022.3739726027397
-    },
-    "NODE_0000146": {
-      "branch_length": 4,
-      "clock_length": 3.0938897498338554e-05,
-      "date": "2021-12-27",
-      "mutation_length": 4,
-      "numdate": 2021.9869202620823
-    },
-    "NODE_0000147": {
-      "branch_length": 2,
-      "clock_length": 1.7235304444459728e-05,
-      "date": "2022-01-07",
-      "mutation_length": 2,
-      "numdate": 2022.0167583521943
-    },
-    "NODE_0000148": {
-      "branch_length": 0,
-      "clock_length": 0.0,
-      "date": "2022-10-14",
-      "mutation_length": 0,
-      "numdate": 2022.7856343520532
-    },
-    "NODE_0000149": {
-      "branch_length": 0,
-      "clock_length": 2.4526616790509267e-05,
-      "date": "2022-03-31",
-      "mutation_length": 0,
-      "numdate": 2022.244784822058
-    },
-    "NODE_0000150": {
-      "branch_length": 3,
-      "clock_length": 0.00012436310256032924,
-      "date": "2022-03-26",
-      "mutation_length": 3,
-      "numdate": 2022.232058144128
-    },
-    "NODE_0000151": {
-      "branch_length": 0,
-      "clock_length": 1.825524697760721e-06,
-      "date": "2022-04-01",
-      "mutation_length": 0,
-      "numdate": 2022.2479452054795
-    },
-    "NODE_0000152": {
-      "branch_length": 0,
-      "clock_length": 4.7476241272831e-06,
-      "date": "2022-04-04",
-      "mutation_length": 0,
-      "numdate": 2022.2561643835616
-    },
-    "NODE_0000153": {
-      "branch_length": 0,
-      "clock_length": 9.495248254697821e-06,
-      "date": "2022-04-10",
-      "mutation_length": 0,
-      "numdate": 2022.272602739726
-    },
-    "NODE_0000154": {
-      "branch_length": 7,
-      "clock_length": 8.894572119303389e-05,
-      "date": "2022-03-04",
-      "mutation_length": 7,
-      "numdate": 2022.1707428932036
-    },
-    "NODE_0000155": {
-      "branch_length": 2,
-      "clock_length": 1.2943359005473856e-05,
+      "clock_length": 1.7210365083003033e-05,
       "date": "2022-03-12",
       "mutation_length": 2,
       "numdate": 2022.1931506849314
     },
-    "NODE_0000156": {
-      "branch_length": 0,
-      "clock_length": 7.912706878936788e-06,
-      "date": "2022-04-14",
-      "mutation_length": 0,
-      "numdate": 2022.2835616438356
-    },
-    "NODE_0000157": {
-      "branch_length": 1,
-      "clock_length": 1.5128454459946617e-05,
-      "date": "2022-01-16",
-      "mutation_length": 1,
-      "numdate": 2022.0429490231445
-    },
-    "NODE_0000158": {
-      "branch_length": 0,
-      "clock_length": 3.0379464666574165e-08,
-      "date": "2022-10-14",
-      "mutation_length": 0,
-      "numdate": 2022.7856869455659
-    },
-    "NODE_0000159": {
-      "branch_length": 0,
-      "clock_length": 8.991662151246454e-06,
-      "date": "2022-10-20",
-      "mutation_length": 0,
-      "numdate": 2022.801253483795
-    },
-    "NODE_0000160": {
-      "branch_length": 0,
-      "clock_length": 1.5941362419320481e-06,
-      "date": "2022-10-21",
-      "mutation_length": 0,
-      "numdate": 2022.8040132830774
-    },
-    "NODE_0000161": {
+    "NODE_0000035": {
       "branch_length": 5,
-      "clock_length": 9.205931176603835e-05,
-      "date": "2022-03-15",
-      "mutation_length": 5,
-      "numdate": 2022.20232387196
-    },
-    "NODE_0000162": {
-      "branch_length": 1,
-      "clock_length": 3.416081071085224e-05,
-      "date": "2022-04-06",
-      "mutation_length": 1,
-      "numdate": 2022.2614637236275
-    },
-    "NODE_0000163": {
-      "branch_length": 1,
-      "clock_length": 1.8120122747014534e-05,
-      "date": "2022-04-17",
-      "mutation_length": 1,
-      "numdate": 2022.2928336281805
-    },
-    "NODE_0000169": {
-      "branch_length": 0,
-      "clock_length": 4.475952142637355e-05,
-      "date": "2022-11-28",
-      "mutation_length": 0,
-      "numdate": 2022.9082352488942
-    },
-    "NODE_0000170": {
-      "branch_length": 0,
-      "clock_length": 3.6518667179793497e-06,
-      "date": "2022-11-30",
-      "mutation_length": 0,
-      "numdate": 2022.914557430702
-    },
-    "NODE_0000171": {
-      "branch_length": 1,
-      "clock_length": 5.133036135062069e-05,
-      "date": "2022-04-17",
-      "mutation_length": 1,
-      "numdate": 2022.2911879794897
-    },
-    "NODE_0000172": {
-      "branch_length": 0,
-      "clock_length": 3.6663266538817857e-05,
-      "date": "2022-12-23",
-      "mutation_length": 0,
-      "numdate": 2022.9780295819662
-    },
-    "NODE_0000173": {
-      "branch_length": 0,
-      "clock_length": 4.544878698652132e-05,
-      "date": "2023-01-21",
-      "mutation_length": 0,
-      "numdate": 2023.0567113949828
-    },
-    "NODE_0000174": {
-      "branch_length": 0,
-      "clock_length": 1.1041578869936189e-05,
-      "date": "2023-01-28",
-      "mutation_length": 0,
-      "numdate": 2023.0758267884105
-    },
-    "NODE_0000175": {
-      "branch_length": 1,
-      "clock_length": 7.727151115784122e-06,
+      "clock_length": 0.00011138745707010627,
       "date": "2022-03-20",
-      "mutation_length": 1,
-      "numdate": 2022.2157012643956
+      "mutation_length": 5,
+      "numdate": 2022.2138445299663
     },
-    "NODE_0000176": {
-      "branch_length": 2,
-      "clock_length": 1.2828540525232964e-05,
-      "date": "2022-03-28",
-      "mutation_length": 2,
-      "numdate": 2022.2379102801651
-    },
-    "NODE_0000177": {
-      "branch_length": 0,
-      "clock_length": 2.9174076150220328e-05,
-      "date": "2023-02-16",
-      "mutation_length": 0,
-      "numdate": 2023.1263335094209
-    },
-    "NODE_0000178": {
+    "NODE_0000036": {
       "branch_length": 1,
-      "clock_length": 3.919802825764259e-05,
+      "clock_length": 3.708412299083098e-05,
+      "date": "2022-04-08",
+      "mutation_length": 1,
+      "numdate": 2022.2667576977415
+    },
+    "NODE_0000042": {
+      "branch_length": 1,
+      "clock_length": 1.3138704542249406e-05,
+      "date": "2022-03-26",
+      "mutation_length": 1,
+      "numdate": 2022.2325913796078
+    },
+    "NODE_0000049": {
+      "branch_length": 1,
+      "clock_length": 3.266163459357627e-05,
+      "date": "2022-04-12",
+      "mutation_length": 1,
+      "numdate": 2022.2791943571538
+    },
+    "NODE_0000050": {
+      "branch_length": 1,
+      "clock_length": 1.2347621941386855e-05,
+      "date": "2022-04-02",
+      "mutation_length": 1,
+      "numdate": 2022.2502094797194
+    },
+    "NODE_0000051": {
+      "branch_length": 0,
+      "clock_length": 0.0001277267928040766,
+      "date": "2022-12-29",
+      "mutation_length": 0,
+      "numdate": 2022.9939773854376
+    },
+    "NODE_0000052": {
+      "branch_length": 1,
+      "clock_length": 2.3374819692384766e-05,
       "date": "2022-04-14",
       "mutation_length": 1,
       "numdate": 2022.2835616438356
     },
-    "NODE_0000179": {
+    "NODE_0000053": {
       "branch_length": 8,
-      "clock_length": 0.0001657735674636541,
-      "date": "2022-04-10",
+      "clock_length": 0.0001758752282339797,
+      "date": "2022-04-02",
       "mutation_length": 8,
-      "numdate": 2022.2739106462736
+      "numdate": 2022.2499649455626
     },
-    "NODE_0000180": {
+    "NODE_0000054": {
       "branch_length": 10,
-      "clock_length": 0.00020558696359027767,
-      "date": "2022-08-18",
+      "clock_length": 0.00017096649483131163,
+      "date": "2022-06-30",
       "mutation_length": 10,
-      "numdate": 2022.6298267465795
+      "numdate": 2022.4939070451817
     },
-    "NODE_0000181": {
+    "NODE_0000055": {
       "branch_length": 2,
-      "clock_length": 6.298227709565182e-05,
-      "date": "2022-09-27",
+      "clock_length": 6.162175081278237e-05,
+      "date": "2022-08-01",
       "mutation_length": 2,
-      "numdate": 2022.7388628744584
+      "numdate": 2022.5818315200345
     },
-    "NODE_0000182": {
+    "NODE_0000056": {
       "branch_length": 7,
-      "clock_length": 8.683026346632087e-05,
-      "date": "2022-10-12",
+      "clock_length": 0.00016460067549292843,
+      "date": "2022-09-23",
       "mutation_length": 7,
-      "numdate": 2022.7801489665383
+      "numdate": 2022.7287661292266
     },
-    "NODE_0000183": {
+    "NODE_0000057": {
       "branch_length": 10,
-      "clock_length": 0.0001895024096346652,
+      "clock_length": 0.0002659391626831727,
       "date": "2023-02-09",
       "mutation_length": 10,
       "numdate": 2023.1082191780822
     },
-    "NODE_0000184": {
+    "NODE_0000058": {
       "branch_length": 10,
-      "clock_length": 0.00018633732688314313,
+      "clock_length": 0.00026209889602623443,
       "date": "2023-02-07",
       "mutation_length": 10,
       "numdate": 2023.1027397260275
     },
-    "NODE_0000185": {
-      "branch_length": 15,
-      "clock_length": 0.00026984527891334023,
-      "date": "2022-09-28",
-      "mutation_length": 15,
-      "numdate": 2022.741071976348
+    "NODE_0000059": {
+      "branch_length": 14,
+      "clock_length": 0.000441687738038498,
+      "date": "2022-11-18",
+      "mutation_length": 14,
+      "numdate": 2022.880183365256
     },
-    "NODE_0000186": {
+    "NODE_0000060": {
       "branch_length": 7,
-      "clock_length": 0.0001666761741463737,
-      "date": "2023-01-11",
+      "clock_length": 0.00011190608416222527,
+      "date": "2023-01-15",
       "mutation_length": 7,
-      "numdate": 2023.0296249705657
+      "numdate": 2023.03985561658
     },
-    "NODE_0000187": {
+    "NODE_0000061": {
+      "branch_length": 3,
+      "clock_length": 0.00014007891057448026,
+      "date": "2023-03-29",
+      "mutation_length": 3,
+      "numdate": 2023.2397260273972
+    },
+    "NODE_0000062": {
       "branch_length": 0,
-      "clock_length": 3.1258498879052537e-07,
-      "date": "2022-05-21",
+      "clock_length": 1.823152491640381e-06,
+      "date": "2022-12-30",
       "mutation_length": 0,
-      "numdate": 2022.3842081131356
+      "numdate": 2022.9965787351769
     },
-    "NODE_0000188": {
+    "NODE_0000063": {
       "branch_length": 4,
-      "clock_length": 6.171292323718505e-05,
+      "clock_length": 6.647747947072387e-05,
       "date": "2023-02-19",
       "mutation_length": 4,
-      "numdate": 2023.136463568663
+      "numdate": 2023.1347084468698
     },
-    "NODE_0000189": {
+    "NODE_0000064": {
       "branch_length": 3,
-      "clock_length": 0.00012136016966913252,
-      "date": "2023-03-29",
+      "clock_length": 7.11199066964908e-05,
+      "date": "2022-12-25",
       "mutation_length": 3,
-      "numdate": 2023.2397260273972
+      "numdate": 2022.9816602036353
     },
-    "NODE_0000190": {
-      "branch_length": 0,
-      "clock_length": 2.958238282697737e-05,
-      "date": "2022-11-29",
-      "mutation_length": 0,
-      "numdate": 2022.9097678439568
-    },
-    "NODE_0000191": {
-      "branch_length": 3,
-      "clock_length": 4.03697870459087e-05,
-      "date": "2022-10-24",
-      "mutation_length": 3,
-      "numdate": 2022.8109609271094
-    },
-    "NODE_0000192": {
-      "branch_length": 0,
-      "clock_length": 1.08504657309851e-06,
-      "date": "2022-11-29",
-      "mutation_length": 0,
-      "numdate": 2022.911646297426
-    },
-    "NODE_0000193": {
+    "NODE_0000065": {
       "branch_length": 1,
-      "clock_length": 1.1428811818017933e-05,
-      "date": "2022-10-31",
+      "clock_length": 1.8528618041919074e-05,
+      "date": "2023-01-03",
       "mutation_length": 1,
-      "numdate": 2022.8307467056547
+      "numdate": 2023.0080976058446
     },
-    "NODE_0000194": {
+    "NODE_0000066": {
       "branch_length": 0,
-      "clock_length": 3.0310183987744946e-06,
-      "date": "2022-12-01",
+      "clock_length": 5.3905699913809994e-06,
+      "date": "2023-01-02",
       "mutation_length": 0,
-      "numdate": 2022.916893654698
+      "numdate": 2023.0042702244546
     },
-    "NODE_0000195": {
+    "NODE_0000068": {
       "branch_length": 0,
-      "clock_length": 0.0,
-      "date": "2022-05-21",
+      "clock_length": 1.8075522134402763e-06,
+      "date": "2023-01-03",
       "mutation_length": 0,
-      "numdate": 2022.3842081131356
+      "numdate": 2023.0068493150684
     },
-    "NODE_0000198": {
+    "NODE_0000069": {
       "branch_length": 0,
-      "clock_length": 9.872795750773858e-07,
-      "date": "2022-12-02",
+      "clock_length": 0.00016215249777577485,
+      "date": "2022-10-25",
       "mutation_length": 0,
-      "numdate": 2022.9186028520621
+      "numdate": 2022.8156042359121
     },
-    "NODE_0000199": {
-      "branch_length": 0,
-      "clock_length": 1.148616081358711e-05,
-      "date": "2022-12-09",
-      "mutation_length": 0,
-      "numdate": 2022.9384879142901
-    },
-    "NODE_0000200": {
-      "branch_length": 0,
-      "clock_length": 2.3011880108320722e-05,
-      "date": "2022-12-24",
-      "mutation_length": 0,
-      "numdate": 2022.9783265231486
-    },
-    "NODE_0000201": {
+    "NODE_0000071": {
       "branch_length": 5,
-      "clock_length": 0.00012072632830762674,
-      "date": "2023-01-15",
+      "clock_length": 5.8177639946530794e-05,
+      "date": "2023-02-03",
       "mutation_length": 5,
-      "numdate": 2023.0397504441464
+      "numdate": 2023.0911078801878
     },
-    "NODE_0000203": {
+    "NODE_0000072": {
       "branch_length": 1,
-      "clock_length": 4.326329257581528e-05,
-      "date": "2023-02-11",
+      "clock_length": 2.961763293443121e-05,
+      "date": "2023-02-18",
       "mutation_length": 1,
-      "numdate": 2023.1146486872601
+      "numdate": 2023.1333675496683
     },
-    "NODE_0000206": {
-      "branch_length": 3,
-      "clock_length": 7.12002581219858e-05,
-      "date": "2023-03-01",
-      "mutation_length": 3,
-      "numdate": 2023.16301369863
+    "NODE_0000073": {
+      "branch_length": 0,
+      "clock_length": 4.1468123034317126e-05,
+      "date": "2022-11-16",
+      "mutation_length": 0,
+      "numdate": 2022.8747726771335
     },
-    "NODE_0000207": {
-      "branch_length": 6,
-      "clock_length": 9.735212590652015e-05,
-      "date": "2023-03-18",
-      "mutation_length": 6,
-      "numdate": 2023.2082883144667
-    },
-    "NODE_0000208": {
-      "branch_length": 1,
-      "clock_length": 2.749121962847571e-05,
-      "date": "2022-11-10",
-      "mutation_length": 1,
-      "numdate": 2022.8585542545848
-    },
-    "NODE_0000209": {
+    "NODE_0000074": {
       "branch_length": 0,
       "clock_length": 0.0,
-      "date": "2022-01-07",
+      "date": "2022-11-16",
       "mutation_length": 0,
-      "numdate": 2022.0167583521943
+      "numdate": 2022.8747726771335
     },
-    "NODE_0000210": {
+    "NODE_0000075": {
+      "branch_length": 1,
+      "clock_length": 9.217489001541249e-06,
+      "date": "2022-12-30",
+      "mutation_length": 1,
+      "numdate": 2022.9948120999907
+    },
+    "NODE_0000076": {
+      "branch_length": 1,
+      "clock_length": 1.3479071812124346e-05,
+      "date": "2023-01-06",
+      "mutation_length": 1,
+      "numdate": 2023.0140445997972
+    },
+    "NODE_0000077": {
+      "branch_length": 0,
+      "clock_length": 5.736950521837998e-07,
+      "date": "2022-11-16",
+      "mutation_length": 0,
+      "numdate": 2022.8755912490747
+    },
+    "NODE_0000078": {
+      "branch_length": 3,
+      "clock_length": 8.366002617248231e-05,
+      "date": "2023-02-18",
+      "mutation_length": 3,
+      "numdate": 2023.13341420177
+    },
+    "NODE_0000079": {
+      "branch_length": 0,
+      "clock_length": 0.0,
+      "date": "2022-11-16",
+      "mutation_length": 0,
+      "numdate": 2022.8755912490747
+    },
+    "NODE_0000080": {
+      "branch_length": 0,
+      "clock_length": 4.3343095124440383e-07,
+      "date": "2022-11-16",
+      "mutation_length": 0,
+      "numdate": 2022.876209686368
+    },
+    "NODE_0000081": {
+      "branch_length": 0,
+      "clock_length": 3.6299981138587095e-06,
+      "date": "2022-11-18",
+      "mutation_length": 0,
+      "numdate": 2022.8813891185273
+    },
+    "NODE_0000082": {
+      "branch_length": 0,
+      "clock_length": 6.460829516876645e-06,
+      "date": "2022-05-25",
+      "mutation_length": 0,
+      "numdate": 2022.3961373166758
+    },
+    "NODE_0000083": {
+      "branch_length": 0,
+      "clock_length": 0.0,
+      "date": "2022-11-18",
+      "mutation_length": 0,
+      "numdate": 2022.8813891185273
+    },
+    "NODE_0000084": {
+      "branch_length": 0,
+      "clock_length": 0.0,
+      "date": "2022-11-18",
+      "mutation_length": 0,
+      "numdate": 2022.8813891185273
+    },
+    "NODE_0000085": {
+      "branch_length": 0,
+      "clock_length": 0.0,
+      "date": "2022-05-25",
+      "mutation_length": 0,
+      "numdate": 2022.3961373166758
+    },
+    "NODE_0000086": {
+      "branch_length": 5,
+      "clock_length": 3.4357257770096185e-05,
+      "date": "2023-01-16",
+      "mutation_length": 5,
+      "numdate": 2023.0438344631493
+    },
+    "NODE_0000087": {
+      "branch_length": 0,
+      "clock_length": 0.0,
+      "date": "2022-11-18",
+      "mutation_length": 0,
+      "numdate": 2022.8813891185273
+    },
+    "NODE_0000088": {
+      "branch_length": 1,
+      "clock_length": 2.4904220370992576e-05,
+      "date": "2023-01-12",
+      "mutation_length": 1,
+      "numdate": 2023.0303464765518
+    },
+    "NODE_0000089": {
+      "branch_length": 0,
+      "clock_length": 2.5571044972661286e-07,
+      "date": "2022-05-25",
+      "mutation_length": 0,
+      "numdate": 2022.3965021749718
+    },
+    "NODE_0000091": {
+      "branch_length": 1,
+      "clock_length": 3.206578784404972e-05,
+      "date": "2023-01-28",
+      "mutation_length": 1,
+      "numdate": 2023.076099275194
+    },
+    "NODE_0000092": {
+      "branch_length": 1,
+      "clock_length": 4.466584164987885e-05,
+      "date": "2023-02-21",
+      "mutation_length": 1,
+      "numdate": 2023.1398303542228
+    },
+    "NODE_0000093": {
+      "branch_length": 0,
+      "clock_length": 1.6147577715782974e-05,
+      "date": "2022-06-03",
+      "mutation_length": 0,
+      "numdate": 2022.4195422098958
+    },
+    "NODE_0000094": {
+      "branch_length": 0,
+      "clock_length": 1.0305534891526854e-05,
+      "date": "2022-06-08",
+      "mutation_length": 0,
+      "numdate": 2022.4342465753425
+    },
+    "NODE_0000095": {
+      "branch_length": 1,
+      "clock_length": 3.604774750764236e-05,
+      "date": "2023-01-19",
+      "mutation_length": 1,
+      "numdate": 2023.0509823347386
+    },
+    "NODE_0000096": {
+      "branch_length": 0,
+      "clock_length": 2.3041599941947804e-05,
+      "date": "2022-06-20",
+      "mutation_length": 0,
+      "numdate": 2022.4671232876713
+    },
+    "NODE_0000097": {
+      "branch_length": 1,
+      "clock_length": 3.0694012516499286e-05,
+      "date": "2023-01-16",
+      "mutation_length": 1,
+      "numdate": 2023.04334340317
+    },
+    "NODE_0000098": {
+      "branch_length": 0,
+      "clock_length": 0.0,
+      "date": "2022-06-15",
+      "mutation_length": 0,
+      "numdate": 2022.4530193390972
+    },
+    "NODE_0000099": {
+      "branch_length": 1,
+      "clock_length": 8.687590458307569e-05,
+      "date": "2023-03-03",
+      "mutation_length": 1,
+      "numdate": 2023.1673015541
+    },
+    "NODE_0000100": {
+      "branch_length": 0,
+      "clock_length": 7.17737305611435e-07,
+      "date": "2022-06-15",
+      "mutation_length": 0,
+      "numdate": 2022.4540434365117
+    },
+    "NODE_0000101": {
+      "branch_length": 6,
+      "clock_length": 0.0001698558848732927,
+      "date": "2023-03-28",
+      "mutation_length": 6,
+      "numdate": 2023.2371695351683
+    },
+    "NODE_0000102": {
+      "branch_length": 0,
+      "clock_length": 1.6341919964986565e-06,
+      "date": "2022-06-16",
+      "mutation_length": 0,
+      "numdate": 2022.456375169564
+    },
+    "NODE_0000103": {
       "branch_length": 4,
-      "clock_length": 0.0001324293910011365,
-      "date": "2023-02-23",
-      "mutation_length": 4,
-      "numdate": 2023.1461579601184
-    },
-    "NODE_0000211": {
-      "branch_length": 1,
-      "clock_length": 1.9553073314643264e-05,
-      "date": "2023-03-07",
-      "mutation_length": 1,
-      "numdate": 2023.1800086162184
-    },
-    "NODE_0000212": {
-      "branch_length": 0,
-      "clock_length": 0.0,
-      "date": "2022-01-07",
-      "mutation_length": 0,
-      "numdate": 2022.0167583521943
-    },
-    "NODE_0000213": {
-      "branch_length": 0,
-      "clock_length": 0.0,
-      "date": "2022-01-07",
-      "mutation_length": 0,
-      "numdate": 2022.0167583521943
-    },
-    "NODE_0000215": {
-      "branch_length": 1,
-      "clock_length": 1.7444405892997958e-05,
-      "date": "2023-03-06",
-      "mutation_length": 1,
-      "numdate": 2023.1763580506745
-    },
-    "NODE_0000218": {
-      "branch_length": 1,
-      "clock_length": 4.9193981117074846e-05,
-      "date": "2023-01-24",
-      "mutation_length": 1,
-      "numdate": 2023.063492088182
-    },
-    "NODE_0000222": {
-      "branch_length": 1,
-      "clock_length": 2.900932146537616e-05,
-      "date": "2022-11-28",
-      "mutation_length": 1,
-      "numdate": 2022.9087757491202
-    },
-    "NODE_0000224": {
-      "branch_length": 6,
-      "clock_length": 0.00018950790774104596,
-      "date": "2023-03-29",
-      "mutation_length": 6,
-      "numdate": 2023.2397260273972
-    },
-    "NODE_0000227": {
-      "branch_length": 1,
-      "clock_length": 2.492420690120453e-05,
-      "date": "2022-11-26",
-      "mutation_length": 1,
-      "numdate": 2022.9017035203192
-    },
-    "NODE_0000228": {
-      "branch_length": 3,
-      "clock_length": 0.0001280917562182526,
+      "clock_length": 9.018820090241032e-05,
       "date": "2023-02-15",
-      "mutation_length": 3,
-      "numdate": 2023.1234584290858
+      "mutation_length": 4,
+      "numdate": 2023.123496372957
     },
-    "NODE_0000229": {
+    "NODE_0000104": {
       "branch_length": 0,
-      "clock_length": 4.851661783637599e-06,
+      "clock_length": 2.328544418247233e-05,
+      "date": "2022-06-28",
+      "mutation_length": 0,
+      "numdate": 2022.4895998089883
+    },
+    "NODE_0000105": {
+      "branch_length": 1,
+      "clock_length": 2.5385477608114172e-05,
+      "date": "2023-02-28",
+      "mutation_length": 1,
+      "numdate": 2023.1597174273436
+    },
+    "NODE_0000106": {
+      "branch_length": 0,
+      "clock_length": 0.0,
+      "date": "2022-05-26",
+      "mutation_length": 0,
+      "numdate": 2022.3973248777386
+    },
+    "NODE_0000107": {
+      "branch_length": 1,
+      "clock_length": 3.629130273677991e-05,
+      "date": "2022-04-29",
+      "mutation_length": 1,
+      "numdate": 2022.32456839792
+    },
+    "NODE_0000108": {
+      "branch_length": 0,
+      "clock_length": 4.145369253273157e-05,
+      "date": "2022-04-24",
+      "mutation_length": 0,
+      "numdate": 2022.3099830680535
+    },
+    "NODE_0000109": {
+      "branch_length": 0,
+      "clock_length": 8.468843527972489e-08,
+      "date": "2022-05-26",
+      "mutation_length": 0,
+      "numdate": 2022.3974457147174
+    },
+    "NODE_0000110": {
+      "branch_length": 0,
+      "clock_length": 3.894870045031626e-05,
+      "date": "2022-06-15",
+      "mutation_length": 0,
+      "numdate": 2022.4530193390972
+    },
+    "NODE_0000112": {
+      "branch_length": 0,
+      "clock_length": 0.00012672879968087187,
+      "date": "2022-05-17",
+      "mutation_length": 0,
+      "numdate": 2022.3739726027397
+    },
+    "NODE_0000113": {
+      "branch_length": 2,
+      "clock_length": 4.2280566751222784e-05,
+      "date": "2022-05-21",
+      "mutation_length": 2,
+      "numdate": 2022.3848960675994
+    },
+    "NODE_0000114": {
+      "branch_length": 3,
+      "clock_length": 8.153213464161443e-05,
+      "date": "2022-07-02",
+      "mutation_length": 3,
+      "numdate": 2022.5012295055078
+    },
+    "NODE_0000115": {
+      "branch_length": 1,
+      "clock_length": 6.2395599992179016e-06,
+      "date": "2022-05-24",
+      "mutation_length": 1,
+      "numdate": 2022.3937989311014
+    },
+    "NODE_0000116": {
+      "branch_length": 0,
+      "clock_length": 2.945963598746334e-05,
+      "date": "2022-04-04",
+      "mutation_length": 0,
+      "numdate": 2022.2558787628368
+    },
+    "NODE_0000117": {
+      "branch_length": 0,
+      "clock_length": 9.8008435460528e-06,
       "date": "2022-04-09",
       "mutation_length": 0,
       "numdate": 2022.2698630136986
     },
-    "NODE_0000230": {
+    "NODE_0000118": {
+      "branch_length": 0,
+      "clock_length": 6.222741316948971e-06,
+      "date": "2022-04-12",
+      "mutation_length": 0,
+      "numdate": 2022.2787418796058
+    },
+    "NODE_0000119": {
       "branch_length": 1,
-      "clock_length": 5.309689409318242e-05,
-      "date": "2023-03-20",
+      "clock_length": 3.024676138523232e-06,
+      "date": "2022-05-26",
       "mutation_length": 1,
-      "numdate": 2023.2153807920313
+      "numdate": 2022.398114664711
     },
-    "NODE_0000233": {
+    "NODE_0000123": {
+      "branch_length": 0,
+      "clock_length": 8.872248312569771e-06,
+      "date": "2022-03-31",
+      "mutation_length": 0,
+      "numdate": 2022.2452506722009
+    },
+    "NODE_0000124": {
+      "branch_length": 0,
+      "clock_length": 1.8884600507850305e-06,
+      "date": "2022-04-01",
+      "mutation_length": 0,
+      "numdate": 2022.2479452054795
+    },
+    "NODE_0000125": {
+      "branch_length": 0,
+      "clock_length": 5.760399985407262e-06,
+      "date": "2022-04-04",
+      "mutation_length": 0,
+      "numdate": 2022.2561643835616
+    },
+    "NODE_0000126": {
+      "branch_length": 0,
+      "clock_length": 1.1520799970973902e-05,
+      "date": "2022-04-10",
+      "mutation_length": 0,
+      "numdate": 2022.272602739726
+    },
+    "NODE_0000131": {
       "branch_length": 1,
-      "clock_length": 6.127624564879253e-05,
-      "date": "2023-01-31",
+      "clock_length": 5.1010544410682104e-05,
+      "date": "2022-05-26",
       "mutation_length": 1,
-      "numdate": 2023.084409136617
+      "numdate": 2022.3973523625123
     },
-    "NODE_0000235": {
-      "branch_length": 1,
-      "clock_length": 5.897608222945482e-05,
-      "date": "2023-03-11",
-      "mutation_length": 1,
-      "numdate": 2023.1913769288224
-    },
-    "NODE_0000237": {
-      "branch_length": 5,
-      "clock_length": 7.241181588088798e-05,
-      "date": "2022-12-26",
-      "mutation_length": 5,
-      "numdate": 2022.9839149811326
-    },
-    "NODE_0000240": {
-      "branch_length": 2,
-      "clock_length": 3.692230982260153e-05,
-      "date": "2023-01-18",
-      "mutation_length": 2,
-      "numdate": 2023.0478355931054
-    },
-    "NODE_0000241": {
+    "NODE_0000132": {
       "branch_length": 3,
-      "clock_length": 8.010094447549659e-05,
-      "date": "2023-02-14",
+      "clock_length": 3.895798774548442e-05,
+      "date": "2022-06-15",
       "mutation_length": 3,
-      "numdate": 2023.1225872747968
+      "numdate": 2022.4529392383909
     },
-    "NODE_0000242": {
+    "NODE_0000133": {
+      "branch_length": 7,
+      "clock_length": 0.00013444950814922997,
+      "date": "2022-08-24",
+      "mutation_length": 7,
+      "numdate": 2022.6447773838886
+    },
+    "NODE_0000134": {
       "branch_length": 1,
-      "clock_length": 3.1606271045060035e-05,
-      "date": "2022-12-29",
+      "clock_length": 1.271749584246429e-05,
+      "date": "2022-06-21",
       "mutation_length": 1,
-      "numdate": 2022.9932052978202
+      "numdate": 2022.4710850899553
     },
-    "NODE_0000244": {
+    "NODE_0000135": {
+      "branch_length": 3,
+      "clock_length": 0.0002396620329827145,
+      "date": "2022-10-24",
+      "mutation_length": 3,
+      "numdate": 2022.8130448381648
+    },
+    "NODE_0000139": {
+      "branch_length": 0,
+      "clock_length": 0.0,
+      "date": "2023-01-12",
+      "mutation_length": 0,
+      "numdate": 2023.0312808486235
+    },
+    "NODE_0000140": {
+      "branch_length": 0,
+      "clock_length": 1.322496331761236e-05,
+      "date": "2023-01-19",
+      "mutation_length": 0,
+      "numdate": 2023.0501507758702
+    },
+    "NODE_0000141": {
+      "branch_length": 2,
+      "clock_length": 4.8697523945925815e-05,
+      "date": "2022-11-19",
+      "mutation_length": 2,
+      "numdate": 2022.8825284890368
+    },
+    "NODE_0000142": {
+      "branch_length": 1,
+      "clock_length": 2.1845551774879414e-05,
+      "date": "2022-11-30",
+      "mutation_length": 1,
+      "numdate": 2022.9136986301369
+    },
+    "NODE_0000144": {
+      "branch_length": 2,
+      "clock_length": 2.4189502702944987e-05,
+      "date": "2022-11-06",
+      "mutation_length": 2,
+      "numdate": 2022.8475594258562
+    },
+    "NODE_0000148": {
+      "branch_length": 3,
+      "clock_length": 5.9022275749831326e-05,
+      "date": "2022-11-24",
+      "mutation_length": 3,
+      "numdate": 2022.8972602739725
+    },
+    "NODE_0000149": {
+      "branch_length": 5,
+      "clock_length": 5.838685994364522e-05,
+      "date": "2022-07-22",
+      "mutation_length": 5,
+      "numdate": 2022.5543938880849
+    },
+    "NODE_0000150": {
+      "branch_length": 2,
+      "clock_length": 2.0916425757310647e-05,
+      "date": "2022-08-02",
+      "mutation_length": 2,
+      "numdate": 2022.5842383135719
+    },
+    "NODE_0000151": {
+      "branch_length": 1,
+      "clock_length": 3.09744149538044e-05,
+      "date": "2022-12-04",
+      "mutation_length": 1,
+      "numdate": 2022.925584700976
+    },
+    "NODE_0000152": {
+      "branch_length": 0,
+      "clock_length": 0.0,
+      "date": "2023-01-03",
+      "mutation_length": 0,
+      "numdate": 2023.0080976058446
+    },
+    "NODE_0000153": {
+      "branch_length": 0,
+      "clock_length": 3.2996541179310546e-06,
+      "date": "2022-12-31",
+      "mutation_length": 0,
+      "numdate": 2022.9995201836086
+    },
+    "NODE_0000154": {
+      "branch_length": 0,
+      "clock_length": 1.9432404712270424e-08,
+      "date": "2022-12-31",
+      "mutation_length": 0,
+      "numdate": 2022.9995479105712
+    },
+    "NODE_0000155": {
+      "branch_length": 1,
+      "clock_length": 3.0511825572010487e-05,
+      "date": "2022-12-04",
+      "mutation_length": 1,
+      "numdate": 2022.9249246592226
+    },
+    "NODE_0000156": {
+      "branch_length": 0,
+      "clock_length": 0.0,
+      "date": "2023-01-03",
+      "mutation_length": 0,
+      "numdate": 2023.0080976058446
+    },
+    "NODE_0000157": {
+      "branch_length": 2,
+      "clock_length": 0.0001594382886709305,
+      "date": "2022-10-24",
+      "mutation_length": 2,
+      "numdate": 2022.8117314895678
+    },
+    "NODE_0000158": {
+      "branch_length": 2,
+      "clock_length": 1.7242725780229964e-05,
+      "date": "2022-11-02",
+      "mutation_length": 2,
+      "numdate": 2022.836334127261
+    },
+    "NODE_0000159": {
+      "branch_length": 0,
+      "clock_length": 1.6247944749580917e-05,
+      "date": "2023-01-12",
+      "mutation_length": 0,
+      "numdate": 2023.0312808486235
+    },
+    "NODE_0000160": {
+      "branch_length": 4,
+      "clock_length": 5.038054189446511e-05,
+      "date": "2022-11-28",
+      "mutation_length": 4,
+      "numdate": 2022.9082191780822
+    },
+    "NODE_0000161": {
+      "branch_length": 2,
+      "clock_length": 2.692515400827284e-05,
+      "date": "2022-11-16",
+      "mutation_length": 2,
+      "numdate": 2022.8747520559189
+    },
+    "NODE_0000162": {
+      "branch_length": 1,
+      "clock_length": 4.966263672989837e-06,
+      "date": "2022-11-18",
+      "mutation_length": 1,
+      "numdate": 2022.8818381273088
+    },
+    "NODE_0000163": {
+      "branch_length": 2,
+      "clock_length": 1.0808590899166791e-05,
+      "date": "2022-11-24",
+      "mutation_length": 2,
+      "numdate": 2022.8972602739725
+    },
+    "NODE_0000165": {
+      "branch_length": 1,
+      "clock_length": 2.251065285350419e-05,
+      "date": "2022-11-05",
+      "mutation_length": 1,
+      "numdate": 2022.8438506245263
+    },
+    "NODE_0000166": {
+      "branch_length": 1,
+      "clock_length": 2.5940010988975052e-05,
+      "date": "2022-11-18",
+      "mutation_length": 1,
+      "numdate": 2022.8808629101852
+    },
+    "NODE_0000167": {
+      "branch_length": 1,
+      "clock_length": 2.0097286495139415e-05,
+      "date": "2022-11-28",
+      "mutation_length": 1,
+      "numdate": 2022.9095385537323
+    },
+    "NODE_0000168": {
+      "branch_length": 0,
+      "clock_length": 1.7917141653808148e-06,
+      "date": "2023-03-29",
+      "mutation_length": 0,
+      "numdate": 2023.2397260273972
+    },
+    "NODE_0000170": {
+      "branch_length": 2,
+      "clock_length": 0.00010165448529542609,
+      "date": "2023-02-24",
+      "mutation_length": 2,
+      "numdate": 2023.1493150684933
+    },
+    "NODE_0000173": {
+      "branch_length": 1,
+      "clock_length": 1.2216721543022345e-05,
+      "date": "2023-01-05",
+      "mutation_length": 1,
+      "numdate": 2023.0114087114212
+    },
+    "NODE_0000175": {
+      "branch_length": 2,
+      "clock_length": 3.625261398041671e-05,
+      "date": "2022-12-05",
+      "mutation_length": 2,
+      "numdate": 2022.9264994132977
+    },
+    "NODE_0000178": {
       "branch_length": 6,
-      "clock_length": 0.00011510021741799504,
-      "date": "2023-03-12",
+      "clock_length": 0.00024032619848857488,
+      "date": "2022-12-05",
       "mutation_length": 6,
-      "numdate": 2023.1924690050728
+      "numdate": 2022.9271457207258
     },
-    "NODE_0000245": {
+    "NODE_0000184": {
+      "branch_length": 5,
+      "clock_length": 0.0002073658162904796,
+      "date": "2022-11-18",
+      "mutation_length": 5,
+      "numdate": 2022.8801164776826
+    },
+    "NODE_0000188": {
+      "branch_length": 5,
+      "clock_length": 0.00020420005187557423,
+      "date": "2022-11-16",
+      "mutation_length": 5,
+      "numdate": 2022.875599433457
+    },
+    "NODE_0000193": {
       "branch_length": 1,
-      "clock_length": 4.511871653413287e-05,
-      "date": "2023-01-30",
+      "clock_length": 4.2408201662455904e-05,
+      "date": "2022-08-24",
       "mutation_length": 1,
-      "numdate": 2023.0797050822741
+      "numdate": 2022.6447480980464
     },
-    "NODE_0000246": {
+    "NODE_0000194": {
       "branch_length": 1,
-      "clock_length": 5.1087329369603105e-05,
-      "date": "2023-03-03",
+      "clock_length": 0.00016581135769678894,
+      "date": "2022-11-18",
       "mutation_length": 1,
-      "numdate": 2023.16814844817
+      "numdate": 2022.8813346337718
     },
-    "NODE_0000247": {
+    "NODE_0000196": {
+      "branch_length": 1,
+      "clock_length": 1.6936921952149554e-05,
+      "date": "2022-11-03",
+      "mutation_length": 1,
+      "numdate": 2022.839770539995
+    },
+    "NODE_0000198": {
       "branch_length": 2,
-      "clock_length": 3.732873240990778e-05,
-      "date": "2023-03-26",
+      "clock_length": 2.5753600508832434e-05,
+      "date": "2022-11-16",
       "mutation_length": 2,
-      "numdate": 2023.232772666733
+      "numdate": 2022.8765168474342
     },
-    "NODE_0000249": {
-      "branch_length": 1,
-      "clock_length": 6.966693182571004e-05,
-      "date": "2023-02-14",
-      "mutation_length": 1,
-      "numdate": 2023.1222034241118
-    },
-    "NODE_0000251": {
+    "NODE_0000200": {
       "branch_length": 2,
-      "clock_length": 5.0726643666252536e-05,
-      "date": "2023-01-30",
+      "clock_length": 5.294066936485219e-05,
+      "date": "2022-12-14",
       "mutation_length": 2,
-      "numdate": 2023.0810242376986
+      "numdate": 2022.9520547945206
     },
-    "NODE_0000252": {
+    "NODE_0000202": {
       "branch_length": 1,
-      "clock_length": 2.0216991939276646e-05,
-      "date": "2023-02-12",
+      "clock_length": 8.47177984821018e-06,
+      "date": "2022-08-06",
       "mutation_length": 1,
-      "numdate": 2023.1160242824742
+      "numdate": 2022.596326201118
     },
-    "NODE_0000255": {
-      "branch_length": 0,
-      "clock_length": 0.0,
-      "date": "2022-11-10",
-      "mutation_length": 0,
-      "numdate": 2022.8585542545848
+    "NODE_0000203": {
+      "branch_length": 1,
+      "clock_length": 1.7821961071795827e-05,
+      "date": "2022-08-15",
+      "mutation_length": 1,
+      "numdate": 2022.6217553157962
     },
-    "NODE_0000261": {
-      "branch_length": 0,
-      "clock_length": 0.0,
-      "date": "2022-12-26",
-      "mutation_length": 0,
-      "numdate": 2022.9839149811326
+    "NODE_0000204": {
+      "branch_length": 1,
+      "clock_length": 1.5336823706233555e-05,
+      "date": "2022-08-14",
+      "mutation_length": 1,
+      "numdate": 2022.618209418529
     },
-    "NODE_0000262": {
-      "branch_length": 0,
-      "clock_length": 0.0,
-      "date": "2022-12-26",
-      "mutation_length": 0,
-      "numdate": 2022.9839149811326
+    "NODE_0000205": {
+      "branch_length": 2,
+      "clock_length": 2.899387732571224e-05,
+      "date": "2022-08-29",
+      "mutation_length": 2,
+      "numdate": 2022.6595790875856
     },
-    "NODE_0000275": {
-      "branch_length": 0,
-      "clock_length": 0.0,
+    "NODE_0000206": {
+      "branch_length": 2,
+      "clock_length": 0.00016874323884638305,
+      "date": "2022-10-29",
+      "mutation_length": 2,
+      "numdate": 2022.8250081791607
+    },
+    "NODE_0000209": {
+      "branch_length": 2,
+      "clock_length": 3.51129189014995e-05,
+      "date": "2022-11-16",
+      "mutation_length": 2,
+      "numdate": 2022.8751087510243
+    },
+    "NODE_0000210": {
+      "branch_length": 3,
+      "clock_length": 0.00013265299832207434,
       "date": "2023-01-24",
-      "mutation_length": 0,
-      "numdate": 2023.063492088182
+      "mutation_length": 3,
+      "numdate": 2023.0643835616438
     },
-    "NODE_0000277": {
-      "branch_length": 0,
-      "clock_length": 2.811467090548807e-06,
-      "date": "2023-02-02",
-      "mutation_length": 0,
-      "numdate": 2023.0892764024472
+    "NODE_0000213": {
+      "branch_length": 1,
+      "clock_length": 3.467284022035046e-05,
+      "date": "2022-11-16",
+      "mutation_length": 1,
+      "numdate": 2022.874480828474
     },
-    "NODE_0000281": {
-      "branch_length": 0,
-      "clock_length": 0.0,
-      "date": "2022-12-29",
-      "mutation_length": 0,
-      "numdate": 2022.9932052978202
-    },
-    "NODE_0000282": {
-      "branch_length": 0,
-      "clock_length": 0.0,
-      "date": "2022-12-29",
-      "mutation_length": 0,
-      "numdate": 2022.9932052978202
-    },
-    "NODE_0000285": {
-      "branch_length": 0,
-      "clock_length": 4.845946547377003e-06,
-      "date": "2023-01-01",
-      "mutation_length": 0,
-      "numdate": 2023.0015946935646
+    "NODE_0000214": {
+      "branch_length": 1,
+      "clock_length": 5.7381948413632134e-06,
+      "date": "2022-11-19",
+      "mutation_length": 1,
+      "numdate": 2022.8826683233337
     },
     "hCoV-19/Brazil/AM-FIOCRUZ-ILMD2204565/2022": {
       "branch_length": 2,
-      "clock_length": 5.433805751924926e-05,
+      "clock_length": 2.3325666827352922e-05,
       "date": "2022-06-27",
       "mutation_length": 2,
       "numdate": 2022.486301369863,
@@ -1476,7 +1035,7 @@
     },
     "hCoV-19/Brazil/BA-FIOCRUZ-PVM101246/2022": {
       "branch_length": 0,
-      "clock_length": 1.58254137576125e-06,
+      "clock_length": 1.920133328469015e-06,
       "date": "2022-06-21",
       "mutation_length": 0,
       "numdate": 2022.4698630136986,
@@ -1484,7 +1043,7 @@
     },
     "hCoV-19/Brazil/BA-FIOCRUZ-PVM101367/2022": {
       "branch_length": 1,
-      "clock_length": 2.0990890061476156e-05,
+      "clock_length": 1.710815641453177e-05,
       "date": "2022-06-03",
       "mutation_length": 1,
       "numdate": 2022.4205479452055,
@@ -1492,7 +1051,7 @@
     },
     "hCoV-19/Brazil/BA-FIOCRUZ-PVM101403/2022": {
       "branch_length": 1,
-      "clock_length": 2.5738514188759472e-05,
+      "clock_length": 2.261284595021242e-05,
       "date": "2022-06-06",
       "mutation_length": 1,
       "numdate": 2022.4287671232876,
@@ -1500,7 +1059,7 @@
     },
     "hCoV-19/Brazil/BA-FIOCRUZ-PVM102392/2022": {
       "branch_length": 3,
-      "clock_length": 6.0867009444819315e-05,
+      "clock_length": 6.511148962689618e-05,
       "date": "2022-06-28",
       "mutation_length": 3,
       "numdate": 2022.4890410958903,
@@ -1508,7 +1067,7 @@
     },
     "hCoV-19/Brazil/BA-FIOCRUZ-PVM102395/2022": {
       "branch_length": 1,
-      "clock_length": 1.948316546607036e-05,
+      "clock_length": 1.990620153403174e-05,
       "date": "2022-06-13",
       "mutation_length": 1,
       "numdate": 2022.4479452054795,
@@ -1516,7 +1075,7 @@
     },
     "hCoV-19/Brazil/MG-FIOCRUZ-3033/2022": {
       "branch_length": 1,
-      "clock_length": 2.809033056012499e-05,
+      "clock_length": 1.3725000184848036e-05,
       "date": "2022-06-22",
       "mutation_length": 1,
       "numdate": 2022.472602739726,
@@ -1524,7 +1083,7 @@
     },
     "hCoV-19/Brazil/MG-FIOCRUZ-3041/2022": {
       "branch_length": 3,
-      "clock_length": 4.959043339196594e-05,
+      "clock_length": 5.651396729226192e-05,
       "date": "2022-06-24",
       "mutation_length": 3,
       "numdate": 2022.478082191781,
@@ -1532,7 +1091,7 @@
     },
     "hCoV-19/Brazil/MG-FIOCRUZ-3070/2022": {
       "branch_length": 1,
-      "clock_length": 3.230026378709945e-05,
+      "clock_length": 2.2607929521741487e-05,
       "date": "2022-06-27",
       "mutation_length": 1,
       "numdate": 2022.486301369863,
@@ -1540,7 +1099,7 @@
     },
     "hCoV-19/Brazil/MG-FIOCRUZ-3091/2022": {
       "branch_length": 1,
-      "clock_length": 3.229550530777967e-05,
+      "clock_length": 2.28938708537118e-05,
       "date": "2022-06-28",
       "mutation_length": 1,
       "numdate": 2022.4890410958903,
@@ -1548,7 +1107,7 @@
     },
     "hCoV-19/Brazil/MG-FIOCRUZ-3147/2022": {
       "branch_length": 0,
-      "clock_length": 0.0,
+      "clock_length": 1.5285599997084866e-06,
       "date": "2022-06-29",
       "mutation_length": 0,
       "numdate": 2022.4917808219177,
@@ -1556,7 +1115,7 @@
     },
     "hCoV-19/Brazil/MG-FIOCRUZ-3153/2022": {
       "branch_length": 6,
-      "clock_length": 6.06682230224248e-05,
+      "clock_length": 7.003958902698456e-05,
       "date": "2022-07-01",
       "mutation_length": 6,
       "numdate": 2022.4972602739726,
@@ -1564,7 +1123,7 @@
     },
     "hCoV-19/Brazil/MG-FIOCRUZ-3217/2022": {
       "branch_length": 0,
-      "clock_length": 1.2660331006351293e-05,
+      "clock_length": 1.6889626627780013e-05,
       "date": "2022-07-07",
       "mutation_length": 0,
       "numdate": 2022.513698630137,
@@ -1572,7 +1131,7 @@
     },
     "hCoV-19/Brazil/MG-FIOCRUZ-3219/2022": {
       "branch_length": 4,
-      "clock_length": 7.33342083961276e-05,
+      "clock_length": 7.908673452424733e-05,
       "date": "2022-07-06",
       "mutation_length": 4,
       "numdate": 2022.5109589041097,
@@ -1580,23 +1139,23 @@
     },
     "hCoV-19/Brazil/MG-FIOCRUZ-4437/2022": {
       "branch_length": 5,
-      "clock_length": 0.00016344699195545162,
+      "clock_length": 0.00021177921012744002,
       "date": "2022-07-21",
       "mutation_length": 5,
       "numdate": 2022.5520547945205,
       "raw_date": "2022-07-21"
     },
     "hCoV-19/Brazil/MG-FUNED-311296087/2022": {
-      "branch_length": 2,
-      "clock_length": 5.2761170510839516e-05,
+      "branch_length": 3,
+      "clock_length": 5.412500125367135e-05,
       "date": "2022-06-23",
-      "mutation_length": 2,
+      "mutation_length": 3,
       "numdate": 2022.4753424657533,
       "raw_date": "2022-06-23"
     },
     "hCoV-19/Brazil/MG-LBI-2864/2022": {
       "branch_length": 2,
-      "clock_length": 1.3634742424955496e-05,
+      "clock_length": 3.481862312713761e-05,
       "date": "2022-04-26",
       "mutation_length": 2,
       "numdate": 2022.3164383561643,
@@ -1604,7 +1163,7 @@
     },
     "hCoV-19/Brazil/MG-LBI-3306/2022": {
       "branch_length": 6,
-      "clock_length": 0.00010498503591174334,
+      "clock_length": 0.00011748940109410706,
       "date": "2022-07-26",
       "mutation_length": 6,
       "numdate": 2022.5657534246575,
@@ -1620,7 +1179,7 @@
     },
     "hCoV-19/Brazil/MG-LBI1966/2022": {
       "branch_length": 1,
-      "clock_length": 0.00013954666906819922,
+      "clock_length": 0.00017082103136276073,
       "date": "2022-05-31",
       "mutation_length": 1,
       "numdate": 2022.4123287671232,
@@ -1628,7 +1187,7 @@
     },
     "hCoV-19/Brazil/MG-LBI_714/2022": {
       "branch_length": 4,
-      "clock_length": 9.714145607122465e-05,
+      "clock_length": 9.11238034202841e-05,
       "date": "2022-03-09",
       "mutation_length": 4,
       "numdate": 2022.1849315068494,
@@ -1644,7 +1203,7 @@
     },
     "hCoV-19/Brazil/MG-LBI_78/2022": {
       "branch_length": 0,
-      "clock_length": 1.8990496509395643e-05,
+      "clock_length": 2.3041599941947587e-05,
       "date": "2022-05-29",
       "mutation_length": 0,
       "numdate": 2022.4068493150685,
@@ -1652,7 +1211,7 @@
     },
     "hCoV-19/Brazil/RJ-FIOCRUZ-4752/2022": {
       "branch_length": 1,
-      "clock_length": 3.3839801039861964e-05,
+      "clock_length": 1.4318470280405473e-05,
       "date": "2022-01-28",
       "mutation_length": 1,
       "numdate": 2022.0753424657535,
@@ -1660,7 +1219,7 @@
     },
     "hCoV-19/Brazil/RJ-LNN08776/2022": {
       "branch_length": 2,
-      "clock_length": 3.770184308931105e-05,
+      "clock_length": 2.3115389545133548e-05,
       "date": "2022-02-09",
       "mutation_length": 2,
       "numdate": 2022.1082191780822,
@@ -1668,7 +1227,7 @@
     },
     "hCoV-19/Brazil/RJ-LVM-67620/2022": {
       "branch_length": 2,
-      "clock_length": 0.00032977786598900887,
+      "clock_length": 9.587790699551978e-05,
       "date": "2022-05-30",
       "mutation_length": 2,
       "numdate": 2022.4095890410958,
@@ -1676,7 +1235,7 @@
     },
     "hCoV-19/Brazil/RJ-LVM-67709/2022": {
       "branch_length": 2,
-      "clock_length": 1.6362718867809264e-05,
+      "clock_length": 9.961934698244973e-06,
       "date": "2022-05-31",
       "mutation_length": 2,
       "numdate": 2022.4123287671232,
@@ -1684,7 +1243,7 @@
     },
     "hCoV-19/Brazil/RJ-NVBS18786GENOV701872026272/2022": {
       "branch_length": 4,
-      "clock_length": 0.00017854802553414874,
+      "clock_length": 0.00019400725578143157,
       "date": "2022-05-09",
       "mutation_length": 4,
       "numdate": 2022.3520547945207,
@@ -1692,7 +1251,7 @@
     },
     "hCoV-19/Brazil/RS-050-66438-433/2022": {
       "branch_length": 1,
-      "clock_length": 2.5872816987775092e-05,
+      "clock_length": 5.255791751383526e-05,
       "date": "2022-11-25",
       "mutation_length": 1,
       "numdate": 2022.9,
@@ -1700,7 +1259,7 @@
     },
     "hCoV-19/Brazil/RS-050-66447-45/2022": {
       "branch_length": 0,
-      "clock_length": 0.0,
+      "clock_length": 1.7629115649361524e-07,
       "date": "2022-12-05",
       "mutation_length": 0,
       "numdate": 2022.927397260274,
@@ -1724,23 +1283,15 @@
     },
     "hCoV-19/Brazil/RS-120-66439-319/2022": {
       "branch_length": 4,
-      "clock_length": 9.357513900930129e-05,
+      "clock_length": 6.286254240692873e-05,
       "date": "2022-11-26",
       "mutation_length": 4,
       "numdate": 2022.9027397260274,
       "raw_date": "2022-11-26"
     },
-    "hCoV-19/Brazil/RS-210-66445-773/2022": {
-      "branch_length": 0,
-      "clock_length": 0.0,
-      "date": "2022-12-02",
-      "mutation_length": 0,
-      "numdate": 2022.9191780821918,
-      "raw_date": "2022-12-02"
-    },
     "hCoV-19/Brazil/RS-210-66457-193/2022": {
       "branch_length": 7,
-      "clock_length": 0.00015613117271066576,
+      "clock_length": 0.0002787001153589197,
       "date": "2022-12-14",
       "mutation_length": 7,
       "numdate": 2022.9520547945206,
@@ -1748,39 +1299,23 @@
     },
     "hCoV-19/Brazil/RS-211-66444-614/2022": {
       "branch_length": 1,
-      "clock_length": 5.310418790526795e-05,
+      "clock_length": 2.6484344732282446e-05,
       "date": "2022-12-02",
       "mutation_length": 1,
       "numdate": 2022.9191780821918,
       "raw_date": "2022-12-02"
     },
-    "hCoV-19/Brazil/RS-211-66448-686/2022": {
-      "branch_length": 0,
-      "clock_length": 0.0,
-      "date": "2022-12-05",
-      "mutation_length": 0,
-      "numdate": 2022.927397260274,
-      "raw_date": "2022-12-05"
-    },
     "hCoV-19/Brazil/RS-211-66458-793/2022": {
       "branch_length": 3,
-      "clock_length": 8.148113529054895e-05,
+      "clock_length": 7.707570627384346e-05,
       "date": "2022-12-16",
       "mutation_length": 3,
       "numdate": 2022.9575342465753,
       "raw_date": "2022-12-16"
     },
-    "hCoV-19/Brazil/RS-311-66464-621/2022": {
-      "branch_length": 0,
-      "clock_length": 4.145026175055456e-05,
-      "date": "2022-12-21",
-      "mutation_length": 0,
-      "numdate": 2022.9712328767123,
-      "raw_date": "2022-12-21"
-    },
     "hCoV-19/Brazil/RS-315-66440-108/2022": {
       "branch_length": 7,
-      "clock_length": 0.00011095122893293573,
+      "clock_length": 0.00018465335468316967,
       "date": "2022-11-28",
       "mutation_length": 7,
       "numdate": 2022.9082191780822,
@@ -1788,23 +1323,15 @@
     },
     "hCoV-19/Brazil/RS-315-66440-195/2022": {
       "branch_length": 7,
-      "clock_length": 0.00010155666074732539,
+      "clock_length": 0.00022706155634562557,
       "date": "2022-11-28",
       "mutation_length": 7,
       "numdate": 2022.9082191780822,
       "raw_date": "2022-11-28"
     },
-    "hCoV-19/Brazil/RS-315-66449-850/2022": {
-      "branch_length": 7,
-      "clock_length": 7.181605756410793e-05,
-      "date": "2022-12-07",
-      "mutation_length": 7,
-      "numdate": 2022.9328767123288,
-      "raw_date": "2022-12-07"
-    },
     "hCoV-19/Brazil/RS-315-66453-361/2022": {
       "branch_length": 3,
-      "clock_length": 7.918269777201499e-05,
+      "clock_length": 8.135991744119032e-05,
       "date": "2022-12-10",
       "mutation_length": 3,
       "numdate": 2022.941095890411,
@@ -1812,103 +1339,71 @@
     },
     "hCoV-19/Brazil/RS-315-66456-781/2022": {
       "branch_length": 3,
-      "clock_length": 7.856487636049431e-05,
+      "clock_length": 5.362379387417e-05,
       "date": "2022-12-14",
       "mutation_length": 3,
       "numdate": 2022.9520547945206,
       "raw_date": "2022-12-14"
     },
-    "hCoV-19/Brazil/RS-315-66462-531/2022": {
-      "branch_length": 4,
-      "clock_length": 0.00011860831249751124,
-      "date": "2022-12-19",
-      "mutation_length": 4,
-      "numdate": 2022.9657534246576,
-      "raw_date": "2022-12-19"
-    },
     "hCoV-19/Brazil/RS-315-66468-143/2022": {
       "branch_length": 5,
-      "clock_length": 7.296757605694949e-05,
+      "clock_length": 7.662523766798239e-05,
       "date": "2022-12-26",
       "mutation_length": 5,
       "numdate": 2022.9849315068493,
       "raw_date": "2022-12-26"
     },
     "hCoV-19/Brazil/RS-711/2022": {
-      "branch_length": 5,
-      "clock_length": 0.0001007902113143984,
+      "branch_length": 6,
+      "clock_length": 0.0002717972353529321,
       "date": "2022-11-21",
-      "mutation_length": 5,
+      "mutation_length": 6,
       "numdate": 2022.8890410958904,
       "raw_date": "2022-11-21"
     },
     "hCoV-19/Brazil/RS-CoV-0004/2022": {
       "branch_length": 3,
-      "clock_length": 7.48468044813272e-05,
+      "clock_length": 4.671245473861457e-05,
       "date": "2022-12-29",
       "mutation_length": 3,
       "numdate": 2022.9931506849316,
       "raw_date": "2022-12-29"
     },
     "hCoV-19/Brazil/RS-CoV-0024/2022": {
-      "branch_length": 1,
-      "clock_length": 7.379632665013673e-05,
+      "branch_length": 10,
+      "clock_length": 0.0004156443254893995,
       "date": "2022-12-28",
-      "mutation_length": 1,
+      "mutation_length": 10,
       "numdate": 2022.990410958904,
       "raw_date": "2022-12-28"
     },
     "hCoV-19/Brazil/RS-CoV-0025/2022": {
       "branch_length": 9,
-      "clock_length": 0.0001490329020208145,
+      "clock_length": 0.00028466555620049487,
       "date": "2022-12-28",
       "mutation_length": 9,
       "numdate": 2022.990410958904,
       "raw_date": "2022-12-28"
     },
-    "hCoV-19/Brazil/RS-CoV-0038/2022": {
-      "branch_length": 6,
-      "clock_length": 0.00010618973216070492,
-      "date": "2022-12-27",
-      "mutation_length": 6,
-      "numdate": 2022.9876712328767,
-      "raw_date": "2022-12-27"
-    },
     "hCoV-19/Brazil/RS-CoV-0039/2022": {
-      "branch_length": 3,
-      "clock_length": 4.9362968629491346e-05,
+      "branch_length": 4,
+      "clock_length": 7.663097368128084e-05,
       "date": "2022-12-26",
-      "mutation_length": 3,
+      "mutation_length": 4,
       "numdate": 2022.9849315068493,
       "raw_date": "2022-12-26"
     },
     "hCoV-19/Brazil/RS-CoV-0054/2023": {
       "branch_length": 2,
-      "clock_length": 6.287244495916419e-05,
+      "clock_length": 5.549665234361027e-05,
       "date": "2023-01-02",
       "mutation_length": 2,
       "numdate": 2023.004109589041,
       "raw_date": "2023-01-02"
     },
-    "hCoV-19/Brazil/RS-CoV-0056/2023": {
-      "branch_length": 1,
-      "clock_length": 5.3641924694922734e-05,
-      "date": "2023-01-02",
-      "mutation_length": 1,
-      "numdate": 2023.004109589041,
-      "raw_date": "2023-01-02"
-    },
-    "hCoV-19/Brazil/RS-CoV-0062/2022": {
-      "branch_length": 1,
-      "clock_length": 4.889430056763942e-05,
-      "date": "2022-12-30",
-      "mutation_length": 1,
-      "numdate": 2022.995890410959,
-      "raw_date": "2022-12-30"
-    },
     "hCoV-19/Brazil/RS-CoV-0075/2022": {
       "branch_length": 3,
-      "clock_length": 4.1146075770444974e-05,
+      "clock_length": 5.009975769748663e-05,
       "date": "2022-12-31",
       "mutation_length": 3,
       "numdate": 2022.9986301369863,
@@ -1916,23 +1411,15 @@
     },
     "hCoV-19/Brazil/RS-CoV-0093/2023": {
       "branch_length": 0,
-      "clock_length": 5.0641324025142796e-05,
+      "clock_length": 7.104493315447159e-05,
       "date": "2023-01-06",
       "mutation_length": 0,
       "numdate": 2023.0150684931507,
       "raw_date": "2023-01-06"
     },
-    "hCoV-19/Brazil/RS-CoV-0110/2023": {
-      "branch_length": 4,
-      "clock_length": 0.0001171752856569772,
-      "date": "2023-01-02",
-      "mutation_length": 4,
-      "numdate": 2023.004109589041,
-      "raw_date": "2023-01-02"
-    },
     "hCoV-19/Brazil/RS-CoV-0121/2023": {
       "branch_length": 1,
-      "clock_length": 6.646673778301616e-05,
+      "clock_length": 2.238385893237201e-05,
       "date": "2023-01-10",
       "mutation_length": 1,
       "numdate": 2023.0260273972603,
@@ -1940,23 +1427,15 @@
     },
     "hCoV-19/Brazil/RS-CoV-0123/2023": {
       "branch_length": 5,
-      "clock_length": 0.00010145332082104296,
+      "clock_length": 0.00011118763758090409,
       "date": "2023-01-13",
       "mutation_length": 5,
       "numdate": 2023.0342465753424,
       "raw_date": "2023-01-13"
     },
-    "hCoV-19/Brazil/RS-CoV-0124/2023": {
-      "branch_length": 6,
-      "clock_length": 0.00015559413662168163,
-      "date": "2023-01-10",
-      "mutation_length": 6,
-      "numdate": 2023.0260273972603,
-      "raw_date": "2023-01-10"
-    },
     "hCoV-19/Brazil/RS-CoV-0126/2023": {
       "branch_length": 4,
-      "clock_length": 0.00010145332082104296,
+      "clock_length": 0.00011118763758090409,
       "date": "2023-01-13",
       "mutation_length": 4,
       "numdate": 2023.0342465753424,
@@ -1964,7 +1443,7 @@
     },
     "hCoV-19/Brazil/RS-CoV-0128/2023": {
       "branch_length": 2,
-      "clock_length": 7.494926466835943e-05,
+      "clock_length": 0.00011097021118619695,
       "date": "2023-01-15",
       "mutation_length": 2,
       "numdate": 2023.0397260273974,
@@ -1972,7 +1451,7 @@
     },
     "hCoV-19/Brazil/RS-CoV-0129/2023": {
       "branch_length": 3,
-      "clock_length": 0.00010099821466529415,
+      "clock_length": 0.0001090882634257025,
       "date": "2023-01-14",
       "mutation_length": 3,
       "numdate": 2023.0369863013698,
@@ -1980,7 +1459,7 @@
     },
     "hCoV-19/Brazil/RS-CoV-0148/2023": {
       "branch_length": 2,
-      "clock_length": 7.96113947000238e-05,
+      "clock_length": 5.632868633693696e-05,
       "date": "2023-02-03",
       "mutation_length": 2,
       "numdate": 2023.0917808219178,
@@ -1988,7 +1467,7 @@
     },
     "hCoV-19/Brazil/RS-CoV-0150/2023": {
       "branch_length": 0,
-      "clock_length": 1.5825413757610332e-06,
+      "clock_length": 1.920133328469015e-06,
       "date": "2023-02-08",
       "mutation_length": 0,
       "numdate": 2023.1054794520549,
@@ -2004,31 +1483,23 @@
     },
     "hCoV-19/Brazil/RS-CoV-0152/2023": {
       "branch_length": 1,
-      "clock_length": 2.7418143066389872e-05,
+      "clock_length": 4.203449856906606e-05,
       "date": "2023-02-10",
       "mutation_length": 1,
       "numdate": 2023.1109589041096,
       "raw_date": "2023-02-10"
     },
     "hCoV-19/Brazil/RS-CoV-0153/2023": {
-      "branch_length": 1,
-      "clock_length": 2.3351418262770353e-05,
+      "branch_length": 4,
+      "clock_length": 8.352660807064635e-05,
       "date": "2023-03-01",
-      "mutation_length": 1,
-      "numdate": 2023.16301369863,
-      "raw_date": "2023-03-01"
-    },
-    "hCoV-19/Brazil/RS-CoV-0154/2023": {
-      "branch_length": 0,
-      "clock_length": 0.0,
-      "date": "2023-03-01",
-      "mutation_length": 0,
+      "mutation_length": 4,
       "numdate": 2023.16301369863,
       "raw_date": "2023-03-01"
     },
     "hCoV-19/Brazil/RS-CoV-0155/2023": {
       "branch_length": 1,
-      "clock_length": 2.1265674123936706e-05,
+      "clock_length": 1.882463452766649e-05,
       "date": "2023-02-28",
       "mutation_length": 1,
       "numdate": 2023.1602739726027,
@@ -2036,7 +1507,7 @@
     },
     "hCoV-19/Brazil/RS-CoV-0156/2023": {
       "branch_length": 1,
-      "clock_length": 0.00012027314455954961,
+      "clock_length": 0.00014593013296572183,
       "date": "2023-02-28",
       "mutation_length": 1,
       "numdate": 2023.1602739726027,
@@ -2044,7 +1515,7 @@
     },
     "hCoV-19/Brazil/RS-CoV-0157/2023": {
       "branch_length": 4,
-      "clock_length": 0.00016081576548785076,
+      "clock_length": 0.000188667472962975,
       "date": "2023-02-24",
       "mutation_length": 4,
       "numdate": 2023.1493150684933,
@@ -2052,7 +1523,7 @@
     },
     "hCoV-19/Brazil/RS-CoV-0158/2023": {
       "branch_length": 0,
-      "clock_length": 6.33016550304435e-06,
+      "clock_length": 7.680533313876277e-06,
       "date": "2023-02-28",
       "mutation_length": 0,
       "numdate": 2023.1602739726027,
@@ -2068,47 +1539,23 @@
     },
     "hCoV-19/Brazil/RS-CoV-0162/2023": {
       "branch_length": 8,
-      "clock_length": 0.0001525225130938428,
+      "clock_length": 0.00010632492735724642,
       "date": "2023-03-02",
       "mutation_length": 8,
       "numdate": 2023.1657534246576,
       "raw_date": "2023-03-02"
     },
-    "hCoV-19/Brazil/RS-CoV-0168/2023": {
-      "branch_length": 1,
-      "clock_length": 4.9297963042099963e-05,
-      "date": "2023-03-15",
-      "mutation_length": 1,
-      "numdate": 2023.2013698630137,
-      "raw_date": "2023-03-15"
-    },
     "hCoV-19/Brazil/RS-CoV-0169/2023": {
       "branch_length": 6,
-      "clock_length": 0.0001964372165044429,
+      "clock_length": 0.00014284559911131845,
       "date": "2023-03-14",
       "mutation_length": 6,
       "numdate": 2023.1986301369864,
       "raw_date": "2023-03-14"
     },
-    "hCoV-19/Brazil/RS-CoV-0172/2023": {
-      "branch_length": 3,
-      "clock_length": 8.039364126944748e-05,
-      "date": "2023-03-13",
-      "mutation_length": 3,
-      "numdate": 2023.195890410959,
-      "raw_date": "2023-03-13"
-    },
-    "hCoV-19/Brazil/RS-CoV-0175/2023": {
-      "branch_length": 4,
-      "clock_length": 8.868563217671454e-05,
-      "date": "2023-03-15",
-      "mutation_length": 4,
-      "numdate": 2023.2013698630137,
-      "raw_date": "2023-03-15"
-    },
     "hCoV-19/Brazil/RS-CoV-0176/2023": {
       "branch_length": 1,
-      "clock_length": 4.4925610376574175e-05,
+      "clock_length": 0.00010790182866068552,
       "date": "2023-03-16",
       "mutation_length": 1,
       "numdate": 2023.204109589041,
@@ -2116,19 +1563,11 @@
     },
     "hCoV-19/Brazil/RS-CoV-0177/2023": {
       "branch_length": 1,
-      "clock_length": 5.380640677666497e-05,
+      "clock_length": 6.528453316890495e-05,
       "date": "2023-03-15",
       "mutation_length": 1,
       "numdate": 2023.2013698630137,
       "raw_date": "2023-03-15"
-    },
-    "hCoV-19/Brazil/RS-CoV-0178/2023": {
-      "branch_length": 1,
-      "clock_length": 3.126412514170714e-05,
-      "date": "2023-03-06",
-      "mutation_length": 1,
-      "numdate": 2023.176712328767,
-      "raw_date": "2023-03-06"
     },
     "hCoV-19/Brazil/RS-CoV-0180/2023": {
       "branch_length": 0,
@@ -2140,23 +1579,15 @@
     },
     "hCoV-19/Brazil/RS-CoV-0181/2023": {
       "branch_length": 3,
-      "clock_length": 5.648195430511685e-05,
+      "clock_length": 9.731170010120215e-05,
       "date": "2023-03-08",
       "mutation_length": 3,
       "numdate": 2023.182191780822,
       "raw_date": "2023-03-08"
     },
-    "hCoV-19/Brazil/RS-CoV-0183/2023": {
-      "branch_length": 0,
-      "clock_length": 2.6581718147554792e-05,
-      "date": "2023-03-24",
-      "mutation_length": 0,
-      "numdate": 2023.2260273972602,
-      "raw_date": "2023-03-24"
-    },
     "hCoV-19/Brazil/RS-CoV-0185/2023": {
       "branch_length": 3,
-      "clock_length": 7.502455969340244e-05,
+      "clock_length": 9.355612421015264e-05,
       "date": "2023-03-18",
       "mutation_length": 3,
       "numdate": 2023.2095890410958,
@@ -2164,7 +1595,7 @@
     },
     "hCoV-19/Brazil/RS-CoV-0187/2023": {
       "branch_length": 6,
-      "clock_length": 0.00018418886130955586,
+      "clock_length": 0.0002408369947231989,
       "date": "2023-03-23",
       "mutation_length": 6,
       "numdate": 2023.2232876712328,
@@ -2172,23 +1603,23 @@
     },
     "hCoV-19/Brazil/RS-CoV-0188/2023": {
       "branch_length": 5,
-      "clock_length": 0.00014166784201371098,
+      "clock_length": 0.0001345677252777408,
       "date": "2023-03-23",
       "mutation_length": 5,
       "numdate": 2023.2232876712328,
       "raw_date": "2023-03-23"
     },
     "hCoV-19/Brazil/RS-CoV-0190/2023": {
-      "branch_length": 0,
-      "clock_length": 7.732314425438038e-06,
+      "branch_length": 1,
+      "clock_length": 6.682796774019049e-05,
       "date": "2023-03-25",
-      "mutation_length": 0,
+      "mutation_length": 1,
       "numdate": 2023.2287671232878,
       "raw_date": "2023-03-25"
     },
     "hCoV-19/Brazil/RS-CoV-0191/2023": {
       "branch_length": 3,
-      "clock_length": 8.042985202997015e-05,
+      "clock_length": 0.00012880732529233353,
       "date": "2023-03-20",
       "mutation_length": 3,
       "numdate": 2023.2150684931507,
@@ -2196,7 +1627,7 @@
     },
     "hCoV-19/Brazil/RS-CoV-0192/2023": {
       "branch_length": 0,
-      "clock_length": 0.0,
+      "clock_length": 1.7917141653808148e-06,
       "date": "2023-03-29",
       "mutation_length": 0,
       "numdate": 2023.2397260273972,
@@ -2212,23 +1643,15 @@
     },
     "hCoV-19/Brazil/RS-CoV-0196/2023": {
       "branch_length": 8,
-      "clock_length": 0.00022769258584650904,
+      "clock_length": 0.00025395200613187994,
       "date": "2023-03-30",
       "mutation_length": 8,
       "numdate": 2023.2424657534248,
       "raw_date": "2023-03-30"
     },
-    "hCoV-19/Brazil/RS-CoV-0197/2023": {
-      "branch_length": 0,
-      "clock_length": 4.1146075770444866e-05,
-      "date": "2023-03-27",
-      "mutation_length": 0,
-      "numdate": 2023.2342465753425,
-      "raw_date": "2023-03-27"
-    },
     "hCoV-19/Brazil/RS-CoV-0199/2023": {
       "branch_length": 0,
-      "clock_length": 1.58254137589233e-06,
+      "clock_length": 1.920133328628393e-06,
       "date": "2023-03-30",
       "mutation_length": 0,
       "numdate": 2023.2424657534248,
@@ -2236,41 +1659,25 @@
     },
     "hCoV-19/Brazil/RS-CoV-0200/2023": {
       "branch_length": 6,
-      "clock_length": 0.0001874278715626223,
+      "clock_length": 0.00016780733238173527,
       "date": "2023-03-27",
       "mutation_length": 6,
       "numdate": 2023.2342465753425,
       "raw_date": "2023-03-27"
     },
-    "hCoV-19/Brazil/RS-CoV-0202/2023": {
-      "branch_length": 1,
-      "clock_length": 2.5714419114790756e-05,
-      "date": "2023-03-28",
-      "mutation_length": 1,
-      "numdate": 2023.2369863013698,
-      "raw_date": "2023-03-28"
-    },
-    "hCoV-19/Brazil/RS-CoV-0204/2023": {
-      "branch_length": 0,
-      "clock_length": 0.0,
-      "date": "2023-03-29",
-      "mutation_length": 0,
-      "numdate": 2023.2397260273972,
-      "raw_date": "2023-03-29"
-    },
     "hCoV-19/Brazil/RS-CoV-0206/2023": {
       "branch_length": 1,
-      "clock_length": 6.708118963762329e-05,
+      "clock_length": 0.00013478369525973073,
       "date": "2023-03-30",
       "mutation_length": 1,
       "numdate": 2023.2424657534248,
       "raw_date": "2023-03-30"
     },
     "hCoV-19/Brazil/RS-CoV-0207/2023": {
-      "branch_length": 2,
-      "clock_length": 3.291188365073044e-05,
+      "branch_length": 3,
+      "clock_length": 7.953926480779396e-05,
       "date": "2023-03-28",
-      "mutation_length": 2,
+      "mutation_length": 3,
       "numdate": 2023.2369863013698,
       "raw_date": "2023-03-28"
     },
@@ -2282,33 +1689,17 @@
       "numdate": 2023.2397260273972,
       "raw_date": "2023-03-29"
     },
-    "hCoV-19/Brazil/RS-CoV-0210/2023": {
-      "branch_length": 7,
-      "clock_length": 0.00014556226066020036,
-      "date": "2023-03-31",
-      "mutation_length": 7,
-      "numdate": 2023.2452054794521,
-      "raw_date": "2023-03-31"
-    },
     "hCoV-19/Brazil/RS-CoV-0211/2023": {
       "branch_length": 2,
-      "clock_length": 6.557683264590364e-05,
+      "clock_length": 7.258836772559753e-05,
       "date": "2023-03-28",
       "mutation_length": 2,
       "numdate": 2023.2369863013698,
       "raw_date": "2023-03-28"
     },
-    "hCoV-19/Brazil/RS-CoV-0212/2023": {
-      "branch_length": 5,
-      "clock_length": 7.620116643043229e-05,
-      "date": "2023-04-01",
-      "mutation_length": 5,
-      "numdate": 2023.2479452054795,
-      "raw_date": "2023-04-01"
-    },
     "hCoV-19/Brazil/RS-CoV-0213/2023": {
       "branch_length": 0,
-      "clock_length": 1.58254137589233e-06,
+      "clock_length": 1.920133328628393e-06,
       "date": "2023-03-30",
       "mutation_length": 0,
       "numdate": 2023.2424657534248,
@@ -2316,23 +1707,15 @@
     },
     "hCoV-19/Brazil/RS-CoV-0231/2023": {
       "branch_length": 8,
-      "clock_length": 0.00016833655914552203,
+      "clock_length": 0.0001622520745391536,
       "date": "2023-04-11",
       "mutation_length": 8,
       "numdate": 2023.2753424657535,
       "raw_date": "2023-04-11"
     },
-    "hCoV-19/Brazil/RS-CoV-0232/2023": {
-      "branch_length": 2,
-      "clock_length": 3.463551781377047e-05,
-      "date": "2023-04-11",
-      "mutation_length": 2,
-      "numdate": 2023.2753424657535,
-      "raw_date": "2023-04-11"
-    },
     "hCoV-19/Brazil/RS-CoV-0233/2023": {
       "branch_length": 3,
-      "clock_length": 0.0002155324337943448,
+      "clock_length": 0.0002009562584825463,
       "date": "2023-04-13",
       "mutation_length": 3,
       "numdate": 2023.2808219178082,
@@ -2340,47 +1723,23 @@
     },
     "hCoV-19/Brazil/RS-CoV-0235/2023": {
       "branch_length": 4,
-      "clock_length": 4.926342345448818e-05,
+      "clock_length": 7.143498715622026e-05,
       "date": "2023-04-06",
       "mutation_length": 4,
       "numdate": 2023.2616438356165,
       "raw_date": "2023-04-06"
     },
-    "hCoV-19/Brazil/RS-CoV-0243/2023": {
-      "branch_length": 6,
-      "clock_length": 0.000129831707947028,
-      "date": "2023-04-10",
-      "mutation_length": 6,
-      "numdate": 2023.272602739726,
-      "raw_date": "2023-04-10"
-    },
-    "hCoV-19/Brazil/RS-CoV-0244/2023": {
-      "branch_length": 3,
-      "clock_length": 4.557221465708184e-05,
-      "date": "2023-04-05",
-      "mutation_length": 3,
-      "numdate": 2023.2589041095891,
-      "raw_date": "2023-04-05"
-    },
     "hCoV-19/Brazil/RS-CoV-0255/2023": {
       "branch_length": 1,
-      "clock_length": 7.1419002715406e-05,
+      "clock_length": 9.831685375510609e-05,
       "date": "2023-04-20",
       "mutation_length": 1,
       "numdate": 2023.3,
       "raw_date": "2023-04-20"
     },
-    "hCoV-19/Brazil/RS-CoV-0256/2023": {
-      "branch_length": 0,
-      "clock_length": 5.930536650787749e-05,
-      "date": "2023-04-24",
-      "mutation_length": 0,
-      "numdate": 2023.3109589041096,
-      "raw_date": "2023-04-24"
-    },
     "hCoV-19/Brazil/RS-CoV-0259/2023": {
       "branch_length": 6,
-      "clock_length": 0.00021806921906407796,
+      "clock_length": 0.00019081079381100155,
       "date": "2023-04-15",
       "mutation_length": 6,
       "numdate": 2023.286301369863,
@@ -2388,31 +1747,31 @@
     },
     "hCoV-19/Brazil/RS-CoV-0260/2023": {
       "branch_length": 3,
-      "clock_length": 8.886340860840395e-05,
+      "clock_length": 0.00012370233136322034,
       "date": "2023-04-20",
       "mutation_length": 3,
       "numdate": 2023.3,
       "raw_date": "2023-04-20"
     },
     "hCoV-19/Brazil/RS-CoV-0261/2023": {
-      "branch_length": 9,
-      "clock_length": 0.00022598192594301474,
+      "branch_length": 10,
+      "clock_length": 0.00021389053226563066,
       "date": "2023-04-20",
-      "mutation_length": 9,
+      "mutation_length": 10,
       "numdate": 2023.3,
       "raw_date": "2023-04-20"
     },
     "hCoV-19/Brazil/RS-CoV-0263/2023": {
-      "branch_length": 1,
-      "clock_length": 8.66404248273491e-06,
+      "branch_length": 7,
+      "clock_length": 9.263803008079086e-05,
       "date": "2023-03-23",
-      "mutation_length": 1,
+      "mutation_length": 7,
       "numdate": 2023.2232876712328,
       "raw_date": "2023-03-23"
     },
     "hCoV-19/Brazil/RS-CoV-0274/2023": {
       "branch_length": 2,
-      "clock_length": 7.065639102269588e-05,
+      "clock_length": 0.00010260219528591724,
       "date": "2023-04-25",
       "mutation_length": 2,
       "numdate": 2023.313698630137,
@@ -2420,47 +1779,23 @@
     },
     "hCoV-19/Brazil/RS-CoV-0277/2023": {
       "branch_length": 7,
-      "clock_length": 0.00019207467978220088,
+      "clock_length": 0.00019105407446650844,
       "date": "2023-04-26",
       "mutation_length": 7,
       "numdate": 2023.3164383561643,
       "raw_date": "2023-04-26"
     },
-    "hCoV-19/Brazil/RS-CoV-0280/2023": {
-      "branch_length": 4,
-      "clock_length": 0.0001407293168916759,
-      "date": "2023-04-29",
-      "mutation_length": 4,
-      "numdate": 2023.3246575342466,
-      "raw_date": "2023-04-29"
-    },
-    "hCoV-19/Brazil/RS-FIOCRUZ-28701/2022": {
-      "branch_length": 2,
-      "clock_length": 0.00010935481491235839,
-      "date": "2022-12-29",
-      "mutation_length": 2,
-      "numdate": 2022.9931506849316,
-      "raw_date": "2022-12-29"
-    },
     "hCoV-19/Brazil/RS-FIOCRUZ-4078/2023": {
       "branch_length": 9,
-      "clock_length": 0.00024291893264231424,
+      "clock_length": 0.0001751046880548075,
       "date": "2023-03-26",
       "mutation_length": 9,
       "numdate": 2023.231506849315,
       "raw_date": "2023-03-26"
     },
-    "hCoV-19/Brazil/RS-FIOCRUZ-4079/2023": {
-      "branch_length": 4,
-      "clock_length": 0.00010338012910410374,
-      "date": "2023-03-30",
-      "mutation_length": 4,
-      "numdate": 2023.2424657534248,
-      "raw_date": "2023-03-30"
-    },
     "hCoV-19/Brazil/RS-FIOCRUZ-4080/2023": {
       "branch_length": 0,
-      "clock_length": 4.7675350960609594e-05,
+      "clock_length": 7.769228248778802e-05,
       "date": "2023-04-02",
       "mutation_length": 0,
       "numdate": 2023.2506849315068,
@@ -2468,7 +1803,7 @@
     },
     "hCoV-19/Brazil/RS-FIOCRUZ-4082/2023": {
       "branch_length": 7,
-      "clock_length": 0.0002265055026442975,
+      "clock_length": 0.00017932813235270917,
       "date": "2023-04-02",
       "mutation_length": 7,
       "numdate": 2023.2506849315068,
@@ -2476,7 +1811,7 @@
     },
     "hCoV-19/Brazil/RS-FIOCRUZ-4083/2023": {
       "branch_length": 2,
-      "clock_length": 7.857828957131315e-05,
+      "clock_length": 8.22217304313692e-05,
       "date": "2023-04-02",
       "mutation_length": 2,
       "numdate": 2023.2506849315068,
@@ -2484,7 +1819,7 @@
     },
     "hCoV-19/Brazil/RS-FIOCRUZ-4085/2023": {
       "branch_length": 6,
-      "clock_length": 0.00019099143955888013,
+      "clock_length": 0.00016617673665539302,
       "date": "2023-03-31",
       "mutation_length": 6,
       "numdate": 2023.2452054794521,
@@ -2492,7 +1827,7 @@
     },
     "hCoV-19/Brazil/RS-FIOCRUZ-4088/2023": {
       "branch_length": 3,
-      "clock_length": 0.00012769033517230817,
+      "clock_length": 0.00014775944388851592,
       "date": "2023-04-02",
       "mutation_length": 3,
       "numdate": 2023.2506849315068,
@@ -2500,7 +1835,7 @@
     },
     "hCoV-19/Brazil/RS-FIOCRUZ-4089/2023": {
       "branch_length": 3,
-      "clock_length": 8.174337232283533e-05,
+      "clock_length": 8.606199708830744e-05,
       "date": "2023-04-04",
       "mutation_length": 3,
       "numdate": 2023.2561643835616,
@@ -2508,39 +1843,31 @@
     },
     "hCoV-19/Brazil/RS-FIOCRUZ-4092/2023": {
       "branch_length": 2,
-      "clock_length": 0.00010496267047986488,
+      "clock_length": 0.00013612103166548524,
       "date": "2023-03-31",
       "mutation_length": 2,
       "numdate": 2023.2452054794521,
       "raw_date": "2023-03-31"
     },
-    "hCoV-19/Brazil/RS-FIOCRUZ-4095/2023": {
-      "branch_length": 0,
-      "clock_length": 6.196020522007152e-05,
-      "date": "2023-04-03",
-      "mutation_length": 0,
-      "numdate": 2023.2534246575342,
-      "raw_date": "2023-04-03"
-    },
     "hCoV-19/Brazil/RS-FIOCRUZ-4098/2023": {
-      "branch_length": 0,
-      "clock_length": 0.0,
+      "branch_length": 4,
+      "clock_length": 0.00026415533549947897,
       "date": "2023-04-03",
-      "mutation_length": 0,
+      "mutation_length": 4,
       "numdate": 2023.2534246575342,
       "raw_date": "2023-04-03"
     },
     "hCoV-19/Brazil/RS-FIOCRUZ-4103/2023": {
-      "branch_length": 3,
-      "clock_length": 7.936624918195446e-05,
+      "branch_length": 6,
+      "clock_length": 0.0001563440453101856,
       "date": "2023-04-03",
-      "mutation_length": 3,
+      "mutation_length": 6,
       "numdate": 2023.2534246575342,
       "raw_date": "2023-04-03"
     },
     "hCoV-19/Brazil/RS-FIOCRUZ-4107/2023": {
       "branch_length": 2,
-      "clock_length": 9.006893885759822e-05,
+      "clock_length": 0.0001414747666566283,
       "date": "2023-03-31",
       "mutation_length": 2,
       "numdate": 2023.2452054794521,
@@ -2548,87 +1875,55 @@
     },
     "hCoV-19/Brazil/RS-FIOCRUZ-4108/2023": {
       "branch_length": 4,
-      "clock_length": 6.755995331088414e-05,
+      "clock_length": 8.320209774626106e-05,
       "date": "2023-04-03",
       "mutation_length": 4,
       "numdate": 2023.2534246575342,
       "raw_date": "2023-04-03"
     },
-    "hCoV-19/Brazil/RS-FIOCRUZ-4109/2023": {
-      "branch_length": 3,
-      "clock_length": 0.00012342412352288952,
-      "date": "2023-04-03",
-      "mutation_length": 3,
-      "numdate": 2023.2534246575342,
-      "raw_date": "2023-04-03"
-    },
-    "hCoV-19/Brazil/RS-FIOCRUZ-4110/2023": {
-      "branch_length": 0,
-      "clock_length": 1.3511701302223989e-05,
-      "date": "2023-04-04",
-      "mutation_length": 0,
-      "numdate": 2023.2561643835616,
-      "raw_date": "2023-04-04"
-    },
     "hCoV-19/Brazil/RS-FIOCRUZ-4114/2023": {
       "branch_length": 3,
-      "clock_length": 6.914249468664528e-05,
+      "clock_length": 8.512223107473029e-05,
       "date": "2023-04-04",
       "mutation_length": 3,
-      "numdate": 2023.2561643835616,
-      "raw_date": "2023-04-04"
-    },
-    "hCoV-19/Brazil/RS-FIOCRUZ-4117/2023": {
-      "branch_length": 0,
-      "clock_length": 1.5825413757611416e-06,
-      "date": "2023-04-04",
-      "mutation_length": 0,
       "numdate": 2023.2561643835616,
       "raw_date": "2023-04-04"
     },
     "hCoV-19/Brazil/RS-FIOCRUZ-4119/2023": {
       "branch_length": 6,
-      "clock_length": 0.00019498485802189186,
+      "clock_length": 0.00017986874489171636,
       "date": "2023-04-04",
       "mutation_length": 6,
       "numdate": 2023.2561643835616,
       "raw_date": "2023-04-04"
     },
-    "hCoV-19/Brazil/RS-FIOCRUZ-4121/2023": {
-      "branch_length": 1,
-      "clock_length": 7.579700641439653e-05,
-      "date": "2023-04-03",
-      "mutation_length": 1,
-      "numdate": 2023.2534246575342,
-      "raw_date": "2023-04-03"
-    },
     "hCoV-19/Brazil/RS-FIOCRUZ-4122/2023": {
       "branch_length": 7,
-      "clock_length": 0.00020255601315579633,
+      "clock_length": 0.0001757774032978979,
       "date": "2023-04-05",
       "mutation_length": 7,
       "numdate": 2023.2589041095891,
       "raw_date": "2023-04-05"
     },
     "hCoV-19/Brazil/RS-FIOCRUZ-4131/2023": {
-      "branch_length": 8,
-      "clock_length": 0.0002628613283634162,
+      "branch_length": 9,
+      "clock_length": 0.00026921800158324146,
       "date": "2023-04-05",
-      "mutation_length": 8,
+      "mutation_length": 9,
       "numdate": 2023.2589041095891,
       "raw_date": "2023-04-05"
     },
     "hCoV-19/Brazil/RS-FIOCRUZ-4132/2023": {
-      "branch_length": 3,
-      "clock_length": 7.896208916605011e-05,
+      "branch_length": 4,
+      "clock_length": 0.00016018431196728323,
       "date": "2023-04-05",
-      "mutation_length": 3,
+      "mutation_length": 4,
       "numdate": 2023.2589041095891,
       "raw_date": "2023-04-05"
     },
     "hCoV-19/Brazil/RS-FIOCRUZ-4133/2023": {
       "branch_length": 3,
-      "clock_length": 8.332591369872777e-05,
+      "clock_length": 8.798213041693584e-05,
       "date": "2023-04-05",
       "mutation_length": 3,
       "numdate": 2023.2589041095891,
@@ -2636,41 +1931,41 @@
     },
     "hCoV-19/Brazil/RS-FIOCRUZ-4134/2023": {
       "branch_length": 1,
-      "clock_length": 3.900556350708024e-05,
+      "clock_length": 6.419952871605751e-05,
       "date": "2023-04-05",
       "mutation_length": 1,
       "numdate": 2023.2589041095891,
       "raw_date": "2023-04-05"
     },
     "hCoV-19/Brazil/RS-FIOCRUZ-4138/2023": {
-      "branch_length": 2,
-      "clock_length": 2.142440818116067e-05,
+      "branch_length": 4,
+      "clock_length": 9.113321578723094e-05,
       "date": "2023-04-09",
-      "mutation_length": 2,
+      "mutation_length": 4,
       "numdate": 2023.2698630136986,
       "raw_date": "2023-04-09"
     },
     "hCoV-19/Brazil/RS-FIOCRUZ-4139/2023": {
-      "branch_length": 2,
-      "clock_length": 3.995729149690319e-05,
+      "branch_length": 8,
+      "clock_length": 0.00016210444529575225,
       "date": "2023-04-06",
-      "mutation_length": 2,
+      "mutation_length": 8,
       "numdate": 2023.2616438356165,
       "raw_date": "2023-04-06"
     },
     "hCoV-19/Brazil/RS-FIOCRUZ-446/2023": {
       "branch_length": 5,
-      "clock_length": 0.0001324971133113994,
+      "clock_length": 0.00013320351731065235,
       "date": "2023-01-06",
       "mutation_length": 5,
       "numdate": 2023.0150684931507,
       "raw_date": "2023-01-06"
     },
     "hCoV-19/Brazil/RS-FIOCRUZ-449/2023": {
-      "branch_length": 3,
-      "clock_length": 0.00010216297055451809,
+      "branch_length": 2,
+      "clock_length": 5.549665234361027e-05,
       "date": "2023-01-02",
-      "mutation_length": 3,
+      "mutation_length": 2,
       "numdate": 2023.004109589041,
       "raw_date": "2023-01-02"
     },
@@ -2684,23 +1979,15 @@
     },
     "hCoV-19/Brazil/RS-FIOCRUZ-451/2023": {
       "branch_length": 1,
-      "clock_length": 8.200771815589851e-05,
+      "clock_length": 8.60466634837547e-05,
       "date": "2023-01-02",
       "mutation_length": 1,
       "numdate": 2023.004109589041,
       "raw_date": "2023-01-02"
     },
-    "hCoV-19/Brazil/RS-FIOCRUZ-474/2023": {
-      "branch_length": 3,
-      "clock_length": 8.371094875858913e-05,
-      "date": "2023-01-02",
-      "mutation_length": 3,
-      "numdate": 2023.004109589041,
-      "raw_date": "2023-01-02"
-    },
     "hCoV-19/Brazil/RS-FIOCRUZ-490/2023": {
       "branch_length": 3,
-      "clock_length": 8.117696998437155e-05,
+      "clock_length": 5.439298805249085e-05,
       "date": "2023-01-02",
       "mutation_length": 3,
       "numdate": 2023.004109589041,
@@ -2708,23 +1995,15 @@
     },
     "hCoV-19/Brazil/RS-FIOCRUZ-518/2023": {
       "branch_length": 2,
-      "clock_length": 9.337129413506209e-05,
+      "clock_length": 8.637727032958977e-05,
       "date": "2023-01-02",
       "mutation_length": 2,
       "numdate": 2023.004109589041,
       "raw_date": "2023-01-02"
     },
-    "hCoV-19/Brazil/RS-LACEN-431819566/2023": {
-      "branch_length": 4,
-      "clock_length": 8.645665765648802e-05,
-      "date": "2023-01-05",
-      "mutation_length": 4,
-      "numdate": 2023.0123287671233,
-      "raw_date": "2023-01-05"
-    },
     "hCoV-19/Brazil/RS-LACEN-431819572/2023": {
       "branch_length": 5,
-      "clock_length": 9.696290173516389e-05,
+      "clock_length": 9.450032104066385e-05,
       "date": "2023-01-04",
       "mutation_length": 5,
       "numdate": 2023.009589041096,
@@ -2732,7 +2011,7 @@
     },
     "hCoV-19/Brazil/RS-LACEN-431819575/2023": {
       "branch_length": 7,
-      "clock_length": 8.052114878632903e-05,
+      "clock_length": 7.012025049154798e-05,
       "date": "2023-01-04",
       "mutation_length": 7,
       "numdate": 2023.009589041096,
@@ -2740,39 +2019,15 @@
     },
     "hCoV-19/Brazil/RS-LACEN-431819585/2023": {
       "branch_length": 3,
-      "clock_length": 8.67216312966225e-05,
+      "clock_length": 8.984874457271838e-05,
       "date": "2023-01-04",
       "mutation_length": 3,
       "numdate": 2023.009589041096,
       "raw_date": "2023-01-04"
     },
-    "hCoV-19/Brazil/RS-LACEN-431819587/2023": {
-      "branch_length": 2,
-      "clock_length": 6.76200690865787e-05,
-      "date": "2023-01-05",
-      "mutation_length": 2,
-      "numdate": 2023.0123287671233,
-      "raw_date": "2023-01-05"
-    },
-    "hCoV-19/Brazil/RS-LACEN-431819590/2023": {
-      "branch_length": 1,
-      "clock_length": 2.687580571815603e-05,
-      "date": "2023-01-05",
-      "mutation_length": 1,
-      "numdate": 2023.0123287671233,
-      "raw_date": "2023-01-05"
-    },
-    "hCoV-19/Brazil/RS-LACEN-431819592/2023": {
-      "branch_length": 4,
-      "clock_length": 0.00011253618126447554,
-      "date": "2023-01-05",
-      "mutation_length": 4,
-      "numdate": 2023.0123287671233,
-      "raw_date": "2023-01-05"
-    },
     "hCoV-19/Brazil/RS-LACENRS-431812782/2022": {
       "branch_length": 5,
-      "clock_length": 8.532137036464365e-05,
+      "clock_length": 0.00016927176311190388,
       "date": "2022-11-20",
       "mutation_length": 5,
       "numdate": 2022.886301369863,
@@ -2794,25 +2049,9 @@
       "numdate": 2022.9082191780822,
       "raw_date": "2022-11-28"
     },
-    "hCoV-19/Brazil/RS-LACENRS-431812795/2022": {
-      "branch_length": 0,
-      "clock_length": 3.36612467038012e-05,
-      "date": "2022-11-25",
-      "mutation_length": 0,
-      "numdate": 2022.9,
-      "raw_date": "2022-11-25"
-    },
-    "hCoV-19/Brazil/RS-LACENRS-431812796/2022": {
-      "branch_length": 0,
-      "clock_length": 0.0,
-      "date": "2022-11-29",
-      "mutation_length": 0,
-      "numdate": 2022.9109589041095,
-      "raw_date": "2022-11-29"
-    },
     "hCoV-19/Brazil/RS-LACENRS-431812802/2022": {
       "branch_length": 1,
-      "clock_length": 2.702369093279572e-05,
+      "clock_length": 1.928937363550429e-05,
       "date": "2022-11-28",
       "mutation_length": 1,
       "numdate": 2022.9082191780822,
@@ -2820,7 +2059,7 @@
     },
     "hCoV-19/Brazil/RS-LACENRS-431812807/2022": {
       "branch_length": 0,
-      "clock_length": 2.8297283385425413e-05,
+      "clock_length": 6.755850651112049e-06,
       "date": "2022-12-02",
       "mutation_length": 0,
       "numdate": 2022.9191780821918,
@@ -2828,39 +2067,31 @@
     },
     "hCoV-19/Brazil/RS-LACENRS-431812822/2022": {
       "branch_length": 3,
-      "clock_length": 7.991362127815612e-05,
+      "clock_length": 3.43880404543237e-05,
       "date": "2022-12-04",
       "mutation_length": 3,
       "numdate": 2022.9246575342465,
       "raw_date": "2022-12-04"
     },
-    "hCoV-19/Brazil/RS-LACENRS-431812826/2022": {
-      "branch_length": 0,
-      "clock_length": 4.011568936975623e-05,
-      "date": "2022-12-04",
-      "mutation_length": 0,
-      "numdate": 2022.9246575342465,
-      "raw_date": "2022-12-04"
-    },
     "hCoV-19/Brazil/RS-LACENRS-431812828/2022": {
       "branch_length": 7,
-      "clock_length": 0.00011222457375297586,
+      "clock_length": 0.00020191402969635635,
       "date": "2022-12-07",
       "mutation_length": 7,
       "numdate": 2022.9328767123288,
       "raw_date": "2022-12-07"
     },
     "hCoV-19/Brazil/RS-LACENRS-431812833/2022": {
-      "branch_length": 2,
-      "clock_length": 0.00017642847535113775,
+      "branch_length": 5,
+      "clock_length": 0.0004466761927209397,
       "date": "2022-12-08",
-      "mutation_length": 2,
+      "mutation_length": 5,
       "numdate": 2022.9356164383562,
       "raw_date": "2022-12-08"
     },
     "hCoV-19/Brazil/RS-LACENRS-431812844/2022": {
       "branch_length": 5,
-      "clock_length": 8.285570976348166e-05,
+      "clock_length": 6.958187517947466e-05,
       "date": "2022-12-08",
       "mutation_length": 5,
       "numdate": 2022.9356164383562,
@@ -2868,31 +2099,23 @@
     },
     "hCoV-19/Brazil/RS-LACENRS-431812849/2022": {
       "branch_length": 5,
-      "clock_length": 0.00010690207173885669,
+      "clock_length": 0.00021996914871062908,
       "date": "2022-12-08",
       "mutation_length": 5,
       "numdate": 2022.9356164383562,
       "raw_date": "2022-12-08"
     },
     "hCoV-19/Brazil/RS-LACENRS-431827090/2023": {
-      "branch_length": 2,
-      "clock_length": 9.724991841068842e-05,
+      "branch_length": 3,
+      "clock_length": 6.271459627585222e-05,
       "date": "2023-01-06",
-      "mutation_length": 2,
+      "mutation_length": 3,
       "numdate": 2023.0150684931507,
       "raw_date": "2023-01-06"
     },
-    "hCoV-19/Brazil/RS-LACENRS-431827092/2023": {
-      "branch_length": 1,
-      "clock_length": 9.321032164597248e-05,
-      "date": "2023-01-09",
-      "mutation_length": 1,
-      "numdate": 2023.0232876712328,
-      "raw_date": "2023-01-09"
-    },
     "hCoV-19/Brazil/RS-LACENRS-431827098/2023": {
       "branch_length": 3,
-      "clock_length": 0.0001047797433503736,
+      "clock_length": 0.00011209181821436034,
       "date": "2023-01-16",
       "mutation_length": 3,
       "numdate": 2023.0424657534247,
@@ -2900,23 +2123,15 @@
     },
     "hCoV-19/Brazil/RS-LACENRS-431827106/2023": {
       "branch_length": 2,
-      "clock_length": 0.00010175000786965963,
+      "clock_length": 7.935472132306704e-05,
       "date": "2023-01-15",
       "mutation_length": 2,
       "numdate": 2023.0397260273974,
       "raw_date": "2023-01-15"
     },
-    "hCoV-19/Brazil/RS-LACENRS-431827118/2023": {
-      "branch_length": 2,
-      "clock_length": 7.524910685334117e-05,
-      "date": "2023-01-19",
-      "mutation_length": 2,
-      "numdate": 2023.0506849315068,
-      "raw_date": "2023-01-19"
-    },
     "hCoV-19/Brazil/RS-LACENRS-431827120/2023": {
       "branch_length": 6,
-      "clock_length": 0.00017124380342202223,
+      "clock_length": 0.00016846987547416265,
       "date": "2023-01-20",
       "mutation_length": 6,
       "numdate": 2023.0534246575342,
@@ -2924,7 +2139,7 @@
     },
     "hCoV-19/Brazil/RS-LACENRS-431827121/2023": {
       "branch_length": 6,
-      "clock_length": 0.00012162003195403254,
+      "clock_length": 9.343672953183546e-05,
       "date": "2023-01-22",
       "mutation_length": 6,
       "numdate": 2023.058904109589,
@@ -2948,7 +2163,7 @@
     },
     "hCoV-19/Brazil/RS-LACENRS-431827140/2023": {
       "branch_length": 3,
-      "clock_length": 6.378598094215044e-05,
+      "clock_length": 3.71273530519274e-05,
       "date": "2023-01-24",
       "mutation_length": 3,
       "numdate": 2023.0643835616438,
@@ -2956,23 +2171,15 @@
     },
     "hCoV-19/Brazil/RS-LACENRS-431827147/2023": {
       "branch_length": 2,
-      "clock_length": 0.0001279501974570769,
+      "clock_length": 0.00010111726284571195,
       "date": "2023-01-26",
       "mutation_length": 2,
       "numdate": 2023.0698630136985,
       "raw_date": "2023-01-26"
     },
-    "hCoV-19/Brazil/RS-LACENRS-431827157/2023": {
-      "branch_length": 4,
-      "clock_length": 0.00012685960170725086,
-      "date": "2023-01-30",
-      "mutation_length": 4,
-      "numdate": 2023.0808219178082,
-      "raw_date": "2023-01-30"
-    },
     "hCoV-19/Brazil/RS-LACENRS-431827159/2023": {
       "branch_length": 6,
-      "clock_length": 0.0002022726063748753,
+      "clock_length": 0.0003554771540638757,
       "date": "2023-02-02",
       "mutation_length": 6,
       "numdate": 2023.0890410958905,
@@ -2980,7 +2187,7 @@
     },
     "hCoV-19/Brazil/RS-LACENRS-431827160/2023": {
       "branch_length": 16,
-      "clock_length": 0.0003808414363725514,
+      "clock_length": 0.00048725954297564327,
       "date": "2023-02-02",
       "mutation_length": 16,
       "numdate": 2023.0890410958905,
@@ -2988,7 +2195,7 @@
     },
     "hCoV-19/Brazil/RS-LACENRS-431827162/2023": {
       "branch_length": 1,
-      "clock_length": 4.9058782649381545e-05,
+      "clock_length": 5.9524133183497686e-05,
       "date": "2023-02-03",
       "mutation_length": 1,
       "numdate": 2023.0917808219178,
@@ -2996,23 +2203,23 @@
     },
     "hCoV-19/Brazil/RS-LACENRS-431827163/2023": {
       "branch_length": 4,
-      "clock_length": 0.00010996616831016981,
+      "clock_length": 7.248265537372622e-05,
       "date": "2023-02-06",
       "mutation_length": 4,
       "numdate": 2023.1,
       "raw_date": "2023-02-06"
     },
     "hCoV-19/Brazil/RS-LACENRS-431827164/2023": {
-      "branch_length": 5,
-      "clock_length": 0.00013752148016793952,
+      "branch_length": 4,
+      "clock_length": 0.00017692263935567012,
       "date": "2023-02-06",
-      "mutation_length": 5,
+      "mutation_length": 4,
       "numdate": 2023.1,
       "raw_date": "2023-02-06"
     },
     "hCoV-19/Brazil/RS-LACENRS-431827166/2023": {
       "branch_length": 7,
-      "clock_length": 0.00014448273028930367,
+      "clock_length": 0.00016968605055204286,
       "date": "2023-01-25",
       "mutation_length": 7,
       "numdate": 2023.0671232876712,
@@ -3020,55 +2227,31 @@
     },
     "hCoV-19/Brazil/RS-LGBM-HMV-0085F/2022": {
       "branch_length": 3,
-      "clock_length": 3.0155439751119876e-05,
+      "clock_length": 2.320539859774302e-05,
       "date": "2022-11-28",
       "mutation_length": 3,
       "numdate": 2022.9082191780822,
       "raw_date": "2022-11-28"
     },
-    "hCoV-19/Brazil/RS-LGBM-HMV-01-0037-F/2022": {
-      "branch_length": 7,
-      "clock_length": 8.447178599077835e-05,
-      "date": "2022-11-21",
-      "mutation_length": 7,
-      "numdate": 2022.8890410958904,
-      "raw_date": "2022-11-21"
-    },
     "hCoV-19/Brazil/RS-LGBM-HMV-01-0040-F/2022": {
       "branch_length": 11,
-      "clock_length": 0.0002653159159402851,
+      "clock_length": 0.0003470898099953287,
       "date": "2022-11-21",
       "mutation_length": 11,
       "numdate": 2022.8890410958904,
       "raw_date": "2022-11-21"
     },
-    "hCoV-19/Brazil/RS-LGBM-HMV-01-0046-F/2022": {
-      "branch_length": 0,
-      "clock_length": 1.1314011823217434e-05,
-      "date": "2022-11-22",
-      "mutation_length": 0,
-      "numdate": 2022.8917808219178,
-      "raw_date": "2022-11-22"
-    },
     "hCoV-19/Brazil/RS-LGBM-HMV-01-0047-F/2022": {
-      "branch_length": 1,
-      "clock_length": 1.1314011823217434e-05,
+      "branch_length": 4,
+      "clock_length": 3.099250638994807e-05,
       "date": "2022-11-22",
-      "mutation_length": 1,
+      "mutation_length": 4,
       "numdate": 2022.8917808219178,
       "raw_date": "2022-11-22"
-    },
-    "hCoV-19/Brazil/RS-LGBM-HMV-01-0048-P/2022": {
-      "branch_length": 2,
-      "clock_length": 3.3948263379325735e-05,
-      "date": "2022-11-27",
-      "mutation_length": 2,
-      "numdate": 2022.9054794520548,
-      "raw_date": "2022-11-27"
     },
     "hCoV-19/Brazil/RS-LGBM-HMV-01-0050-P/2022": {
       "branch_length": 9,
-      "clock_length": 8.991216869413108e-05,
+      "clock_length": 0.00021914768774049936,
       "date": "2022-11-23",
       "mutation_length": 9,
       "numdate": 2022.8945205479451,
@@ -3076,17 +2259,9 @@
     },
     "hCoV-19/Brazil/RS-LGBM-HMV-01-0051-F/2022": {
       "branch_length": 4,
-      "clock_length": 4.486778827647369e-05,
+      "clock_length": 1.2617869466364064e-05,
       "date": "2022-11-23",
       "mutation_length": 4,
-      "numdate": 2022.8945205479451,
-      "raw_date": "2022-11-23"
-    },
-    "hCoV-19/Brazil/RS-LGBM-HMV-01-0055-F/2022": {
-      "branch_length": 5,
-      "clock_length": 6.289567224152751e-05,
-      "date": "2022-11-23",
-      "mutation_length": 5,
       "numdate": 2022.8945205479451,
       "raw_date": "2022-11-23"
     },
@@ -3098,25 +2273,9 @@
       "numdate": 2022.8972602739725,
       "raw_date": "2022-11-24"
     },
-    "hCoV-19/Brazil/RS-LGBM-HMV-01-0064-F/2022": {
-      "branch_length": 0,
-      "clock_length": 0.0,
-      "date": "2022-11-24",
-      "mutation_length": 0,
-      "numdate": 2022.8972602739725,
-      "raw_date": "2022-11-24"
-    },
-    "hCoV-19/Brazil/RS-LGBM-HMV-01-0066-P/2022": {
-      "branch_length": 4,
-      "clock_length": 4.316769710596951e-05,
-      "date": "2022-11-27",
-      "mutation_length": 4,
-      "numdate": 2022.9054794520548,
-      "raw_date": "2022-11-27"
-    },
     "hCoV-19/Brazil/RS-LGBM-HMV-01-0079-F/2022": {
       "branch_length": 2,
-      "clock_length": 4.967382887848069e-05,
+      "clock_length": 1.4067015780590579e-05,
       "date": "2022-11-26",
       "mutation_length": 2,
       "numdate": 2022.9027397260274,
@@ -3124,7 +2283,7 @@
     },
     "hCoV-19/Brazil/RS-LGBM-HMV-01-0081-F/2022": {
       "branch_length": 2,
-      "clock_length": 5.8526336254774826e-05,
+      "clock_length": 4.12723481642526e-05,
       "date": "2022-11-26",
       "mutation_length": 2,
       "numdate": 2022.9027397260274,
@@ -3132,23 +2291,15 @@
     },
     "hCoV-19/Brazil/RS-LGBM-HMV-01-0082-F/2022": {
       "branch_length": 0,
-      "clock_length": 6.330165503175755e-06,
+      "clock_length": 2.3645477278892062e-05,
       "date": "2022-11-28",
       "mutation_length": 0,
       "numdate": 2022.9082191780822,
       "raw_date": "2022-11-28"
     },
-    "hCoV-19/Brazil/RS-LGBM-HMV-01-0084-F/2022": {
-      "branch_length": 1,
-      "clock_length": 2.627202923321842e-05,
-      "date": "2022-11-28",
-      "mutation_length": 1,
-      "numdate": 2022.9082191780822,
-      "raw_date": "2022-11-28"
-    },
     "hCoV-19/Brazil/RS-LGBM-HMV-01-0089-F/2022": {
       "branch_length": 0,
-      "clock_length": 1.5825413757873576e-05,
+      "clock_length": 1.9201333285009557e-05,
       "date": "2022-12-04",
       "mutation_length": 0,
       "numdate": 2022.9246575342465,
@@ -3156,7 +2307,7 @@
     },
     "hCoV-19/Brazil/RS-LGBM-HMV-01-0092-P/2022": {
       "branch_length": 1,
-      "clock_length": 2.783321434630709e-05,
+      "clock_length": 1.8489124213202446e-05,
       "date": "2022-11-28",
       "mutation_length": 1,
       "numdate": 2022.9082191780822,
@@ -3164,55 +2315,39 @@
     },
     "hCoV-19/Brazil/RS-LGBM-HMV-01-0093-P/2022": {
       "branch_length": 1,
-      "clock_length": 2.6787595009494704e-05,
+      "clock_length": 4.797213661770117e-05,
       "date": "2022-11-28",
       "mutation_length": 1,
       "numdate": 2022.9082191780822,
       "raw_date": "2022-11-28"
     },
-    "hCoV-19/Brazil/RS-LGBM-HMV-01-0097-F/2022": {
-      "branch_length": 2,
-      "clock_length": 2.4717207170296164e-05,
-      "date": "2022-11-30",
-      "mutation_length": 2,
-      "numdate": 2022.9136986301369,
-      "raw_date": "2022-11-30"
-    },
     "hCoV-19/Brazil/RS-LGBM-HMV-01-0104-F/2022": {
-      "branch_length": 2,
-      "clock_length": 4.367998436685303e-05,
+      "branch_length": 3,
+      "clock_length": 6.909360323117974e-05,
       "date": "2022-12-09",
-      "mutation_length": 2,
+      "mutation_length": 3,
       "numdate": 2022.9383561643835,
       "raw_date": "2022-12-09"
     },
     "hCoV-19/Brazil/RS-LGBM-HMV-01-0116-F/2022": {
-      "branch_length": 7,
-      "clock_length": 0.00028287339884080576,
+      "branch_length": 9,
+      "clock_length": 0.00041673140335924796,
       "date": "2022-12-02",
-      "mutation_length": 7,
+      "mutation_length": 9,
       "numdate": 2022.9191780821918,
       "raw_date": "2022-12-02"
     },
-    "hCoV-19/Brazil/RS-LGBM-HMV-01-0169-F/2022": {
-      "branch_length": 11,
-      "clock_length": 0.00011831312098688272,
-      "date": "2022-12-16",
-      "mutation_length": 11,
-      "numdate": 2022.9575342465753,
-      "raw_date": "2022-12-16"
-    },
     "hCoV-19/Brazil/RS-LGBM-HMV-01-0186-F/2022": {
-      "branch_length": 2,
-      "clock_length": 2.777286557985206e-05,
+      "branch_length": 10,
+      "clock_length": 0.00032748110187933235,
       "date": "2022-12-20",
-      "mutation_length": 2,
+      "mutation_length": 10,
       "numdate": 2022.968493150685,
       "raw_date": "2022-12-20"
     },
     "hCoV-19/Brazil/RS-LGBM-HMV-01-0195-F/2022": {
       "branch_length": 4,
-      "clock_length": 8.765482189727197e-05,
+      "clock_length": 6.0150215664486186e-05,
       "date": "2022-12-20",
       "mutation_length": 4,
       "numdate": 2022.968493150685,
@@ -3228,23 +2363,15 @@
     },
     "hCoV-19/Brazil/RS-LGBM-HMV-0182F/2022": {
       "branch_length": 1,
-      "clock_length": 3.956353439468394e-05,
+      "clock_length": 4.8003333212523784e-05,
       "date": "2022-12-19",
       "mutation_length": 1,
       "numdate": 2022.9657534246576,
       "raw_date": "2022-12-19"
     },
-    "hCoV-19/Brazil/RS-LMM-72976/2022": {
-      "branch_length": 16,
-      "clock_length": 0.0006387818151444675,
-      "date": "2022-11-22",
-      "mutation_length": 16,
-      "numdate": 2022.8917808219178,
-      "raw_date": "2022-11-22"
-    },
     "hCoV-19/Brazil/RS-LMM-72980/2022": {
       "branch_length": 4,
-      "clock_length": 7.639707565340495e-05,
+      "clock_length": 0.00016465840882296488,
       "date": "2022-11-23",
       "mutation_length": 4,
       "numdate": 2022.8945205479451,
@@ -3252,7 +2379,7 @@
     },
     "hCoV-19/Brazil/RS-LMM-73022/2022": {
       "branch_length": 8,
-      "clock_length": 8.036469490586319e-05,
+      "clock_length": 0.0001665785421514339,
       "date": "2022-11-24",
       "mutation_length": 8,
       "numdate": 2022.8972602739725,
@@ -3260,31 +2387,23 @@
     },
     "hCoV-19/Brazil/RS-LMM73061/2022": {
       "branch_length": 14,
-      "clock_length": 9.107665798098311e-05,
+      "clock_length": 0.00020076781542561952,
       "date": "2022-11-28",
       "mutation_length": 14,
       "numdate": 2022.9082191780822,
       "raw_date": "2022-11-28"
     },
     "hCoV-19/Brazil/RS-LMM73087/2022": {
-      "branch_length": 10,
-      "clock_length": 8.669486040903895e-05,
+      "branch_length": 11,
+      "clock_length": 0.0002032529527911818,
       "date": "2022-11-28",
-      "mutation_length": 10,
+      "mutation_length": 11,
       "numdate": 2022.9082191780822,
       "raw_date": "2022-11-28"
     },
-    "hCoV-19/Brazil/RS-LMM73172/2022": {
-      "branch_length": 11,
-      "clock_length": 0.00016535068572067868,
-      "date": "2022-12-01",
-      "mutation_length": 11,
-      "numdate": 2022.9164383561645,
-      "raw_date": "2022-12-01"
-    },
     "hCoV-19/Brazil/RS-LMM73274/2022": {
       "branch_length": 3,
-      "clock_length": 8.624378678133188e-05,
+      "clock_length": 4.163514281711506e-05,
       "date": "2022-12-08",
       "mutation_length": 3,
       "numdate": 2022.9356164383562,
@@ -3292,7 +2411,7 @@
     },
     "hCoV-19/Brazil/SC-FIOCRUZ-11725/2022": {
       "branch_length": 1,
-      "clock_length": 3.323336889150797e-05,
+      "clock_length": 4.292684662410154e-05,
       "date": "2022-05-16",
       "mutation_length": 1,
       "numdate": 2022.3712328767124,
@@ -3300,7 +2419,7 @@
     },
     "hCoV-19/Brazil/SC-FIOCRUZ-8817/2022": {
       "branch_length": 1,
-      "clock_length": 1.8672053408623403e-05,
+      "clock_length": 9.495339345423496e-06,
       "date": "2022-04-07",
       "mutation_length": 1,
       "numdate": 2022.2643835616439,
@@ -3308,7 +2427,7 @@
     },
     "hCoV-19/Brazil/SC-FIOCRUZ-9555/2022": {
       "branch_length": 0,
-      "clock_length": 0.0,
+      "clock_length": 2.6040467256134136e-06,
       "date": "2022-04-25",
       "mutation_length": 0,
       "numdate": 2022.313698630137,
@@ -3316,7 +2435,7 @@
     },
     "hCoV-19/Brazil/SP-HIAE-ID1687/2022": {
       "branch_length": 3,
-      "clock_length": 9.467333261749798e-05,
+      "clock_length": 9.224018937097674e-05,
       "date": "2022-03-17",
       "mutation_length": 3,
       "numdate": 2022.2068493150684,
@@ -3332,7 +2451,7 @@
     },
     "hCoV-19/Brazil/SP-HIAE-ID1772/2022": {
       "branch_length": 1,
-      "clock_length": 2.6352141488269988e-05,
+      "clock_length": 1.0760708363354802e-05,
       "date": "2022-04-01",
       "mutation_length": 1,
       "numdate": 2022.2479452054795,
@@ -3340,7 +2459,7 @@
     },
     "hCoV-19/Brazil/SP-HIAE-ID1939/2022": {
       "branch_length": 0,
-      "clock_length": 7.912706878936788e-06,
+      "clock_length": 9.60066664250467e-06,
       "date": "2022-04-15",
       "mutation_length": 0,
       "numdate": 2022.286301369863,
@@ -3348,7 +2467,7 @@
     },
     "hCoV-19/Brazil/SP-HIAE-ID1999/2022": {
       "branch_length": 0,
-      "clock_length": 6.330165503175755e-06,
+      "clock_length": 1.1058458639591571e-05,
       "date": "2022-04-18",
       "mutation_length": 0,
       "numdate": 2022.2945205479452,
@@ -3356,7 +2475,7 @@
     },
     "hCoV-19/Brazil/SP-HIAE-ID2088/2022": {
       "branch_length": 0,
-      "clock_length": 1.3634742424955496e-05,
+      "clock_length": 3.481862312713761e-05,
       "date": "2022-04-26",
       "mutation_length": 0,
       "numdate": 2022.3164383561643,
@@ -3364,7 +2483,7 @@
     },
     "hCoV-19/Brazil/SP-IB_156544/2022": {
       "branch_length": 1,
-      "clock_length": 2.3842158293033242e-05,
+      "clock_length": 3.2842443488000604e-05,
       "date": "2022-04-21",
       "mutation_length": 1,
       "numdate": 2022.3027397260273,
@@ -3372,7 +2491,7 @@
     },
     "hCoV-19/Brazil/SP-IB_158543/2022": {
       "branch_length": 2,
-      "clock_length": 1.319198174893569e-05,
+      "clock_length": 1.2435589172115269e-05,
       "date": "2022-06-01",
       "mutation_length": 2,
       "numdate": 2022.4150684931508,
@@ -3380,7 +2499,7 @@
     },
     "hCoV-19/Brazil/SP-IB_159103/2022": {
       "branch_length": 5,
-      "clock_length": 0.00021336393580128656,
+      "clock_length": 0.00023625018900822956,
       "date": "2022-05-31",
       "mutation_length": 5,
       "numdate": 2022.4123287671232,
@@ -3388,23 +2507,23 @@
     },
     "hCoV-19/Brazil/SP-NVBS16922GENOV829041407131/2022": {
       "branch_length": 0,
-      "clock_length": 2.0207531748246948e-05,
+      "clock_length": 3.3321975043696175e-07,
       "date": "2022-04-02",
       "mutation_length": 0,
       "numdate": 2022.2506849315068,
       "raw_date": "2022-04-02"
     },
     "hCoV-19/Brazil/SP-NVBS16931GENOV829066190452/2022": {
-      "branch_length": 1,
-      "clock_length": 1.5291698101950772e-05,
+      "branch_length": 3,
+      "clock_length": 9.933886392941849e-06,
       "date": "2022-04-07",
-      "mutation_length": 1,
+      "mutation_length": 3,
       "numdate": 2022.2643835616439,
       "raw_date": "2022-04-07"
     },
     "hCoV-19/Brazil/SP-NVBS16960GENOV829099044449/2022": {
       "branch_length": 5,
-      "clock_length": 0.00015411294559941158,
+      "clock_length": 0.0001602486032461273,
       "date": "2022-04-14",
       "mutation_length": 5,
       "numdate": 2022.2835616438356,
@@ -3412,7 +2531,7 @@
     },
     "hCoV-19/Brazil/SP-NVBS16971GENOV829086334355/2022": {
       "branch_length": 3,
-      "clock_length": 2.320440498088756e-05,
+      "clock_length": 4.502087951908278e-05,
       "date": "2022-04-12",
       "mutation_length": 3,
       "numdate": 2022.2780821917809,
@@ -3428,7 +2547,7 @@
     },
     "hCoV-19/Brazil/SP-NVBS17107GENOV829099296732/2022": {
       "branch_length": 0,
-      "clock_length": 0.0,
+      "clock_length": 3.377925325555916e-06,
       "date": "2022-04-14",
       "mutation_length": 0,
       "numdate": 2022.2835616438356,
@@ -3460,7 +2579,7 @@
     },
     "hCoV-19/Brazil/SP-NVBS17588GENOV045618632816/2022": {
       "branch_length": 0,
-      "clock_length": 1.825524697760721e-06,
+      "clock_length": 1.8884600507850305e-06,
       "date": "2022-04-01",
       "mutation_length": 0,
       "numdate": 2022.2479452054795,
@@ -3468,7 +2587,7 @@
     },
     "hCoV-19/Brazil/SP-NVBS18679GENOV829171756406/2022": {
       "branch_length": 0,
-      "clock_length": 2.408056278689944e-05,
+      "clock_length": 3.7623206953116837e-05,
       "date": "2022-05-02",
       "mutation_length": 0,
       "numdate": 2022.3328767123287,
@@ -3476,7 +2595,7 @@
     },
     "hCoV-19/Brazil/SP-NVBS18682GENOV829171485368/2022": {
       "branch_length": 2,
-      "clock_length": 2.408056278689944e-05,
+      "clock_length": 3.7623206953116837e-05,
       "date": "2022-05-02",
       "mutation_length": 2,
       "numdate": 2022.3328767123287,
@@ -3484,7 +2603,7 @@
     },
     "hCoV-19/Brazil/SP-NVBS18963GENOV829205603386/2022": {
       "branch_length": 0,
-      "clock_length": 3.9563534394683724e-05,
+      "clock_length": 4.8003333212523784e-05,
       "date": "2022-05-09",
       "mutation_length": 0,
       "numdate": 2022.3520547945207,

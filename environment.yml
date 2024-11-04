@@ -1,0 +1,8 @@
+name: augur
+channels:
+  - bioconda
+  - conda-forge
+  - defaults
+dependencies:
+  - augur
+prefix: /home/mdprieto/.conda/envs/augur

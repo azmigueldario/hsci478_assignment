@@ -6,7 +6,7 @@
   "models": {
     "division": {
       "alphabet": [
-        "Amazonas",
+        "Amazonas BR",
         "Bahia",
         "Minas Gerais",
         "Rio Grande do Sul",
@@ -16,2376 +16,3185 @@
         "?"
       ],
       "equilibrium_probabilities": [
-        0.1222684873580675,
-        0.10881157400459227,
-        0.10970379875361407,
-        0.2130452503622883,
-        0.16314069274011136,
-        0.12604755234178808,
-        0.1569826444395384
+        0.12717176987604997,
+        0.12427196266653351,
+        0.1464369402370846,
+        0.17796581807898051,
+        0.16779011906409103,
+        0.12704498054469582,
+        0.12931840953256463
       ],
-      "rate": 39.3917211686639,
+      "rate": 45.90289781603188,
       "transition_matrix": [
         [
           0.0,
-          0.7991381032883174,
-          1.1977926778871733,
-          0.7822406863789335,
-          0.7997475535617018,
-          0.7996521076901587,
-          0.7981330408457191
+          0.8070380891447878,
+          1.216024074163851,
+          0.7953092448733212,
+          0.8074786450714693,
+          0.8073668515478448,
+          0.8056710208026874
         ],
         [
-          0.7991381032883174,
+          0.8070380891447878,
           0.0,
-          1.3078761177588005,
-          1.1686091197557282,
-          0.7990121787545095,
-          0.7990441967213129,
-          0.7975894904279334
+          1.182812702159103,
+          0.9687746445773713,
+          0.8068520866295249,
+          0.8068075501428555,
+          0.8071421205655999
         ],
         [
-          1.1977926778871733,
-          1.3078761177588005,
+          1.216024074163851,
+          1.182812702159103,
           0.0,
-          2.7847786648582087,
-          1.4088939618709733,
-          0.8985434553227285,
-          2.6350136240304725
+          2.3708232571085923,
+          1.2294762258337752,
+          0.8087303001475322,
+          2.489293912593662
         ],
         [
-          0.7822406863789335,
-          1.1686091197557282,
-          2.7847786648582087,
+          0.7953092448733212,
+          0.9687746445773713,
+          2.3708232571085923,
           0.0,
-          1.160724013635332,
-          0.7818914696343925,
-          0.8150600557333253
+          1.2180320223326977,
+          0.7949409110529374,
+          1.2113573466783878
         ],
         [
-          0.7997475535617018,
-          0.7990121787545095,
-          1.4088939618709733,
-          1.160724013635332,
+          0.8074786450714693,
+          0.8068520866295249,
+          1.2294762258337752,
+          1.2180320223326977,
           0.0,
-          1.166576666456868,
-          1.877319449829527
+          0.8073747815548145,
+          2.0338892030199025
         ],
         [
-          0.7996521076901587,
-          0.7990441967213129,
-          0.8985434553227285,
-          0.7818914696343925,
-          1.166576666456868,
+          0.8073668515478448,
+          0.8068075501428555,
+          0.8087303001475322,
+          0.7949409110529374,
+          0.8073747815548145,
           0.0,
-          0.9647109618110572
+          1.2079889587877803
         ],
         [
-          0.7981330408457191,
-          0.7975894904279334,
-          2.6350136240304725,
-          0.8150600557333253,
-          1.877319449829527,
-          0.9647109618110572,
+          0.8056710208026874,
+          0.8071421205655999,
+          2.489293912593662,
+          1.2113573466783878,
+          2.0338892030199025,
+          1.2079889587877803,
           0.0
         ]
       ]
     }
   },
   "nodes": {
-    "NODE_0000000": {
-      "country": "Brazil",
-      "division": "Rio Grande do Sul",
-      "host": "Human"
-    },
     "NODE_0000001": {
       "country": "Brazil",
       "division": "Rio Grande do Sul",
+      "division_confidence": {
+        "Minas Gerais": 0.06774510775060268,
+        "Rio Grande do Sul": 0.8804288191840561,
+        "Rio de Janeiro": 0.0359574404675612,
+        "Sao Paulo": 0.014876005697795834
+      },
+      "division_entropy": 0.48460410995769154,
       "host": "Human"
     },
     "NODE_0000002": {
       "country": "Brazil",
       "division": "Rio Grande do Sul",
+      "division_confidence": {
+        "Minas Gerais": 0.1094593799292678,
+        "Rio Grande do Sul": 0.859986240391032,
+        "Rio de Janeiro": 0.007613174217553598,
+        "Sao Paulo": 0.02268884556969523
+      },
+      "division_entropy": 0.4972534296775394,
       "host": "Human"
     },
     "NODE_0000003": {
       "country": "Brazil",
       "division": "Rio Grande do Sul",
+      "division_confidence": {
+        "Minas Gerais": 0.43142579951617993,
+        "Rio Grande do Sul": 0.566143066176439,
+        "Sao Paulo": 0.0014665477885544868
+      },
+      "division_entropy": 0.7018579600576264,
+      "host": "Human"
+    },
+    "NODE_0000004": {
+      "country": "Brazil",
+      "division": "Rio Grande do Sul",
+      "division_confidence": {
+        "Bahia": 0.0030191663876239327,
+        "Minas Gerais": 0.4190630912475328,
+        "Rio Grande do Sul": 0.5768923456338875
+      },
+      "division_entropy": 0.7071338972004091,
       "host": "Human"
     },
     "NODE_0000005": {
       "country": "Brazil",
-      "division": "Rio Grande do Sul",
+      "division": "Minas Gerais",
+      "division_confidence": {
+        "Bahia": 0.11547417949216579,
+        "Minas Gerais": 0.6631213413245735,
+        "Rio Grande do Sul": 0.21610772131384642,
+        "Rio de Janeiro": 0.0010082745254758434,
+        "Sao Paulo": 0.0034940307463557523
+      },
+      "division_entropy": 0.8856825479128042,
       "host": "Human"
     },
-    "NODE_0000008": {
+    "NODE_0000006": {
       "country": "Brazil",
       "division": "Rio Grande do Sul",
-      "host": "Human"
-    },
-    "NODE_0000009": {
-      "country": "Brazil",
-      "division": "Rio Grande do Sul",
-      "host": "Human"
-    },
-    "NODE_0000010": {
-      "country": "Brazil",
-      "division": "Rio Grande do Sul",
-      "host": "Human"
-    },
-    "NODE_0000011": {
-      "country": "Brazil",
-      "division": "Rio Grande do Sul",
+      "division_confidence": {
+        "Minas Gerais": 0.026928494645970632,
+        "Rio Grande do Sul": 0.9018890204541111,
+        "Rio de Janeiro": 0.06464756105834478,
+        "Sao Paulo": 0.00606090771865942
+      },
+      "division_entropy": 0.4026130198189679,
       "host": "Human"
     },
     "NODE_0000012": {
       "country": "Brazil",
-      "division": "Rio Grande do Sul",
-      "host": "Human"
-    },
-    "NODE_0000013": {
-      "country": "Brazil",
-      "division": "Rio Grande do Sul",
-      "host": "Human"
-    },
-    "NODE_0000014": {
-      "country": "Brazil",
-      "division": "Rio Grande do Sul",
-      "host": "Human"
-    },
-    "NODE_0000015": {
-      "country": "Brazil",
-      "division": "Rio Grande do Sul",
+      "division": "Minas Gerais",
+      "division_confidence": {
+        "Bahia": 0.0019534233464680193,
+        "Minas Gerais": 0.9854722874425661,
+        "Rio Grande do Sul": 0.007022405334670256,
+        "Sao Paulo": 0.0054136793731111325
+      },
+      "division_entropy": 0.09103559284783382,
       "host": "Human"
     },
     "NODE_0000016": {
       "country": "Brazil",
       "division": "Rio Grande do Sul",
-      "host": "Human"
-    },
-    "NODE_0000017": {
-      "country": "Brazil",
-      "division": "Rio Grande do Sul",
-      "host": "Human"
-    },
-    "NODE_0000018": {
-      "country": "Brazil",
-      "division": "Rio Grande do Sul",
-      "host": "Human"
-    },
-    "NODE_0000019": {
-      "country": "Brazil",
-      "division": "Rio Grande do Sul",
+      "division_confidence": {
+        "Rio Grande do Sul": 0.9999912941335088
+      },
+      "division_entropy": 0.00011909382430311126,
       "host": "Human"
     },
     "NODE_0000020": {
       "country": "Brazil",
       "division": "Rio Grande do Sul",
+      "division_confidence": {
+        "Minas Gerais": 0.0646432618361642,
+        "Rio Grande do Sul": 0.8748188890088384,
+        "Rio de Janeiro": 0.003413202825143525,
+        "Sao Paulo": 0.056852924170194115
+      },
+      "division_entropy": 0.4789744437540008,
       "host": "Human"
     },
     "NODE_0000021": {
       "country": "Brazil",
-      "division": "Rio Grande do Sul",
+      "division": "Sao Paulo",
+      "division_confidence": {
+        "Minas Gerais": 0.03200098930172918,
+        "Rio de Janeiro": 0.0014509596302294016,
+        "Sao Paulo": 0.9665140796739772
+      },
+      "division_entropy": 0.15290683026751067,
       "host": "Human"
     },
     "NODE_0000022": {
       "country": "Brazil",
       "division": "Rio Grande do Sul",
+      "division_confidence": {
+        "Rio Grande do Sul": 0.9999911503216216
+      },
+      "division_entropy": 0.00012087520967009098,
+      "host": "Human"
+    },
+    "NODE_0000023": {
+      "country": "Brazil",
+      "division": "Rio Grande do Sul",
+      "division_confidence": {
+        "Rio Grande do Sul": 0.9999911503216223
+      },
+      "division_entropy": 0.00012087520965956546,
       "host": "Human"
     },
     "NODE_0000024": {
       "country": "Brazil",
-      "division": "Rio Grande do Sul",
+      "division": "Sao Paulo",
+      "division_confidence": {
+        "Rio de Janeiro": 0.019889614752493602,
+        "Sao Paulo": 0.9799805127979498
+      },
+      "division_entropy": 0.09890599868566713,
       "host": "Human"
     },
     "NODE_0000025": {
       "country": "Brazil",
       "division": "Rio Grande do Sul",
-      "host": "Human"
-    },
-    "NODE_0000026": {
-      "country": "Brazil",
-      "division": "Rio Grande do Sul",
-      "host": "Human"
-    },
-    "NODE_0000027": {
-      "country": "Brazil",
-      "division": "Rio Grande do Sul",
-      "host": "Human"
-    },
-    "NODE_0000028": {
-      "country": "Brazil",
-      "division": "Rio Grande do Sul",
+      "division_confidence": {
+        "Rio Grande do Sul": 0.9999912941335735
+      },
+      "division_entropy": 0.0001190938234179311,
       "host": "Human"
     },
     "NODE_0000029": {
       "country": "Brazil",
-      "division": "Rio Grande do Sul",
-      "host": "Human"
-    },
-    "NODE_0000031": {
-      "country": "Brazil",
-      "division": "Rio Grande do Sul",
+      "division": "Santa Catarina",
+      "division_confidence": {
+        "Santa Catarina": 0.9929876932740848,
+        "Sao Paulo": 0.006688598867651272
+      },
+      "division_entropy": 0.04344714109709999,
       "host": "Human"
     },
     "NODE_0000032": {
       "country": "Brazil",
-      "division": "Rio Grande do Sul",
+      "division": "Minas Gerais",
+      "division_confidence": {
+        "Minas Gerais": 0.9832628001336488,
+        "Sao Paulo": 0.01645133007524402
+      },
+      "division_entropy": 0.08684136794460806,
       "host": "Human"
     },
     "NODE_0000033": {
       "country": "Brazil",
-      "division": "Rio Grande do Sul",
+      "division": "Minas Gerais",
+      "division_confidence": {
+        "Minas Gerais": 0.9997003226285216
+      },
+      "division_entropy": 0.002807194518129614,
       "host": "Human"
     },
     "NODE_0000035": {
       "country": "Brazil",
-      "division": "Rio Grande do Sul",
+      "division": "Sao Paulo",
+      "division_confidence": {
+        "Sao Paulo": 0.9999935990474869
+      },
+      "division_entropy": 8.301834141414653e-05,
       "host": "Human"
     },
     "NODE_0000036": {
       "country": "Brazil",
-      "division": "Rio Grande do Sul",
-      "host": "Human"
-    },
-    "NODE_0000038": {
-      "country": "Brazil",
-      "division": "Rio Grande do Sul",
+      "division": "Sao Paulo",
+      "division_confidence": {
+        "Minas Gerais": 0.014661589878083034,
+        "Sao Paulo": 0.9851277050110534
+      },
+      "division_entropy": 0.07871769645883317,
       "host": "Human"
     },
     "NODE_0000042": {
       "country": "Brazil",
-      "division": "Rio Grande do Sul",
-      "host": "Human"
-    },
-    "NODE_0000043": {
-      "country": "Brazil",
-      "division": "Rio Grande do Sul",
-      "host": "Human"
-    },
-    "NODE_0000044": {
-      "country": "Brazil",
-      "division": "Rio Grande do Sul",
-      "host": "Human"
-    },
-    "NODE_0000045": {
-      "country": "Brazil",
-      "division": "Rio Grande do Sul",
-      "host": "Human"
-    },
-    "NODE_0000046": {
-      "country": "Brazil",
-      "division": "Rio Grande do Sul",
-      "host": "Human"
-    },
-    "NODE_0000047": {
-      "country": "Brazil",
-      "division": "Rio Grande do Sul",
+      "division": "Sao Paulo",
+      "division_confidence": {
+        "Sao Paulo": 0.9999999986783418
+      },
+      "division_entropy": 2.940761603669509e-08,
       "host": "Human"
     },
     "NODE_0000049": {
       "country": "Brazil",
-      "division": "Rio Grande do Sul",
+      "division": "Sao Paulo",
+      "division_confidence": {
+        "Sao Paulo": 0.9999926141637782
+      },
+      "division_entropy": 0.00010350381121868026,
       "host": "Human"
     },
     "NODE_0000050": {
       "country": "Brazil",
-      "division": "Rio Grande do Sul",
+      "division": "Sao Paulo",
+      "division_confidence": {
+        "Sao Paulo": 0.9999999044456591
+      },
+      "division_entropy": 1.733889090522475e-06,
       "host": "Human"
     },
     "NODE_0000051": {
       "country": "Brazil",
       "division": "Rio Grande do Sul",
+      "division_confidence": {
+        "Rio Grande do Sul": 0.9999911475934397
+      },
+      "division_entropy": 0.00012090847217615565,
       "host": "Human"
     },
     "NODE_0000052": {
       "country": "Brazil",
-      "division": "Rio Grande do Sul",
+      "division": "Sao Paulo",
+      "division_confidence": {
+        "Sao Paulo": 0.9999926128916905
+      },
+      "division_entropy": 0.00010352001676416747,
       "host": "Human"
     },
     "NODE_0000053": {
       "country": "Brazil",
       "division": "Rio Grande do Sul",
+      "division_confidence": {
+        "Minas Gerais": 0.0013030693512486088,
+        "Rio Grande do Sul": 0.9980551100255473
+      },
+      "division_entropy": 0.015556789509004125,
       "host": "Human"
     },
     "NODE_0000054": {
       "country": "Brazil",
       "division": "Rio Grande do Sul",
+      "division_confidence": {
+        "Rio Grande do Sul": 0.9999585019156841
+      },
+      "division_entropy": 0.0004909992344192951,
       "host": "Human"
     },
     "NODE_0000055": {
       "country": "Brazil",
       "division": "Rio Grande do Sul",
+      "division_confidence": {
+        "Rio Grande do Sul": 0.9999907328713048
+      },
+      "division_entropy": 0.00012596317339901977,
       "host": "Human"
     },
     "NODE_0000056": {
       "country": "Brazil",
       "division": "Rio Grande do Sul",
+      "division_confidence": {
+        "Rio Grande do Sul": 0.9999904225137171
+      },
+      "division_entropy": 0.0001297783251186132,
       "host": "Human"
     },
     "NODE_0000057": {
       "country": "Brazil",
       "division": "Rio Grande do Sul",
+      "division_confidence": {
+        "Rio Grande do Sul": 0.999991281212867
+      },
+      "division_entropy": 0.00011925124671246384,
       "host": "Human"
     },
     "NODE_0000058": {
       "country": "Brazil",
       "division": "Rio Grande do Sul",
+      "division_confidence": {
+        "Rio Grande do Sul": 0.999991281212867
+      },
+      "division_entropy": 0.00011925124671246384,
       "host": "Human"
     },
     "NODE_0000059": {
       "country": "Brazil",
       "division": "Rio Grande do Sul",
+      "division_confidence": {
+        "Rio Grande do Sul": 0.9999598789092327
+      },
+      "division_entropy": 0.0004763263104345115,
       "host": "Human"
     },
     "NODE_0000060": {
       "country": "Brazil",
       "division": "Rio Grande do Sul",
+      "division_confidence": {
+        "Rio Grande do Sul": 0.9999998416445456
+      },
+      "division_entropy": 2.740341831228072e-06,
       "host": "Human"
     },
     "NODE_0000061": {
       "country": "Brazil",
       "division": "Rio Grande do Sul",
+      "division_confidence": {
+        "Rio Grande do Sul": 0.9999914352167674
+      },
+      "division_entropy": 0.00011734323787322218,
+      "host": "Human"
+    },
+    "NODE_0000062": {
+      "country": "Brazil",
+      "division": "Rio Grande do Sul",
+      "division_confidence": {
+        "Rio Grande do Sul": 0.9999911451445292
+      },
+      "division_entropy": 0.00012093842121684485,
       "host": "Human"
     },
     "NODE_0000063": {
       "country": "Brazil",
       "division": "Rio Grande do Sul",
+      "division_confidence": {
+        "Rio Grande do Sul": 0.9999914352167674
+      },
+      "division_entropy": 0.00011734323787322218,
       "host": "Human"
     },
     "NODE_0000064": {
       "country": "Brazil",
       "division": "Rio Grande do Sul",
+      "division_confidence": {
+        "Rio Grande do Sul": 0.9999998443166475
+      },
+      "division_entropy": 2.6972982829799277e-06,
       "host": "Human"
     },
     "NODE_0000065": {
       "country": "Brazil",
       "division": "Rio Grande do Sul",
+      "division_confidence": {
+        "Rio Grande do Sul": 0.9999911474009394
+      },
+      "division_entropy": 0.00012091079804401212,
       "host": "Human"
     },
     "NODE_0000066": {
       "country": "Brazil",
       "division": "Rio Grande do Sul",
-      "host": "Human"
-    },
-    "NODE_0000067": {
-      "country": "Brazil",
-      "division": "Rio Grande do Sul",
+      "division_confidence": {
+        "Rio Grande do Sul": 0.9999910038745435
+      },
+      "division_entropy": 0.00012268620192308304,
       "host": "Human"
     },
     "NODE_0000068": {
       "country": "Brazil",
       "division": "Rio Grande do Sul",
+      "division_confidence": {
+        "Rio Grande do Sul": 0.9999912915916424
+      },
+      "division_entropy": 0.00011912491149984841,
       "host": "Human"
     },
     "NODE_0000069": {
       "country": "Brazil",
       "division": "Rio Grande do Sul",
-      "host": "Human"
-    },
-    "NODE_0000070": {
-      "country": "Brazil",
-      "division": "Rio Grande do Sul",
+      "division_confidence": {
+        "Rio Grande do Sul": 0.9999912915929531
+      },
+      "division_entropy": 0.00011912486044211208,
       "host": "Human"
     },
     "NODE_0000071": {
       "country": "Brazil",
       "division": "Rio Grande do Sul",
+      "division_confidence": {
+        "Rio Grande do Sul": 0.9999912915436092
+      },
+      "division_entropy": 0.00011912545888056524,
       "host": "Human"
     },
     "NODE_0000072": {
       "country": "Brazil",
       "division": "Rio Grande do Sul",
+      "division_confidence": {
+        "Rio Grande do Sul": 0.9999998571133852
+      },
+      "division_entropy": 2.491149037377024e-06,
       "host": "Human"
     },
     "NODE_0000073": {
       "country": "Brazil",
       "division": "Rio Grande do Sul",
+      "division_confidence": {
+        "Rio Grande do Sul": 0.9999911501798884
+      },
+      "division_entropy": 0.00012087692699815888,
       "host": "Human"
     },
     "NODE_0000074": {
       "country": "Brazil",
       "division": "Rio Grande do Sul",
+      "division_confidence": {
+        "Rio Grande do Sul": 0.9999911451468432
+      },
+      "division_entropy": 0.0001209383578197077,
       "host": "Human"
     },
     "NODE_0000075": {
       "country": "Brazil",
       "division": "Rio Grande do Sul",
+      "division_confidence": {
+        "Rio Grande do Sul": 0.9999999999999999
+      },
+      "division_entropy": -9.99863365901586e-13,
       "host": "Human"
     },
     "NODE_0000076": {
       "country": "Brazil",
       "division": "Rio Grande do Sul",
+      "division_confidence": {
+        "Rio Grande do Sul": 0.9999998596054328
+      },
+      "division_entropy": 2.4507097619616757e-06,
       "host": "Human"
     },
     "NODE_0000077": {
       "country": "Brazil",
       "division": "Rio Grande do Sul",
+      "division_confidence": {
+        "Rio Grande do Sul": 0.9999911476389803
+      },
+      "division_entropy": 0.00012090795638022069,
       "host": "Human"
     },
     "NODE_0000078": {
       "country": "Brazil",
       "division": "Rio Grande do Sul",
+      "division_confidence": {
+        "Rio Grande do Sul": 0.9999998596054335
+      },
+      "division_entropy": 2.450709748327362e-06,
+      "host": "Human"
+    },
+    "NODE_0000079": {
+      "country": "Brazil",
+      "division": "Rio Grande do Sul",
+      "division_confidence": {
+        "Rio Grande do Sul": 0.9999911476839193
+      },
+      "division_entropy": 0.00012090741189763881,
+      "host": "Human"
+    },
+    "NODE_0000080": {
+      "country": "Brazil",
+      "division": "Rio Grande do Sul",
+      "division_confidence": {
+        "Rio Grande do Sul": 0.9999911476372363
+      },
+      "division_entropy": 0.00012090797743620047,
+      "host": "Human"
+    },
+    "NODE_0000081": {
+      "country": "Brazil",
+      "division": "Rio Grande do Sul",
+      "division_confidence": {
+        "Rio Grande do Sul": 0.9999911450536126
+      },
+      "division_entropy": 0.00012093948789088099,
+      "host": "Human"
+    },
+    "NODE_0000082": {
+      "country": "Brazil",
+      "division": "Bahia",
+      "division_confidence": {
+        "Bahia": 0.9941943621263419,
+        "Minas Gerais": 0.004422369715943661,
+        "Rio Grande do Sul": 0.0012584299786263299
+      },
+      "division_entropy": 0.03944862369712334,
       "host": "Human"
     },
     "NODE_0000083": {
       "country": "Brazil",
       "division": "Rio Grande do Sul",
+      "division_confidence": {
+        "Rio Grande do Sul": 0.9999911450979384
+      },
+      "division_entropy": 0.00012093898596496634,
       "host": "Human"
     },
     "NODE_0000084": {
       "country": "Brazil",
       "division": "Rio Grande do Sul",
+      "division_confidence": {
+        "Rio Grande do Sul": 0.9999910038736559
+      },
+      "division_entropy": 0.00012268621262340721,
+      "host": "Human"
+    },
+    "NODE_0000085": {
+      "country": "Brazil",
+      "division": "Bahia",
+      "division_confidence": {
+        "Bahia": 0.9999608191373823
+      },
+      "division_entropy": 0.0004649678810678387,
+      "host": "Human"
+    },
+    "NODE_0000086": {
+      "country": "Brazil",
+      "division": "Rio Grande do Sul",
+      "division_confidence": {
+        "Rio Grande do Sul": 0.9999998596513351
+      },
+      "division_entropy": 2.449970330270209e-06,
       "host": "Human"
     },
     "NODE_0000087": {
       "country": "Brazil",
       "division": "Rio Grande do Sul",
+      "division_confidence": {
+        "Rio Grande do Sul": 0.9999912915916258
+      },
+      "division_entropy": 0.00011912491169872649,
       "host": "Human"
     },
     "NODE_0000088": {
       "country": "Brazil",
       "division": "Rio Grande do Sul",
+      "division_confidence": {
+        "Rio Grande do Sul": 0.9999999974638838
+      },
+      "division_entropy": 5.376671287154538e-08,
       "host": "Human"
     },
     "NODE_0000089": {
       "country": "Brazil",
-      "division": "Rio Grande do Sul",
-      "host": "Human"
-    },
-    "NODE_0000090": {
-      "country": "Brazil",
-      "division": "Rio Grande do Sul",
+      "division": "Bahia",
+      "division_confidence": {
+        "Bahia": 0.9999986566627761
+      },
+      "division_entropy": 2.1588690356353884e-05,
       "host": "Human"
     },
     "NODE_0000091": {
       "country": "Brazil",
       "division": "Rio Grande do Sul",
+      "division_confidence": {
+        "Rio Grande do Sul": 0.9999912966267852
+      },
+      "division_entropy": 0.00011906332474161332,
       "host": "Human"
     },
     "NODE_0000092": {
       "country": "Brazil",
       "division": "Rio Grande do Sul",
+      "division_confidence": {
+        "Rio Grande do Sul": 0.9999912966727983
+      },
+      "division_entropy": 0.00011906276696006912,
       "host": "Human"
     },
     "NODE_0000093": {
       "country": "Brazil",
-      "division": "Rio Grande do Sul",
+      "division": "Bahia",
+      "division_confidence": {
+        "Bahia": 0.9999989050570448
+      },
+      "division_entropy": 1.7933031494483453e-05,
       "host": "Human"
     },
     "NODE_0000094": {
       "country": "Brazil",
-      "division": "Rio Grande do Sul",
+      "division": "Bahia",
+      "division_confidence": {
+        "Bahia": 0.9999989067259673
+      },
+      "division_entropy": 1.7908137975277225e-05,
       "host": "Human"
     },
     "NODE_0000095": {
       "country": "Brazil",
       "division": "Rio Grande do Sul",
+      "division_confidence": {
+        "Rio Grande do Sul": 0.9999912941317529
+      },
+      "division_entropy": 0.00011909384509331593,
       "host": "Human"
     },
     "NODE_0000096": {
       "country": "Brazil",
-      "division": "Rio Grande do Sul",
+      "division": "Bahia",
+      "division_confidence": {
+        "Bahia": 0.9999989130094223
+      },
+      "division_entropy": 1.781194430813351e-05,
       "host": "Human"
     },
     "NODE_0000097": {
       "country": "Brazil",
       "division": "Rio Grande do Sul",
+      "division_confidence": {
+        "Rio Grande do Sul": 0.9999998545287082
+      },
+      "division_entropy": 2.533031992340152e-06,
       "host": "Human"
     },
     "NODE_0000098": {
       "country": "Brazil",
-      "division": "Rio Grande do Sul",
+      "division": "Minas Gerais",
+      "division_confidence": {
+        "Minas Gerais": 0.9998929937116698
+      },
+      "division_entropy": 0.0011782800327152297,
       "host": "Human"
     },
     "NODE_0000099": {
       "country": "Brazil",
       "division": "Rio Grande do Sul",
+      "division_confidence": {
+        "Rio Grande do Sul": 0.9999914354523937
+      },
+      "division_entropy": 0.0001173403802674657,
       "host": "Human"
     },
     "NODE_0000100": {
       "country": "Brazil",
-      "division": "Rio Grande do Sul",
+      "division": "Minas Gerais",
+      "division_confidence": {
+        "Minas Gerais": 0.9999872873355178
+      },
+      "division_entropy": 0.0001725884942028497,
       "host": "Human"
     },
     "NODE_0000101": {
       "country": "Brazil",
       "division": "Rio Grande do Sul",
+      "division_confidence": {
+        "Rio Grande do Sul": 0.9999912966735983
+      },
+      "division_entropy": 0.00011906275739786854,
       "host": "Human"
     },
     "NODE_0000102": {
       "country": "Brazil",
-      "division": "Rio Grande do Sul",
+      "division": "Minas Gerais",
+      "division_confidence": {
+        "Minas Gerais": 0.9999882701910572
+      },
+      "division_entropy": 0.00015933468663009785,
       "host": "Human"
     },
     "NODE_0000103": {
       "country": "Brazil",
       "division": "Rio Grande do Sul",
+      "division_confidence": {
+        "Rio Grande do Sul": 0.9999998571600868
+      },
+      "division_entropy": 2.490397219871914e-06,
       "host": "Human"
     },
     "NODE_0000104": {
       "country": "Brazil",
+      "division": "Minas Gerais",
+      "division_confidence": {
+        "Minas Gerais": 0.9999884620260588
+      },
+      "division_entropy": 0.00015693718074696344,
+      "host": "Human"
+    },
+    "NODE_0000105": {
+      "country": "Brazil",
       "division": "Rio Grande do Sul",
+      "division_confidence": {
+        "Rio Grande do Sul": 0.9999914355000447
+      },
+      "division_entropy": 0.00011733980149014297,
+      "host": "Human"
+    },
+    "NODE_0000106": {
+      "country": "Brazil",
+      "division": "Minas Gerais",
+      "division_confidence": {
+        "Minas Gerais": 0.9724956950950919,
+        "Rio Grande do Sul": 0.0019437992868709647,
+        "Sao Paulo": 0.025010302659927604
+      },
+      "division_entropy": 0.13618128348340014,
       "host": "Human"
     },
     "NODE_0000107": {
       "country": "Brazil",
       "division": "Rio Grande do Sul",
+      "division_confidence": {
+        "Rio Grande do Sul": 0.9999810762230709
+      },
+      "division_entropy": 0.00024047106754749803,
       "host": "Human"
     },
     "NODE_0000108": {
       "country": "Brazil",
-      "division": "Rio Grande do Sul",
+      "division": "Santa Catarina",
+      "division_confidence": {
+        "Santa Catarina": 0.9999503626195613
+      },
+      "division_entropy": 0.000558444473856279,
       "host": "Human"
     },
     "NODE_0000109": {
       "country": "Brazil",
-      "division": "Rio Grande do Sul",
+      "division": "Minas Gerais",
+      "division_confidence": {
+        "Minas Gerais": 0.9988669462428865
+      },
+      "division_entropy": 0.009718481206127913,
       "host": "Human"
     },
     "NODE_0000110": {
       "country": "Brazil",
-      "division": "Rio Grande do Sul",
+      "division": "Minas Gerais",
+      "division_confidence": {
+        "Amazonas BR": 0.009008362429961848,
+        "Minas Gerais": 0.9901710108213823
+      },
+      "division_entropy": 0.058959475788354525,
       "host": "Human"
     },
-    "NODE_0000111": {
+    "NODE_0000112": {
       "country": "Brazil",
-      "division": "Rio Grande do Sul",
+      "division": "Minas Gerais",
+      "division_confidence": {
+        "Minas Gerais": 0.9999835951897503
+      },
+      "division_entropy": 0.000215172918992217,
       "host": "Human"
     },
     "NODE_0000113": {
       "country": "Brazil",
       "division": "Rio Grande do Sul",
+      "division_confidence": {
+        "Rio Grande do Sul": 0.9999834382482026
+      },
+      "division_entropy": 0.00021017444304279246,
+      "host": "Human"
+    },
+    "NODE_0000114": {
+      "country": "Brazil",
+      "division": "Rio Grande do Sul",
+      "division_confidence": {
+        "Rio Grande do Sul": 0.9999911493589525
+      },
+      "division_entropy": 0.00012083558545521968,
       "host": "Human"
     },
     "NODE_0000115": {
       "country": "Brazil",
       "division": "Rio Grande do Sul",
+      "division_confidence": {
+        "Rio Grande do Sul": 0.9996198417611966
+      },
+      "division_entropy": 0.0033869526344617396,
       "host": "Human"
     },
     "NODE_0000116": {
       "country": "Brazil",
-      "division": "Rio Grande do Sul",
+      "division": "Sao Paulo",
+      "division_confidence": {
+        "Sao Paulo": 0.9999924196172667
+      },
+      "division_entropy": 0.00010596704210572545,
       "host": "Human"
     },
     "NODE_0000117": {
       "country": "Brazil",
-      "division": "Rio Grande do Sul",
+      "division": "Sao Paulo",
+      "division_confidence": {
+        "Sao Paulo": 0.9999924179490005
+      },
+      "division_entropy": 0.00010602105283882451,
       "host": "Human"
     },
     "NODE_0000118": {
       "country": "Brazil",
-      "division": "Minas Gerais",
+      "division": "Sao Paulo",
+      "division_confidence": {
+        "Sao Paulo": 0.999992516108974
+      },
+      "division_entropy": 0.00010476259978120734,
       "host": "Human"
     },
     "NODE_0000119": {
       "country": "Brazil",
-      "division": "Bahia",
-      "host": "Human"
-    },
-    "NODE_0000120": {
-      "country": "Brazil",
-      "division": "Bahia",
-      "host": "Human"
-    },
-    "NODE_0000121": {
-      "country": "Brazil",
-      "division": "Bahia",
-      "host": "Human"
-    },
-    "NODE_0000122": {
-      "country": "Brazil",
-      "division": "Rio Grande do Sul",
+      "division": "Minas Gerais",
+      "division_confidence": {
+        "Minas Gerais": 0.9996934101311126
+      },
+      "division_entropy": 0.0029257660198244544,
       "host": "Human"
     },
     "NODE_0000123": {
       "country": "Brazil",
-      "division": "Minas Gerais",
+      "division": "Sao Paulo",
+      "division_confidence": {
+        "Sao Paulo": 0.9999925160933103
+      },
+      "division_entropy": 0.00010476280151981627,
       "host": "Human"
     },
     "NODE_0000124": {
       "country": "Brazil",
-      "division": "Rio Grande do Sul",
+      "division": "Sao Paulo",
+      "division_confidence": {
+        "Sao Paulo": 0.9999924180598746
+      },
+      "division_entropy": 0.00010601997562398525,
       "host": "Human"
     },
     "NODE_0000125": {
       "country": "Brazil",
-      "division": "Rio Grande do Sul",
+      "division": "Sao Paulo",
+      "division_confidence": {
+        "Sao Paulo": 0.999992418060136
+      },
+      "division_entropy": 0.00010601997232612944,
       "host": "Human"
     },
     "NODE_0000126": {
       "country": "Brazil",
-      "division": "Rio Grande do Sul",
-      "host": "Human"
-    },
-    "NODE_0000127": {
-      "country": "Brazil",
-      "division": "Rio Grande do Sul",
-      "host": "Human"
-    },
-    "NODE_0000128": {
-      "country": "Brazil",
-      "division": "Rio Grande do Sul",
-      "host": "Human"
-    },
-    "NODE_0000129": {
-      "country": "Brazil",
-      "division": "Rio Grande do Sul",
-      "host": "Human"
-    },
-    "NODE_0000130": {
-      "country": "Brazil",
-      "division": "Rio Grande do Sul",
+      "division": "Sao Paulo",
+      "division_confidence": {
+        "Sao Paulo": 0.9999925161119232
+      },
+      "division_entropy": 0.00010476256594954035,
       "host": "Human"
     },
     "NODE_0000131": {
       "country": "Brazil",
-      "division": "Bahia",
+      "division": "Rio Grande do Sul",
+      "division_confidence": {
+        "Rio Grande do Sul": 0.9999909926441609
+      },
+      "division_entropy": 0.0001228590376495555,
       "host": "Human"
     },
     "NODE_0000132": {
       "country": "Brazil",
-      "division": "Minas Gerais",
+      "division": "Rio Grande do Sul",
+      "division_confidence": {
+        "Rio Grande do Sul": 0.9999909987708507
+      },
+      "division_entropy": 0.00012274894825777428,
       "host": "Human"
     },
     "NODE_0000133": {
       "country": "Brazil",
-      "division": "Minas Gerais",
+      "division": "Rio Grande do Sul",
+      "division_confidence": {
+        "Rio Grande do Sul": 0.999991291502475
+      },
+      "division_entropy": 0.00011912600033856872,
       "host": "Human"
     },
     "NODE_0000134": {
       "country": "Brazil",
-      "division": "Minas Gerais",
+      "division": "Rio Grande do Sul",
+      "division_confidence": {
+        "Rio Grande do Sul": 0.9999911476431573
+      },
+      "division_entropy": 0.00012090791229871995,
       "host": "Human"
     },
     "NODE_0000135": {
       "country": "Brazil",
       "division": "Rio Grande do Sul",
-      "host": "Human"
-    },
-    "NODE_0000138": {
-      "country": "Brazil",
-      "division": "Minas Gerais",
+      "division_confidence": {
+        "Rio Grande do Sul": 0.9999999999990551
+      },
+      "division_entropy": 2.544894302163848e-11,
       "host": "Human"
     },
     "NODE_0000139": {
       "country": "Brazil",
-      "division": "Santa Catarina",
+      "division": "Rio Grande do Sul",
+      "division_confidence": {
+        "Rio Grande do Sul": 0.9999911502741514
+      },
+      "division_entropy": 0.00012087578506122379,
+      "host": "Human"
+    },
+    "NODE_0000140": {
+      "country": "Brazil",
+      "division": "Rio Grande do Sul",
+      "division_confidence": {
+        "Rio Grande do Sul": 0.9999912941327014
+      },
+      "division_entropy": 0.00011909383396299613,
+      "host": "Human"
+    },
+    "NODE_0000141": {
+      "country": "Brazil",
+      "division": "Rio Grande do Sul",
+      "division_confidence": {
+        "Rio Grande do Sul": 0.9999912966735983
+      },
+      "division_entropy": 0.00011906275739786854,
       "host": "Human"
     },
     "NODE_0000142": {
       "country": "Brazil",
-      "division": "Minas Gerais",
+      "division": "Rio Grande do Sul",
+      "division_confidence": {
+        "Rio Grande do Sul": 0.9999912966736622
+      },
+      "division_entropy": 0.00011906275652334989,
       "host": "Human"
     },
-    "NODE_0000146": {
+    "NODE_0000144": {
       "country": "Brazil",
       "division": "Rio Grande do Sul",
-      "host": "Human"
-    },
-    "NODE_0000147": {
-      "country": "Brazil",
-      "division": "Minas Gerais",
+      "division_confidence": {
+        "Rio Grande do Sul": 0.9999998596513351
+      },
+      "division_entropy": 2.449970330270209e-06,
       "host": "Human"
     },
     "NODE_0000148": {
       "country": "Brazil",
       "division": "Rio Grande do Sul",
+      "division_confidence": {
+        "Rio Grande do Sul": 0.9999914379912086
+      },
+      "division_entropy": 0.00011730931767694229,
       "host": "Human"
     },
     "NODE_0000149": {
       "country": "Brazil",
-      "division": "Sao Paulo",
+      "division": "Rio Grande do Sul",
+      "division_confidence": {
+        "Rio Grande do Sul": 0.999991294085336
+      },
+      "division_entropy": 0.00011909440905582705,
       "host": "Human"
     },
     "NODE_0000150": {
       "country": "Brazil",
-      "division": "Santa Catarina",
+      "division": "Rio Grande do Sul",
+      "division_confidence": {
+        "Rio Grande do Sul": 1.0
+      },
+      "division_entropy": -1.0000851322030674e-12,
       "host": "Human"
     },
     "NODE_0000151": {
       "country": "Brazil",
-      "division": "Sao Paulo",
+      "division": "Rio Grande do Sul",
+      "division_confidence": {
+        "Rio Grande do Sul": 0.9999998570658081
+      },
+      "division_entropy": 2.491914877106345e-06,
       "host": "Human"
     },
     "NODE_0000152": {
       "country": "Brazil",
-      "division": "Sao Paulo",
+      "division": "Rio Grande do Sul",
+      "division_confidence": {
+        "Rio Grande do Sul": 0.999991147680209
+      },
+      "division_entropy": 0.00012090745628956702,
       "host": "Human"
     },
     "NODE_0000153": {
       "country": "Brazil",
-      "division": "Sao Paulo",
+      "division": "Rio Grande do Sul",
+      "division_confidence": {
+        "Rio Grande do Sul": 0.9999912941316884
+      },
+      "division_entropy": 0.00011909384597824994,
       "host": "Human"
     },
     "NODE_0000154": {
       "country": "Brazil",
-      "division": "Minas Gerais",
+      "division": "Rio Grande do Sul",
+      "division_confidence": {
+        "Rio Grande do Sul": 0.9999911502303545
+      },
+      "division_entropy": 0.00012087627952007499,
       "host": "Human"
     },
     "NODE_0000155": {
       "country": "Brazil",
-      "division": "Minas Gerais",
+      "division": "Rio Grande do Sul",
+      "division_confidence": {
+        "Rio Grande do Sul": 0.9999912915916258
+      },
+      "division_entropy": 0.00011912491169872649,
       "host": "Human"
     },
     "NODE_0000156": {
       "country": "Brazil",
-      "division": "Sao Paulo",
+      "division": "Rio Grande do Sul",
+      "division_confidence": {
+        "Rio Grande do Sul": 0.999991147686486
+      },
+      "division_entropy": 0.0001209073809101388,
       "host": "Human"
     },
     "NODE_0000157": {
       "country": "Brazil",
-      "division": "Sao Paulo",
+      "division": "Rio Grande do Sul",
+      "division_confidence": {
+        "Rio Grande do Sul": 0.9999998544306726
+      },
+      "division_entropy": 2.5346075239481332e-06,
       "host": "Human"
     },
     "NODE_0000158": {
       "country": "Brazil",
       "division": "Rio Grande do Sul",
+      "division_confidence": {
+        "Rio Grande do Sul": 0.9999998545258509
+      },
+      "division_entropy": 2.533077295216253e-06,
       "host": "Human"
     },
     "NODE_0000159": {
       "country": "Brazil",
       "division": "Rio Grande do Sul",
+      "division_confidence": {
+        "Rio Grande do Sul": 0.9999911477331885
+      },
+      "division_entropy": 0.00012090681480604254,
       "host": "Human"
     },
     "NODE_0000160": {
       "country": "Brazil",
       "division": "Rio Grande do Sul",
+      "division_confidence": {
+        "Rio Grande do Sul": 0.999991435452339
+      },
+      "division_entropy": 0.00011734038092443513,
       "host": "Human"
     },
     "NODE_0000161": {
       "country": "Brazil",
-      "division": "Sao Paulo",
+      "division": "Rio Grande do Sul",
+      "division_confidence": {
+        "Rio Grande do Sul": 0.9999912915936833
+      },
+      "division_entropy": 0.00011912485092571611,
       "host": "Human"
     },
     "NODE_0000162": {
       "country": "Brazil",
-      "division": "Sao Paulo",
+      "division": "Rio Grande do Sul",
+      "division_confidence": {
+        "Rio Grande do Sul": 0.999991152814149
+      },
+      "division_entropy": 0.00012084476576164504,
       "host": "Human"
     },
     "NODE_0000163": {
       "country": "Brazil",
-      "division": "Sao Paulo",
+      "division": "Rio Grande do Sul",
+      "division_confidence": {
+        "Rio Grande do Sul": 0.9999912941784256
+      },
+      "division_entropy": 0.00011909327878956387,
       "host": "Human"
     },
-    "NODE_0000169": {
+    "NODE_0000165": {
       "country": "Brazil",
       "division": "Rio Grande do Sul",
+      "division_confidence": {
+        "Rio Grande do Sul": 0.9999912915918933
+      },
+      "division_entropy": 0.00011912487255169543,
+      "host": "Human"
+    },
+    "NODE_0000166": {
+      "country": "Brazil",
+      "division": "Rio Grande do Sul",
+      "division_confidence": {
+        "Rio Grande do Sul": 0.9999911528141152
+      },
+      "division_entropy": 0.00012084476617006219,
+      "host": "Human"
+    },
+    "NODE_0000167": {
+      "country": "Brazil",
+      "division": "Rio Grande do Sul",
+      "division_confidence": {
+        "Rio Grande do Sul": 0.9999912941784249
+      },
+      "division_entropy": 0.00011909327879723488,
+      "host": "Human"
+    },
+    "NODE_0000168": {
+      "country": "Brazil",
+      "division": "Rio Grande do Sul",
+      "division_confidence": {
+        "Rio Grande do Sul": 0.9999912966736622
+      },
+      "division_entropy": 0.00011906275652334989,
       "host": "Human"
     },
     "NODE_0000170": {
       "country": "Brazil",
       "division": "Rio Grande do Sul",
-      "host": "Human"
-    },
-    "NODE_0000171": {
-      "country": "Brazil",
-      "division": "Sao Paulo",
-      "host": "Human"
-    },
-    "NODE_0000172": {
-      "country": "Brazil",
-      "division": "Rio Grande do Sul",
+      "division_confidence": {
+        "Rio Grande do Sul": 0.9999912915916424
+      },
+      "division_entropy": 0.00011912491149984841,
       "host": "Human"
     },
     "NODE_0000173": {
       "country": "Brazil",
       "division": "Rio Grande do Sul",
-      "host": "Human"
-    },
-    "NODE_0000174": {
-      "country": "Brazil",
-      "division": "Rio Grande do Sul",
+      "division_confidence": {
+        "Rio Grande do Sul": 0.999991294084247
+      },
+      "division_entropy": 0.00011909442181358841,
       "host": "Human"
     },
     "NODE_0000175": {
       "country": "Brazil",
-      "division": "Sao Paulo",
-      "host": "Human"
-    },
-    "NODE_0000176": {
-      "country": "Brazil",
-      "division": "Sao Paulo",
-      "host": "Human"
-    },
-    "NODE_0000177": {
-      "country": "Brazil",
       "division": "Rio Grande do Sul",
+      "division_confidence": {
+        "Rio Grande do Sul": 0.9999998570658413
+      },
+      "division_entropy": 2.4919143470211253e-06,
       "host": "Human"
     },
     "NODE_0000178": {
       "country": "Brazil",
-      "division": "Sao Paulo",
-      "host": "Human"
-    },
-    "NODE_0000179": {
-      "country": "Brazil",
       "division": "Rio Grande do Sul",
-      "host": "Human"
-    },
-    "NODE_0000180": {
-      "country": "Brazil",
-      "division": "Rio Grande do Sul",
-      "host": "Human"
-    },
-    "NODE_0000181": {
-      "country": "Brazil",
-      "division": "Rio Grande do Sul",
-      "host": "Human"
-    },
-    "NODE_0000182": {
-      "country": "Brazil",
-      "division": "Rio Grande do Sul",
-      "host": "Human"
-    },
-    "NODE_0000183": {
-      "country": "Brazil",
-      "division": "Rio Grande do Sul",
+      "division_confidence": {
+        "Rio Grande do Sul": 0.9999914379912086
+      },
+      "division_entropy": 0.00011730931767694229,
       "host": "Human"
     },
     "NODE_0000184": {
       "country": "Brazil",
       "division": "Rio Grande do Sul",
-      "host": "Human"
-    },
-    "NODE_0000185": {
-      "country": "Brazil",
-      "division": "Rio Grande do Sul",
-      "host": "Human"
-    },
-    "NODE_0000186": {
-      "country": "Brazil",
-      "division": "Rio Grande do Sul",
-      "host": "Human"
-    },
-    "NODE_0000187": {
-      "country": "Brazil",
-      "division": "Bahia",
+      "division_confidence": {
+        "Rio Grande do Sul": 0.9999914379912086
+      },
+      "division_entropy": 0.00011730931767694229,
       "host": "Human"
     },
     "NODE_0000188": {
       "country": "Brazil",
       "division": "Rio Grande do Sul",
-      "host": "Human"
-    },
-    "NODE_0000189": {
-      "country": "Brazil",
-      "division": "Rio Grande do Sul",
-      "host": "Human"
-    },
-    "NODE_0000190": {
-      "country": "Brazil",
-      "division": "Rio Grande do Sul",
-      "host": "Human"
-    },
-    "NODE_0000191": {
-      "country": "Brazil",
-      "division": "Rio Grande do Sul",
-      "host": "Human"
-    },
-    "NODE_0000192": {
-      "country": "Brazil",
-      "division": "Rio Grande do Sul",
+      "division_confidence": {
+        "Rio Grande do Sul": 0.9999998596513351
+      },
+      "division_entropy": 2.449970330270209e-06,
       "host": "Human"
     },
     "NODE_0000193": {
       "country": "Brazil",
       "division": "Rio Grande do Sul",
+      "division_confidence": {
+        "Rio Grande do Sul": 0.9999912966735983
+      },
+      "division_entropy": 0.00011906275739786854,
       "host": "Human"
     },
     "NODE_0000194": {
       "country": "Brazil",
       "division": "Rio Grande do Sul",
+      "division_confidence": {
+        "Rio Grande do Sul": 0.9999912966736622
+      },
+      "division_entropy": 0.00011906275652334989,
       "host": "Human"
     },
-    "NODE_0000195": {
+    "NODE_0000196": {
       "country": "Brazil",
-      "division": "Bahia",
+      "division": "Rio Grande do Sul",
+      "division_confidence": {
+        "Rio Grande do Sul": 0.9999998570657387
+      },
+      "division_entropy": 2.4919155484946214e-06,
       "host": "Human"
     },
     "NODE_0000198": {
       "country": "Brazil",
       "division": "Rio Grande do Sul",
-      "host": "Human"
-    },
-    "NODE_0000199": {
-      "country": "Brazil",
-      "division": "Rio Grande do Sul",
+      "division_confidence": {
+        "Rio Grande do Sul": 0.9999998571124231
+      },
+      "division_entropy": 2.491164021054844e-06,
       "host": "Human"
     },
     "NODE_0000200": {
       "country": "Brazil",
       "division": "Rio Grande do Sul",
+      "division_confidence": {
+        "Rio Grande do Sul": 0.9999914354991635
+      },
+      "division_entropy": 0.00011733981214935078,
       "host": "Human"
     },
-    "NODE_0000201": {
+    "NODE_0000202": {
       "country": "Brazil",
       "division": "Rio Grande do Sul",
+      "division_confidence": {
+        "Rio Grande do Sul": 0.9999911503215572
+      },
+      "division_entropy": 0.00012087521055414417,
       "host": "Human"
     },
     "NODE_0000203": {
       "country": "Brazil",
       "division": "Rio Grande do Sul",
+      "division_confidence": {
+        "Rio Grande do Sul": 0.9999912941335727
+      },
+      "division_entropy": 0.0001190938234286019,
+      "host": "Human"
+    },
+    "NODE_0000204": {
+      "country": "Brazil",
+      "division": "Rio Grande do Sul",
+      "division_confidence": {
+        "Rio Grande do Sul": 0.9999911503216216
+      },
+      "division_entropy": 0.00012087520967022467,
+      "host": "Human"
+    },
+    "NODE_0000205": {
+      "country": "Brazil",
+      "division": "Rio Grande do Sul",
+      "division_confidence": {
+        "Rio Grande do Sul": 0.9999912941335732
+      },
+      "division_entropy": 0.00011909382341829044,
       "host": "Human"
     },
     "NODE_0000206": {
       "country": "Brazil",
       "division": "Rio Grande do Sul",
-      "host": "Human"
-    },
-    "NODE_0000207": {
-      "country": "Brazil",
-      "division": "Rio Grande do Sul",
-      "host": "Human"
-    },
-    "NODE_0000208": {
-      "country": "Brazil",
-      "division": "Rio Grande do Sul",
+      "division_confidence": {
+        "Rio Grande do Sul": 0.9999999999990912
+      },
+      "division_entropy": 2.4455840670084937e-11,
       "host": "Human"
     },
     "NODE_0000209": {
       "country": "Brazil",
-      "division": "Minas Gerais",
+      "division": "Rio Grande do Sul",
+      "division_confidence": {
+        "Rio Grande do Sul": 0.9999912966735983
+      },
+      "division_entropy": 0.00011906275739786854,
       "host": "Human"
     },
     "NODE_0000210": {
       "country": "Brazil",
       "division": "Rio Grande do Sul",
-      "host": "Human"
-    },
-    "NODE_0000211": {
-      "country": "Brazil",
-      "division": "Rio Grande do Sul",
-      "host": "Human"
-    },
-    "NODE_0000212": {
-      "country": "Brazil",
-      "division": "Sao Paulo",
+      "division_confidence": {
+        "Rio Grande do Sul": 0.9999912966736622
+      },
+      "division_entropy": 0.00011906275652334989,
       "host": "Human"
     },
     "NODE_0000213": {
       "country": "Brazil",
-      "division": "Rio de Janeiro",
+      "division": "Rio Grande do Sul",
+      "division_confidence": {
+        "Rio Grande do Sul": 0.9999912966735983
+      },
+      "division_entropy": 0.00011906275739786854,
       "host": "Human"
     },
-    "NODE_0000215": {
+    "NODE_0000214": {
       "country": "Brazil",
       "division": "Rio Grande do Sul",
-      "host": "Human"
-    },
-    "NODE_0000218": {
-      "country": "Brazil",
-      "division": "Rio Grande do Sul",
-      "host": "Human"
-    },
-    "NODE_0000222": {
-      "country": "Brazil",
-      "division": "Rio Grande do Sul",
-      "host": "Human"
-    },
-    "NODE_0000224": {
-      "country": "Brazil",
-      "division": "Rio Grande do Sul",
-      "host": "Human"
-    },
-    "NODE_0000227": {
-      "country": "Brazil",
-      "division": "Rio Grande do Sul",
-      "host": "Human"
-    },
-    "NODE_0000228": {
-      "country": "Brazil",
-      "division": "Rio Grande do Sul",
-      "host": "Human"
-    },
-    "NODE_0000229": {
-      "country": "Brazil",
-      "division": "Sao Paulo",
-      "host": "Human"
-    },
-    "NODE_0000230": {
-      "country": "Brazil",
-      "division": "Rio Grande do Sul",
-      "host": "Human"
-    },
-    "NODE_0000233": {
-      "country": "Brazil",
-      "division": "Rio Grande do Sul",
-      "host": "Human"
-    },
-    "NODE_0000235": {
-      "country": "Brazil",
-      "division": "Rio Grande do Sul",
-      "host": "Human"
-    },
-    "NODE_0000237": {
-      "country": "Brazil",
-      "division": "Rio Grande do Sul",
-      "host": "Human"
-    },
-    "NODE_0000240": {
-      "country": "Brazil",
-      "division": "Rio Grande do Sul",
-      "host": "Human"
-    },
-    "NODE_0000241": {
-      "country": "Brazil",
-      "division": "Rio Grande do Sul",
-      "host": "Human"
-    },
-    "NODE_0000242": {
-      "country": "Brazil",
-      "division": "Rio Grande do Sul",
-      "host": "Human"
-    },
-    "NODE_0000244": {
-      "country": "Brazil",
-      "division": "Rio Grande do Sul",
-      "host": "Human"
-    },
-    "NODE_0000245": {
-      "country": "Brazil",
-      "division": "Rio Grande do Sul",
-      "host": "Human"
-    },
-    "NODE_0000246": {
-      "country": "Brazil",
-      "division": "Rio Grande do Sul",
-      "host": "Human"
-    },
-    "NODE_0000247": {
-      "country": "Brazil",
-      "division": "Rio Grande do Sul",
-      "host": "Human"
-    },
-    "NODE_0000249": {
-      "country": "Brazil",
-      "division": "Rio Grande do Sul",
-      "host": "Human"
-    },
-    "NODE_0000251": {
-      "country": "Brazil",
-      "division": "Rio Grande do Sul",
-      "host": "Human"
-    },
-    "NODE_0000252": {
-      "country": "Brazil",
-      "division": "Rio Grande do Sul",
-      "host": "Human"
-    },
-    "NODE_0000255": {
-      "country": "Brazil",
-      "division": "Rio Grande do Sul",
-      "host": "Human"
-    },
-    "NODE_0000261": {
-      "country": "Brazil",
-      "division": "Rio Grande do Sul",
-      "host": "Human"
-    },
-    "NODE_0000262": {
-      "country": "Brazil",
-      "division": "Rio Grande do Sul",
-      "host": "Human"
-    },
-    "NODE_0000275": {
-      "country": "Brazil",
-      "division": "Rio Grande do Sul",
-      "host": "Human"
-    },
-    "NODE_0000277": {
-      "country": "Brazil",
-      "division": "Rio Grande do Sul",
-      "host": "Human"
-    },
-    "NODE_0000281": {
-      "country": "Brazil",
-      "division": "Rio Grande do Sul",
-      "host": "Human"
-    },
-    "NODE_0000282": {
-      "country": "Brazil",
-      "division": "Rio Grande do Sul",
-      "host": "Human"
-    },
-    "NODE_0000285": {
-      "country": "Brazil",
-      "division": "Rio Grande do Sul",
+      "division_confidence": {
+        "Rio Grande do Sul": 0.9999912966736622
+      },
+      "division_entropy": 0.00011906275652334989,
       "host": "Human"
     },
     "hCoV-19/Brazil/AM-FIOCRUZ-ILMD2204565/2022": {
       "country": "Brazil",
-      "division": "Amazonas",
+      "division": "Amazonas BR",
+      "division_confidence": {
+        "Amazonas BR": 1.0
+      },
+      "division_entropy": -1.000088900581841e-12,
       "host": "Human"
     },
     "hCoV-19/Brazil/BA-FIOCRUZ-PVM100847/2022": {
       "country": "Brazil",
       "division": "Bahia",
+      "division_confidence": {
+        "Bahia": 1.0
+      },
+      "division_entropy": -1.000088900581841e-12,
       "host": "Human"
     },
     "hCoV-19/Brazil/BA-FIOCRUZ-PVM101209/2022": {
       "country": "Brazil",
       "division": "Bahia",
+      "division_confidence": {
+        "Bahia": 1.0
+      },
+      "division_entropy": -1.000088900581841e-12,
       "host": "Human"
     },
     "hCoV-19/Brazil/BA-FIOCRUZ-PVM101246/2022": {
       "country": "Brazil",
       "division": "Bahia",
+      "division_confidence": {
+        "Bahia": 1.0
+      },
+      "division_entropy": -1.000088900581841e-12,
       "host": "Human"
     },
     "hCoV-19/Brazil/BA-FIOCRUZ-PVM101367/2022": {
       "country": "Brazil",
       "division": "Bahia",
+      "division_confidence": {
+        "Bahia": 0.9999999999999999
+      },
+      "division_entropy": -9.99866855976916e-13,
       "host": "Human"
     },
     "hCoV-19/Brazil/BA-FIOCRUZ-PVM101403/2022": {
       "country": "Brazil",
       "division": "Bahia",
+      "division_confidence": {
+        "Bahia": 1.0
+      },
+      "division_entropy": -1.000088900581841e-12,
       "host": "Human"
     },
     "hCoV-19/Brazil/BA-FIOCRUZ-PVM102392/2022": {
       "country": "Brazil",
       "division": "Bahia",
+      "division_confidence": {
+        "Bahia": 1.0
+      },
+      "division_entropy": -1.000088900581841e-12,
       "host": "Human"
     },
     "hCoV-19/Brazil/BA-FIOCRUZ-PVM102395/2022": {
       "country": "Brazil",
       "division": "Bahia",
+      "division_confidence": {
+        "Bahia": 1.0
+      },
+      "division_entropy": -1.000088900581841e-12,
       "host": "Human"
     },
     "hCoV-19/Brazil/MG-FIOCRUZ-3033/2022": {
       "country": "Brazil",
       "division": "Minas Gerais",
+      "division_confidence": {
+        "Minas Gerais": 0.9999999999999999
+      },
+      "division_entropy": -9.99866855976916e-13,
       "host": "Human"
     },
     "hCoV-19/Brazil/MG-FIOCRUZ-3041/2022": {
       "country": "Brazil",
       "division": "Minas Gerais",
+      "division_confidence": {
+        "Minas Gerais": 1.0
+      },
+      "division_entropy": -1.000088900581841e-12,
       "host": "Human"
     },
     "hCoV-19/Brazil/MG-FIOCRUZ-3070/2022": {
       "country": "Brazil",
       "division": "Minas Gerais",
+      "division_confidence": {
+        "Minas Gerais": 1.0
+      },
+      "division_entropy": -1.000088900581841e-12,
       "host": "Human"
     },
     "hCoV-19/Brazil/MG-FIOCRUZ-3091/2022": {
       "country": "Brazil",
       "division": "Minas Gerais",
+      "division_confidence": {
+        "Minas Gerais": 1.0
+      },
+      "division_entropy": -1.000088900581841e-12,
       "host": "Human"
     },
     "hCoV-19/Brazil/MG-FIOCRUZ-3147/2022": {
       "country": "Brazil",
       "division": "Minas Gerais",
+      "division_confidence": {
+        "Minas Gerais": 1.0
+      },
+      "division_entropy": -1.000088900581841e-12,
       "host": "Human"
     },
     "hCoV-19/Brazil/MG-FIOCRUZ-3153/2022": {
       "country": "Brazil",
       "division": "Minas Gerais",
+      "division_confidence": {
+        "Minas Gerais": 1.0
+      },
+      "division_entropy": -1.000088900581841e-12,
       "host": "Human"
     },
     "hCoV-19/Brazil/MG-FIOCRUZ-3217/2022": {
       "country": "Brazil",
       "division": "Minas Gerais",
+      "division_confidence": {
+        "Minas Gerais": 1.0
+      },
+      "division_entropy": -1.000088900581841e-12,
       "host": "Human"
     },
     "hCoV-19/Brazil/MG-FIOCRUZ-3219/2022": {
       "country": "Brazil",
       "division": "Minas Gerais",
+      "division_confidence": {
+        "Minas Gerais": 1.0
+      },
+      "division_entropy": -1.000088900581841e-12,
       "host": "Human"
     },
     "hCoV-19/Brazil/MG-FIOCRUZ-4437/2022": {
       "country": "Brazil",
       "division": "Minas Gerais",
+      "division_confidence": {
+        "Minas Gerais": 1.0
+      },
+      "division_entropy": -1.000088900581841e-12,
       "host": "Human"
     },
     "hCoV-19/Brazil/MG-FUNED-311296087/2022": {
       "country": "Brazil",
       "division": "Minas Gerais",
+      "division_confidence": {
+        "Minas Gerais": 1.0
+      },
+      "division_entropy": -1.000088900581841e-12,
       "host": "Human"
     },
     "hCoV-19/Brazil/MG-LBI-2864/2022": {
       "country": "Brazil",
       "division": "Minas Gerais",
+      "division_confidence": {
+        "Minas Gerais": 1.0
+      },
+      "division_entropy": -1.000088900581841e-12,
       "host": "Human"
     },
     "hCoV-19/Brazil/MG-LBI-3306/2022": {
       "country": "Brazil",
       "division": "Minas Gerais",
+      "division_confidence": {
+        "Minas Gerais": 1.0
+      },
+      "division_entropy": -1.000088900581841e-12,
       "host": "Human"
     },
     "hCoV-19/Brazil/MG-LBI-615/2022": {
       "country": "Brazil",
       "division": "Minas Gerais",
+      "division_confidence": {
+        "Minas Gerais": 1.0
+      },
+      "division_entropy": -1.000088900581841e-12,
       "host": "Human"
     },
     "hCoV-19/Brazil/MG-LBI1966/2022": {
       "country": "Brazil",
       "division": "Minas Gerais",
+      "division_confidence": {
+        "Minas Gerais": 1.0
+      },
+      "division_entropy": -1.000088900581841e-12,
       "host": "Human"
     },
     "hCoV-19/Brazil/MG-LBI_714/2022": {
       "country": "Brazil",
       "division": "Minas Gerais",
+      "division_confidence": {
+        "Minas Gerais": 1.0
+      },
+      "division_entropy": -1.000088900581841e-12,
       "host": "Human"
     },
     "hCoV-19/Brazil/MG-LBI_77/2022": {
       "country": "Brazil",
       "division": "Minas Gerais",
+      "division_confidence": {
+        "Minas Gerais": 1.0
+      },
+      "division_entropy": -1.000088900581841e-12,
       "host": "Human"
     },
     "hCoV-19/Brazil/MG-LBI_78/2022": {
       "country": "Brazil",
       "division": "Minas Gerais",
+      "division_confidence": {
+        "Minas Gerais": 1.0
+      },
+      "division_entropy": -1.000088900581841e-12,
       "host": "Human"
     },
     "hCoV-19/Brazil/RJ-FIOCRUZ-4752/2022": {
       "country": "Brazil",
       "division": "Rio de Janeiro",
+      "division_confidence": {
+        "Rio de Janeiro": 1.0
+      },
+      "division_entropy": -1.000088900581841e-12,
       "host": "Human"
     },
     "hCoV-19/Brazil/RJ-LNN08776/2022": {
       "country": "Brazil",
       "division": "Rio de Janeiro",
+      "division_confidence": {
+        "Rio de Janeiro": 1.0
+      },
+      "division_entropy": -1.000088900581841e-12,
       "host": "Human"
     },
     "hCoV-19/Brazil/RJ-LVM-67620/2022": {
       "country": "Brazil",
       "division": "Rio de Janeiro",
+      "division_confidence": {
+        "Rio de Janeiro": 1.0
+      },
+      "division_entropy": -1.000088900581841e-12,
       "host": "Human"
     },
     "hCoV-19/Brazil/RJ-LVM-67709/2022": {
       "country": "Brazil",
       "division": "Rio de Janeiro",
+      "division_confidence": {
+        "Rio de Janeiro": 1.0
+      },
+      "division_entropy": -1.000088900581841e-12,
       "host": "Human"
     },
     "hCoV-19/Brazil/RJ-NVBS18786GENOV701872026272/2022": {
       "country": "Brazil",
       "division": "Rio de Janeiro",
+      "division_confidence": {
+        "Rio de Janeiro": 1.0
+      },
+      "division_entropy": -1.000088900581841e-12,
       "host": "Human"
     },
     "hCoV-19/Brazil/RS-050-66438-433/2022": {
       "country": "Brazil",
       "division": "Rio Grande do Sul",
+      "division_confidence": {
+        "Rio Grande do Sul": 1.0
+      },
+      "division_entropy": -1.000088900581841e-12,
       "host": "Human"
     },
     "hCoV-19/Brazil/RS-050-66447-45/2022": {
       "country": "Brazil",
       "division": "Rio Grande do Sul",
+      "division_confidence": {
+        "Rio Grande do Sul": 0.9999999999999999
+      },
+      "division_entropy": -9.99866855976916e-13,
       "host": "Human"
     },
     "hCoV-19/Brazil/RS-062-66442-723/2022": {
       "country": "Brazil",
       "division": "Rio Grande do Sul",
+      "division_confidence": {
+        "Rio Grande do Sul": 1.0
+      },
+      "division_entropy": -1.000088900581841e-12,
       "host": "Human"
     },
     "hCoV-19/Brazil/RS-1077182-01/2022": {
       "country": "Brazil",
       "division": "Rio Grande do Sul",
+      "division_confidence": {
+        "Rio Grande do Sul": 0.9999999999999999
+      },
+      "division_entropy": -9.99866855976916e-13,
       "host": "Human"
     },
     "hCoV-19/Brazil/RS-120-66439-319/2022": {
       "country": "Brazil",
       "division": "Rio Grande do Sul",
-      "host": "Human"
-    },
-    "hCoV-19/Brazil/RS-210-66445-773/2022": {
-      "country": "Brazil",
-      "division": "Rio Grande do Sul",
+      "division_confidence": {
+        "Rio Grande do Sul": 1.0
+      },
+      "division_entropy": -1.000088900581841e-12,
       "host": "Human"
     },
     "hCoV-19/Brazil/RS-210-66457-193/2022": {
       "country": "Brazil",
       "division": "Rio Grande do Sul",
+      "division_confidence": {
+        "Rio Grande do Sul": 1.0
+      },
+      "division_entropy": -1.000088900581841e-12,
       "host": "Human"
     },
     "hCoV-19/Brazil/RS-211-66444-614/2022": {
       "country": "Brazil",
       "division": "Rio Grande do Sul",
-      "host": "Human"
-    },
-    "hCoV-19/Brazil/RS-211-66448-686/2022": {
-      "country": "Brazil",
-      "division": "Rio Grande do Sul",
+      "division_confidence": {
+        "Rio Grande do Sul": 1.0
+      },
+      "division_entropy": -1.000088900581841e-12,
       "host": "Human"
     },
     "hCoV-19/Brazil/RS-211-66458-793/2022": {
       "country": "Brazil",
       "division": "Rio Grande do Sul",
-      "host": "Human"
-    },
-    "hCoV-19/Brazil/RS-311-66464-621/2022": {
-      "country": "Brazil",
-      "division": "Rio Grande do Sul",
+      "division_confidence": {
+        "Rio Grande do Sul": 1.0
+      },
+      "division_entropy": -1.000088900581841e-12,
       "host": "Human"
     },
     "hCoV-19/Brazil/RS-315-66440-108/2022": {
       "country": "Brazil",
       "division": "Rio Grande do Sul",
+      "division_confidence": {
+        "Rio Grande do Sul": 1.0
+      },
+      "division_entropy": -1.000088900581841e-12,
       "host": "Human"
     },
     "hCoV-19/Brazil/RS-315-66440-195/2022": {
       "country": "Brazil",
       "division": "Rio Grande do Sul",
-      "host": "Human"
-    },
-    "hCoV-19/Brazil/RS-315-66449-850/2022": {
-      "country": "Brazil",
-      "division": "Rio Grande do Sul",
+      "division_confidence": {
+        "Rio Grande do Sul": 1.0
+      },
+      "division_entropy": -1.000088900581841e-12,
       "host": "Human"
     },
     "hCoV-19/Brazil/RS-315-66453-361/2022": {
       "country": "Brazil",
       "division": "Rio Grande do Sul",
+      "division_confidence": {
+        "Rio Grande do Sul": 1.0
+      },
+      "division_entropy": -1.000088900581841e-12,
       "host": "Human"
     },
     "hCoV-19/Brazil/RS-315-66456-781/2022": {
       "country": "Brazil",
       "division": "Rio Grande do Sul",
-      "host": "Human"
-    },
-    "hCoV-19/Brazil/RS-315-66462-531/2022": {
-      "country": "Brazil",
-      "division": "Rio Grande do Sul",
+      "division_confidence": {
+        "Rio Grande do Sul": 1.0
+      },
+      "division_entropy": -1.000088900581841e-12,
       "host": "Human"
     },
     "hCoV-19/Brazil/RS-315-66468-143/2022": {
       "country": "Brazil",
       "division": "Rio Grande do Sul",
+      "division_confidence": {
+        "Rio Grande do Sul": 1.0
+      },
+      "division_entropy": -1.000088900581841e-12,
       "host": "Human"
     },
     "hCoV-19/Brazil/RS-711/2022": {
       "country": "Brazil",
       "division": "Rio Grande do Sul",
+      "division_confidence": {
+        "Rio Grande do Sul": 1.0
+      },
+      "division_entropy": -1.000088900581841e-12,
       "host": "Human"
     },
     "hCoV-19/Brazil/RS-CoV-0004/2022": {
       "country": "Brazil",
       "division": "Rio Grande do Sul",
+      "division_confidence": {
+        "Rio Grande do Sul": 1.0
+      },
+      "division_entropy": -1.000088900581841e-12,
       "host": "Human"
     },
     "hCoV-19/Brazil/RS-CoV-0024/2022": {
       "country": "Brazil",
       "division": "Rio Grande do Sul",
+      "division_confidence": {
+        "Rio Grande do Sul": 1.0
+      },
+      "division_entropy": -1.000088900581841e-12,
       "host": "Human"
     },
     "hCoV-19/Brazil/RS-CoV-0025/2022": {
       "country": "Brazil",
       "division": "Rio Grande do Sul",
-      "host": "Human"
-    },
-    "hCoV-19/Brazil/RS-CoV-0038/2022": {
-      "country": "Brazil",
-      "division": "Rio Grande do Sul",
+      "division_confidence": {
+        "Rio Grande do Sul": 1.0
+      },
+      "division_entropy": -1.000088900581841e-12,
       "host": "Human"
     },
     "hCoV-19/Brazil/RS-CoV-0039/2022": {
       "country": "Brazil",
       "division": "Rio Grande do Sul",
+      "division_confidence": {
+        "Rio Grande do Sul": 0.9999999999999999
+      },
+      "division_entropy": -9.99866855976916e-13,
       "host": "Human"
     },
     "hCoV-19/Brazil/RS-CoV-0054/2023": {
       "country": "Brazil",
       "division": "Rio Grande do Sul",
-      "host": "Human"
-    },
-    "hCoV-19/Brazil/RS-CoV-0056/2023": {
-      "country": "Brazil",
-      "division": "Rio Grande do Sul",
-      "host": "Human"
-    },
-    "hCoV-19/Brazil/RS-CoV-0062/2022": {
-      "country": "Brazil",
-      "division": "Rio Grande do Sul",
+      "division_confidence": {
+        "Rio Grande do Sul": 1.0
+      },
+      "division_entropy": -1.000088900581841e-12,
       "host": "Human"
     },
     "hCoV-19/Brazil/RS-CoV-0075/2022": {
       "country": "Brazil",
       "division": "Rio Grande do Sul",
+      "division_confidence": {
+        "Rio Grande do Sul": 0.9999999999999999
+      },
+      "division_entropy": -9.99866855976916e-13,
       "host": "Human"
     },
     "hCoV-19/Brazil/RS-CoV-0093/2023": {
       "country": "Brazil",
       "division": "Rio Grande do Sul",
-      "host": "Human"
-    },
-    "hCoV-19/Brazil/RS-CoV-0110/2023": {
-      "country": "Brazil",
-      "division": "Rio Grande do Sul",
+      "division_confidence": {
+        "Rio Grande do Sul": 1.0
+      },
+      "division_entropy": -1.000088900581841e-12,
       "host": "Human"
     },
     "hCoV-19/Brazil/RS-CoV-0121/2023": {
       "country": "Brazil",
       "division": "Rio Grande do Sul",
+      "division_confidence": {
+        "Rio Grande do Sul": 1.0
+      },
+      "division_entropy": -1.000088900581841e-12,
       "host": "Human"
     },
     "hCoV-19/Brazil/RS-CoV-0123/2023": {
       "country": "Brazil",
       "division": "Rio Grande do Sul",
-      "host": "Human"
-    },
-    "hCoV-19/Brazil/RS-CoV-0124/2023": {
-      "country": "Brazil",
-      "division": "Rio Grande do Sul",
+      "division_confidence": {
+        "Rio Grande do Sul": 1.0
+      },
+      "division_entropy": -1.000088900581841e-12,
       "host": "Human"
     },
     "hCoV-19/Brazil/RS-CoV-0126/2023": {
       "country": "Brazil",
       "division": "Rio Grande do Sul",
+      "division_confidence": {
+        "Rio Grande do Sul": 1.0
+      },
+      "division_entropy": -1.000088900581841e-12,
       "host": "Human"
     },
     "hCoV-19/Brazil/RS-CoV-0128/2023": {
       "country": "Brazil",
       "division": "Rio Grande do Sul",
+      "division_confidence": {
+        "Rio Grande do Sul": 1.0
+      },
+      "division_entropy": -1.000088900581841e-12,
       "host": "Human"
     },
     "hCoV-19/Brazil/RS-CoV-0129/2023": {
       "country": "Brazil",
       "division": "Rio Grande do Sul",
+      "division_confidence": {
+        "Rio Grande do Sul": 1.0
+      },
+      "division_entropy": -1.000088900581841e-12,
       "host": "Human"
     },
     "hCoV-19/Brazil/RS-CoV-0148/2023": {
       "country": "Brazil",
       "division": "Rio Grande do Sul",
+      "division_confidence": {
+        "Rio Grande do Sul": 0.9999999999999999
+      },
+      "division_entropy": -9.99866855976916e-13,
       "host": "Human"
     },
     "hCoV-19/Brazil/RS-CoV-0150/2023": {
       "country": "Brazil",
       "division": "Rio Grande do Sul",
+      "division_confidence": {
+        "Rio Grande do Sul": 1.0
+      },
+      "division_entropy": -1.000088900581841e-12,
       "host": "Human"
     },
     "hCoV-19/Brazil/RS-CoV-0151/2023": {
       "country": "Brazil",
       "division": "Rio Grande do Sul",
+      "division_confidence": {
+        "Rio Grande do Sul": 1.0
+      },
+      "division_entropy": -1.000088900581841e-12,
       "host": "Human"
     },
     "hCoV-19/Brazil/RS-CoV-0152/2023": {
       "country": "Brazil",
       "division": "Rio Grande do Sul",
+      "division_confidence": {
+        "Rio Grande do Sul": 0.9999999999999999
+      },
+      "division_entropy": -9.99866855976916e-13,
       "host": "Human"
     },
     "hCoV-19/Brazil/RS-CoV-0153/2023": {
       "country": "Brazil",
       "division": "Rio Grande do Sul",
-      "host": "Human"
-    },
-    "hCoV-19/Brazil/RS-CoV-0154/2023": {
-      "country": "Brazil",
-      "division": "Rio Grande do Sul",
+      "division_confidence": {
+        "Rio Grande do Sul": 1.0
+      },
+      "division_entropy": -1.000088900581841e-12,
       "host": "Human"
     },
     "hCoV-19/Brazil/RS-CoV-0155/2023": {
       "country": "Brazil",
       "division": "Rio Grande do Sul",
+      "division_confidence": {
+        "Rio Grande do Sul": 0.9999999999999999
+      },
+      "division_entropy": -9.99866855976916e-13,
       "host": "Human"
     },
     "hCoV-19/Brazil/RS-CoV-0156/2023": {
       "country": "Brazil",
       "division": "Rio Grande do Sul",
+      "division_confidence": {
+        "Rio Grande do Sul": 1.0
+      },
+      "division_entropy": -1.000088900581841e-12,
       "host": "Human"
     },
     "hCoV-19/Brazil/RS-CoV-0157/2023": {
       "country": "Brazil",
       "division": "Rio Grande do Sul",
+      "division_confidence": {
+        "Rio Grande do Sul": 0.9999999999999999
+      },
+      "division_entropy": -9.99866855976916e-13,
       "host": "Human"
     },
     "hCoV-19/Brazil/RS-CoV-0158/2023": {
       "country": "Brazil",
       "division": "Rio Grande do Sul",
+      "division_confidence": {
+        "Rio Grande do Sul": 1.0
+      },
+      "division_entropy": -1.000088900581841e-12,
       "host": "Human"
     },
     "hCoV-19/Brazil/RS-CoV-0159/2023": {
       "country": "Brazil",
       "division": "Rio Grande do Sul",
+      "division_confidence": {
+        "Rio Grande do Sul": 1.0
+      },
+      "division_entropy": -1.000088900581841e-12,
       "host": "Human"
     },
     "hCoV-19/Brazil/RS-CoV-0162/2023": {
       "country": "Brazil",
       "division": "Rio Grande do Sul",
-      "host": "Human"
-    },
-    "hCoV-19/Brazil/RS-CoV-0168/2023": {
-      "country": "Brazil",
-      "division": "Rio Grande do Sul",
+      "division_confidence": {
+        "Rio Grande do Sul": 1.0
+      },
+      "division_entropy": -1.000088900581841e-12,
       "host": "Human"
     },
     "hCoV-19/Brazil/RS-CoV-0169/2023": {
       "country": "Brazil",
       "division": "Rio Grande do Sul",
-      "host": "Human"
-    },
-    "hCoV-19/Brazil/RS-CoV-0172/2023": {
-      "country": "Brazil",
-      "division": "Rio Grande do Sul",
-      "host": "Human"
-    },
-    "hCoV-19/Brazil/RS-CoV-0175/2023": {
-      "country": "Brazil",
-      "division": "Rio Grande do Sul",
+      "division_confidence": {
+        "Rio Grande do Sul": 1.0
+      },
+      "division_entropy": -1.000088900581841e-12,
       "host": "Human"
     },
     "hCoV-19/Brazil/RS-CoV-0176/2023": {
       "country": "Brazil",
       "division": "Rio Grande do Sul",
+      "division_confidence": {
+        "Rio Grande do Sul": 1.0
+      },
+      "division_entropy": -1.000088900581841e-12,
       "host": "Human"
     },
     "hCoV-19/Brazil/RS-CoV-0177/2023": {
       "country": "Brazil",
       "division": "Rio Grande do Sul",
-      "host": "Human"
-    },
-    "hCoV-19/Brazil/RS-CoV-0178/2023": {
-      "country": "Brazil",
-      "division": "Rio Grande do Sul",
+      "division_confidence": {
+        "Rio Grande do Sul": 1.0
+      },
+      "division_entropy": -1.000088900581841e-12,
       "host": "Human"
     },
     "hCoV-19/Brazil/RS-CoV-0180/2023": {
       "country": "Brazil",
       "division": "Rio Grande do Sul",
+      "division_confidence": {
+        "Rio Grande do Sul": 1.0
+      },
+      "division_entropy": -1.000088900581841e-12,
       "host": "Human"
     },
     "hCoV-19/Brazil/RS-CoV-0181/2023": {
       "country": "Brazil",
       "division": "Rio Grande do Sul",
-      "host": "Human"
-    },
-    "hCoV-19/Brazil/RS-CoV-0183/2023": {
-      "country": "Brazil",
-      "division": "Rio Grande do Sul",
+      "division_confidence": {
+        "Rio Grande do Sul": 1.0
+      },
+      "division_entropy": -1.000088900581841e-12,
       "host": "Human"
     },
     "hCoV-19/Brazil/RS-CoV-0185/2023": {
       "country": "Brazil",
       "division": "Rio Grande do Sul",
+      "division_confidence": {
+        "Rio Grande do Sul": 1.0
+      },
+      "division_entropy": -1.000088900581841e-12,
       "host": "Human"
     },
     "hCoV-19/Brazil/RS-CoV-0187/2023": {
       "country": "Brazil",
       "division": "Rio Grande do Sul",
+      "division_confidence": {
+        "Rio Grande do Sul": 1.0
+      },
+      "division_entropy": -1.000088900581841e-12,
       "host": "Human"
     },
     "hCoV-19/Brazil/RS-CoV-0188/2023": {
       "country": "Brazil",
       "division": "Rio Grande do Sul",
+      "division_confidence": {
+        "Rio Grande do Sul": 0.9999999999999999
+      },
+      "division_entropy": -9.99866855976916e-13,
       "host": "Human"
     },
     "hCoV-19/Brazil/RS-CoV-0190/2023": {
       "country": "Brazil",
       "division": "Rio Grande do Sul",
+      "division_confidence": {
+        "Rio Grande do Sul": 0.9999999999999999
+      },
+      "division_entropy": -9.99866855976916e-13,
       "host": "Human"
     },
     "hCoV-19/Brazil/RS-CoV-0191/2023": {
       "country": "Brazil",
       "division": "Rio Grande do Sul",
+      "division_confidence": {
+        "Rio Grande do Sul": 1.0
+      },
+      "division_entropy": -1.000088900581841e-12,
       "host": "Human"
     },
     "hCoV-19/Brazil/RS-CoV-0192/2023": {
       "country": "Brazil",
       "division": "Rio Grande do Sul",
+      "division_confidence": {
+        "Rio Grande do Sul": 1.0
+      },
+      "division_entropy": -1.000088900581841e-12,
       "host": "Human"
     },
     "hCoV-19/Brazil/RS-CoV-0193/2023": {
       "country": "Brazil",
       "division": "Rio Grande do Sul",
+      "division_confidence": {
+        "Rio Grande do Sul": 1.0
+      },
+      "division_entropy": -1.000088900581841e-12,
       "host": "Human"
     },
     "hCoV-19/Brazil/RS-CoV-0196/2023": {
       "country": "Brazil",
       "division": "Rio Grande do Sul",
-      "host": "Human"
-    },
-    "hCoV-19/Brazil/RS-CoV-0197/2023": {
-      "country": "Brazil",
-      "division": "Rio Grande do Sul",
+      "division_confidence": {
+        "Rio Grande do Sul": 0.9999999999999999
+      },
+      "division_entropy": -9.99866855976916e-13,
       "host": "Human"
     },
     "hCoV-19/Brazil/RS-CoV-0199/2023": {
       "country": "Brazil",
       "division": "Rio Grande do Sul",
+      "division_confidence": {
+        "Rio Grande do Sul": 1.0
+      },
+      "division_entropy": -1.000088900581841e-12,
       "host": "Human"
     },
     "hCoV-19/Brazil/RS-CoV-0200/2023": {
       "country": "Brazil",
       "division": "Rio Grande do Sul",
-      "host": "Human"
-    },
-    "hCoV-19/Brazil/RS-CoV-0202/2023": {
-      "country": "Brazil",
-      "division": "Rio Grande do Sul",
-      "host": "Human"
-    },
-    "hCoV-19/Brazil/RS-CoV-0204/2023": {
-      "country": "Brazil",
-      "division": "Rio Grande do Sul",
+      "division_confidence": {
+        "Rio Grande do Sul": 1.0
+      },
+      "division_entropy": -1.000088900581841e-12,
       "host": "Human"
     },
     "hCoV-19/Brazil/RS-CoV-0206/2023": {
       "country": "Brazil",
       "division": "Rio Grande do Sul",
+      "division_confidence": {
+        "Rio Grande do Sul": 1.0
+      },
+      "division_entropy": -1.000088900581841e-12,
       "host": "Human"
     },
     "hCoV-19/Brazil/RS-CoV-0207/2023": {
       "country": "Brazil",
       "division": "Rio Grande do Sul",
+      "division_confidence": {
+        "Rio Grande do Sul": 0.9999999999999999
+      },
+      "division_entropy": -9.99866855976916e-13,
       "host": "Human"
     },
     "hCoV-19/Brazil/RS-CoV-0208/2023": {
       "country": "Brazil",
       "division": "Rio Grande do Sul",
-      "host": "Human"
-    },
-    "hCoV-19/Brazil/RS-CoV-0210/2023": {
-      "country": "Brazil",
-      "division": "Rio Grande do Sul",
+      "division_confidence": {
+        "Rio Grande do Sul": 1.0
+      },
+      "division_entropy": -1.000088900581841e-12,
       "host": "Human"
     },
     "hCoV-19/Brazil/RS-CoV-0211/2023": {
       "country": "Brazil",
       "division": "Rio Grande do Sul",
-      "host": "Human"
-    },
-    "hCoV-19/Brazil/RS-CoV-0212/2023": {
-      "country": "Brazil",
-      "division": "Rio Grande do Sul",
+      "division_confidence": {
+        "Rio Grande do Sul": 0.9999999999999999
+      },
+      "division_entropy": -9.99866855976916e-13,
       "host": "Human"
     },
     "hCoV-19/Brazil/RS-CoV-0213/2023": {
       "country": "Brazil",
       "division": "Rio Grande do Sul",
+      "division_confidence": {
+        "Rio Grande do Sul": 1.0
+      },
+      "division_entropy": -1.000088900581841e-12,
       "host": "Human"
     },
     "hCoV-19/Brazil/RS-CoV-0231/2023": {
       "country": "Brazil",
       "division": "Rio Grande do Sul",
-      "host": "Human"
-    },
-    "hCoV-19/Brazil/RS-CoV-0232/2023": {
-      "country": "Brazil",
-      "division": "Rio Grande do Sul",
+      "division_confidence": {
+        "Rio Grande do Sul": 1.0
+      },
+      "division_entropy": -1.000088900581841e-12,
       "host": "Human"
     },
     "hCoV-19/Brazil/RS-CoV-0233/2023": {
       "country": "Brazil",
       "division": "Rio Grande do Sul",
+      "division_confidence": {
+        "Rio Grande do Sul": 1.0
+      },
+      "division_entropy": -1.000088900581841e-12,
       "host": "Human"
     },
     "hCoV-19/Brazil/RS-CoV-0235/2023": {
       "country": "Brazil",
       "division": "Rio Grande do Sul",
-      "host": "Human"
-    },
-    "hCoV-19/Brazil/RS-CoV-0243/2023": {
-      "country": "Brazil",
-      "division": "Rio Grande do Sul",
-      "host": "Human"
-    },
-    "hCoV-19/Brazil/RS-CoV-0244/2023": {
-      "country": "Brazil",
-      "division": "Rio Grande do Sul",
+      "division_confidence": {
+        "Rio Grande do Sul": 1.0
+      },
+      "division_entropy": -1.000088900581841e-12,
       "host": "Human"
     },
     "hCoV-19/Brazil/RS-CoV-0255/2023": {
       "country": "Brazil",
       "division": "Rio Grande do Sul",
-      "host": "Human"
-    },
-    "hCoV-19/Brazil/RS-CoV-0256/2023": {
-      "country": "Brazil",
-      "division": "Rio Grande do Sul",
+      "division_confidence": {
+        "Rio Grande do Sul": 1.0
+      },
+      "division_entropy": -1.000088900581841e-12,
       "host": "Human"
     },
     "hCoV-19/Brazil/RS-CoV-0259/2023": {
       "country": "Brazil",
       "division": "Rio Grande do Sul",
+      "division_confidence": {
+        "Rio Grande do Sul": 1.0
+      },
+      "division_entropy": -1.000088900581841e-12,
       "host": "Human"
     },
     "hCoV-19/Brazil/RS-CoV-0260/2023": {
       "country": "Brazil",
       "division": "Rio Grande do Sul",
+      "division_confidence": {
+        "Rio Grande do Sul": 0.9999999999999999
+      },
+      "division_entropy": -9.99866855976916e-13,
       "host": "Human"
     },
     "hCoV-19/Brazil/RS-CoV-0261/2023": {
       "country": "Brazil",
       "division": "Rio Grande do Sul",
+      "division_confidence": {
+        "Rio Grande do Sul": 1.0
+      },
+      "division_entropy": -1.000088900581841e-12,
       "host": "Human"
     },
     "hCoV-19/Brazil/RS-CoV-0263/2023": {
       "country": "Brazil",
       "division": "Rio Grande do Sul",
+      "division_confidence": {
+        "Rio Grande do Sul": 1.0
+      },
+      "division_entropy": -1.000088900581841e-12,
       "host": "Human"
     },
     "hCoV-19/Brazil/RS-CoV-0274/2023": {
       "country": "Brazil",
       "division": "Rio Grande do Sul",
+      "division_confidence": {
+        "Rio Grande do Sul": 1.0
+      },
+      "division_entropy": -1.000088900581841e-12,
       "host": "Human"
     },
     "hCoV-19/Brazil/RS-CoV-0277/2023": {
       "country": "Brazil",
       "division": "Rio Grande do Sul",
-      "host": "Human"
-    },
-    "hCoV-19/Brazil/RS-CoV-0280/2023": {
-      "country": "Brazil",
-      "division": "Rio Grande do Sul",
-      "host": "Human"
-    },
-    "hCoV-19/Brazil/RS-FIOCRUZ-28701/2022": {
-      "country": "Brazil",
-      "division": "Rio Grande do Sul",
+      "division_confidence": {
+        "Rio Grande do Sul": 1.0
+      },
+      "division_entropy": -1.000088900581841e-12,
       "host": "Human"
     },
     "hCoV-19/Brazil/RS-FIOCRUZ-4078/2023": {
       "country": "Brazil",
       "division": "Rio Grande do Sul",
-      "host": "Human"
-    },
-    "hCoV-19/Brazil/RS-FIOCRUZ-4079/2023": {
-      "country": "Brazil",
-      "division": "Rio Grande do Sul",
+      "division_confidence": {
+        "Rio Grande do Sul": 0.9999999999999999
+      },
+      "division_entropy": -9.99866855976916e-13,
       "host": "Human"
     },
     "hCoV-19/Brazil/RS-FIOCRUZ-4080/2023": {
       "country": "Brazil",
       "division": "Rio Grande do Sul",
+      "division_confidence": {
+        "Rio Grande do Sul": 1.0
+      },
+      "division_entropy": -1.000088900581841e-12,
       "host": "Human"
     },
     "hCoV-19/Brazil/RS-FIOCRUZ-4082/2023": {
       "country": "Brazil",
       "division": "Rio Grande do Sul",
+      "division_confidence": {
+        "Rio Grande do Sul": 1.0
+      },
+      "division_entropy": -1.000088900581841e-12,
       "host": "Human"
     },
     "hCoV-19/Brazil/RS-FIOCRUZ-4083/2023": {
       "country": "Brazil",
       "division": "Rio Grande do Sul",
+      "division_confidence": {
+        "Rio Grande do Sul": 0.9999999999999999
+      },
+      "division_entropy": -9.99866855976916e-13,
       "host": "Human"
     },
     "hCoV-19/Brazil/RS-FIOCRUZ-4085/2023": {
       "country": "Brazil",
       "division": "Rio Grande do Sul",
+      "division_confidence": {
+        "Rio Grande do Sul": 0.9999999999999999
+      },
+      "division_entropy": -9.99866855976916e-13,
       "host": "Human"
     },
     "hCoV-19/Brazil/RS-FIOCRUZ-4088/2023": {
       "country": "Brazil",
       "division": "Rio Grande do Sul",
+      "division_confidence": {
+        "Rio Grande do Sul": 1.0
+      },
+      "division_entropy": -1.000088900581841e-12,
       "host": "Human"
     },
     "hCoV-19/Brazil/RS-FIOCRUZ-4089/2023": {
       "country": "Brazil",
       "division": "Rio Grande do Sul",
+      "division_confidence": {
+        "Rio Grande do Sul": 0.9999999999999999
+      },
+      "division_entropy": -9.99866855976916e-13,
       "host": "Human"
     },
     "hCoV-19/Brazil/RS-FIOCRUZ-4092/2023": {
       "country": "Brazil",
       "division": "Rio Grande do Sul",
-      "host": "Human"
-    },
-    "hCoV-19/Brazil/RS-FIOCRUZ-4095/2023": {
-      "country": "Brazil",
-      "division": "Rio Grande do Sul",
+      "division_confidence": {
+        "Rio Grande do Sul": 0.9999999999999999
+      },
+      "division_entropy": -9.99866855976916e-13,
       "host": "Human"
     },
     "hCoV-19/Brazil/RS-FIOCRUZ-4098/2023": {
       "country": "Brazil",
       "division": "Rio Grande do Sul",
+      "division_confidence": {
+        "Rio Grande do Sul": 0.9999999999999999
+      },
+      "division_entropy": -9.99866855976916e-13,
       "host": "Human"
     },
     "hCoV-19/Brazil/RS-FIOCRUZ-4103/2023": {
       "country": "Brazil",
       "division": "Rio Grande do Sul",
+      "division_confidence": {
+        "Rio Grande do Sul": 1.0
+      },
+      "division_entropy": -1.000088900581841e-12,
       "host": "Human"
     },
     "hCoV-19/Brazil/RS-FIOCRUZ-4107/2023": {
       "country": "Brazil",
       "division": "Rio Grande do Sul",
+      "division_confidence": {
+        "Rio Grande do Sul": 1.0
+      },
+      "division_entropy": -1.000088900581841e-12,
       "host": "Human"
     },
     "hCoV-19/Brazil/RS-FIOCRUZ-4108/2023": {
       "country": "Brazil",
       "division": "Rio Grande do Sul",
-      "host": "Human"
-    },
-    "hCoV-19/Brazil/RS-FIOCRUZ-4109/2023": {
-      "country": "Brazil",
-      "division": "Rio Grande do Sul",
-      "host": "Human"
-    },
-    "hCoV-19/Brazil/RS-FIOCRUZ-4110/2023": {
-      "country": "Brazil",
-      "division": "Rio Grande do Sul",
+      "division_confidence": {
+        "Rio Grande do Sul": 1.0
+      },
+      "division_entropy": -1.000088900581841e-12,
       "host": "Human"
     },
     "hCoV-19/Brazil/RS-FIOCRUZ-4114/2023": {
       "country": "Brazil",
       "division": "Rio Grande do Sul",
-      "host": "Human"
-    },
-    "hCoV-19/Brazil/RS-FIOCRUZ-4117/2023": {
-      "country": "Brazil",
-      "division": "Rio Grande do Sul",
+      "division_confidence": {
+        "Rio Grande do Sul": 1.0
+      },
+      "division_entropy": -1.000088900581841e-12,
       "host": "Human"
     },
     "hCoV-19/Brazil/RS-FIOCRUZ-4119/2023": {
       "country": "Brazil",
       "division": "Rio Grande do Sul",
-      "host": "Human"
-    },
-    "hCoV-19/Brazil/RS-FIOCRUZ-4121/2023": {
-      "country": "Brazil",
-      "division": "Rio Grande do Sul",
+      "division_confidence": {
+        "Rio Grande do Sul": 1.0
+      },
+      "division_entropy": -1.000088900581841e-12,
       "host": "Human"
     },
     "hCoV-19/Brazil/RS-FIOCRUZ-4122/2023": {
       "country": "Brazil",
       "division": "Rio Grande do Sul",
+      "division_confidence": {
+        "Rio Grande do Sul": 0.9999999999999999
+      },
+      "division_entropy": -9.99866855976916e-13,
       "host": "Human"
     },
     "hCoV-19/Brazil/RS-FIOCRUZ-4131/2023": {
       "country": "Brazil",
       "division": "Rio Grande do Sul",
+      "division_confidence": {
+        "Rio Grande do Sul": 1.0
+      },
+      "division_entropy": -1.000088900581841e-12,
       "host": "Human"
     },
     "hCoV-19/Brazil/RS-FIOCRUZ-4132/2023": {
       "country": "Brazil",
       "division": "Rio Grande do Sul",
+      "division_confidence": {
+        "Rio Grande do Sul": 1.0
+      },
+      "division_entropy": -1.000088900581841e-12,
       "host": "Human"
     },
     "hCoV-19/Brazil/RS-FIOCRUZ-4133/2023": {
       "country": "Brazil",
       "division": "Rio Grande do Sul",
+      "division_confidence": {
+        "Rio Grande do Sul": 0.9999999999999999
+      },
+      "division_entropy": -9.99866855976916e-13,
       "host": "Human"
     },
     "hCoV-19/Brazil/RS-FIOCRUZ-4134/2023": {
       "country": "Brazil",
       "division": "Rio Grande do Sul",
+      "division_confidence": {
+        "Rio Grande do Sul": 1.0
+      },
+      "division_entropy": -1.000088900581841e-12,
       "host": "Human"
     },
     "hCoV-19/Brazil/RS-FIOCRUZ-4138/2023": {
       "country": "Brazil",
       "division": "Rio Grande do Sul",
+      "division_confidence": {
+        "Rio Grande do Sul": 1.0
+      },
+      "division_entropy": -1.000088900581841e-12,
       "host": "Human"
     },
     "hCoV-19/Brazil/RS-FIOCRUZ-4139/2023": {
       "country": "Brazil",
       "division": "Rio Grande do Sul",
+      "division_confidence": {
+        "Rio Grande do Sul": 1.0
+      },
+      "division_entropy": -1.000088900581841e-12,
       "host": "Human"
     },
     "hCoV-19/Brazil/RS-FIOCRUZ-446/2023": {
       "country": "Brazil",
       "division": "Rio Grande do Sul",
+      "division_confidence": {
+        "Rio Grande do Sul": 1.0
+      },
+      "division_entropy": -1.000088900581841e-12,
       "host": "Human"
     },
     "hCoV-19/Brazil/RS-FIOCRUZ-449/2023": {
       "country": "Brazil",
       "division": "Rio Grande do Sul",
+      "division_confidence": {
+        "Rio Grande do Sul": 1.0
+      },
+      "division_entropy": -1.000088900581841e-12,
       "host": "Human"
     },
     "hCoV-19/Brazil/RS-FIOCRUZ-450/2023": {
       "country": "Brazil",
       "division": "Rio Grande do Sul",
+      "division_confidence": {
+        "Rio Grande do Sul": 1.0
+      },
+      "division_entropy": -1.000088900581841e-12,
       "host": "Human"
     },
     "hCoV-19/Brazil/RS-FIOCRUZ-451/2023": {
       "country": "Brazil",
       "division": "Rio Grande do Sul",
-      "host": "Human"
-    },
-    "hCoV-19/Brazil/RS-FIOCRUZ-474/2023": {
-      "country": "Brazil",
-      "division": "Rio Grande do Sul",
+      "division_confidence": {
+        "Rio Grande do Sul": 1.0
+      },
+      "division_entropy": -1.000088900581841e-12,
       "host": "Human"
     },
     "hCoV-19/Brazil/RS-FIOCRUZ-490/2023": {
       "country": "Brazil",
       "division": "Rio Grande do Sul",
+      "division_confidence": {
+        "Rio Grande do Sul": 1.0
+      },
+      "division_entropy": -1.000088900581841e-12,
       "host": "Human"
     },
     "hCoV-19/Brazil/RS-FIOCRUZ-518/2023": {
       "country": "Brazil",
       "division": "Rio Grande do Sul",
-      "host": "Human"
-    },
-    "hCoV-19/Brazil/RS-LACEN-431819566/2023": {
-      "country": "Brazil",
-      "division": "Rio Grande do Sul",
+      "division_confidence": {
+        "Rio Grande do Sul": 1.0
+      },
+      "division_entropy": -1.000088900581841e-12,
       "host": "Human"
     },
     "hCoV-19/Brazil/RS-LACEN-431819572/2023": {
       "country": "Brazil",
       "division": "Rio Grande do Sul",
+      "division_confidence": {
+        "Rio Grande do Sul": 1.0
+      },
+      "division_entropy": -1.000088900581841e-12,
       "host": "Human"
     },
     "hCoV-19/Brazil/RS-LACEN-431819575/2023": {
       "country": "Brazil",
       "division": "Rio Grande do Sul",
+      "division_confidence": {
+        "Rio Grande do Sul": 1.0
+      },
+      "division_entropy": -1.000088900581841e-12,
       "host": "Human"
     },
     "hCoV-19/Brazil/RS-LACEN-431819585/2023": {
       "country": "Brazil",
       "division": "Rio Grande do Sul",
-      "host": "Human"
-    },
-    "hCoV-19/Brazil/RS-LACEN-431819587/2023": {
-      "country": "Brazil",
-      "division": "Rio Grande do Sul",
-      "host": "Human"
-    },
-    "hCoV-19/Brazil/RS-LACEN-431819590/2023": {
-      "country": "Brazil",
-      "division": "Rio Grande do Sul",
-      "host": "Human"
-    },
-    "hCoV-19/Brazil/RS-LACEN-431819592/2023": {
-      "country": "Brazil",
-      "division": "Rio Grande do Sul",
+      "division_confidence": {
+        "Rio Grande do Sul": 0.9999999999999999
+      },
+      "division_entropy": -9.99866855976916e-13,
       "host": "Human"
     },
     "hCoV-19/Brazil/RS-LACENRS-431812782/2022": {
       "country": "Brazil",
       "division": "Rio Grande do Sul",
+      "division_confidence": {
+        "Rio Grande do Sul": 1.0
+      },
+      "division_entropy": -1.000088900581841e-12,
       "host": "Human"
     },
     "hCoV-19/Brazil/RS-LACENRS-431812786/2022": {
       "country": "Brazil",
       "division": "Rio Grande do Sul",
+      "division_confidence": {
+        "Rio Grande do Sul": 0.9999999999999999
+      },
+      "division_entropy": -9.99866855976916e-13,
       "host": "Human"
     },
     "hCoV-19/Brazil/RS-LACENRS-431812788/2022": {
       "country": "Brazil",
       "division": "Rio Grande do Sul",
-      "host": "Human"
-    },
-    "hCoV-19/Brazil/RS-LACENRS-431812795/2022": {
-      "country": "Brazil",
-      "division": "Rio Grande do Sul",
-      "host": "Human"
-    },
-    "hCoV-19/Brazil/RS-LACENRS-431812796/2022": {
-      "country": "Brazil",
-      "division": "Rio Grande do Sul",
+      "division_confidence": {
+        "Rio Grande do Sul": 0.9999999999999999
+      },
+      "division_entropy": -9.99866855976916e-13,
       "host": "Human"
     },
     "hCoV-19/Brazil/RS-LACENRS-431812802/2022": {
       "country": "Brazil",
       "division": "Rio Grande do Sul",
+      "division_confidence": {
+        "Rio Grande do Sul": 1.0
+      },
+      "division_entropy": -1.000088900581841e-12,
       "host": "Human"
     },
     "hCoV-19/Brazil/RS-LACENRS-431812807/2022": {
       "country": "Brazil",
       "division": "Rio Grande do Sul",
+      "division_confidence": {
+        "Rio Grande do Sul": 1.0
+      },
+      "division_entropy": -1.000088900581841e-12,
       "host": "Human"
     },
     "hCoV-19/Brazil/RS-LACENRS-431812822/2022": {
       "country": "Brazil",
       "division": "Rio Grande do Sul",
-      "host": "Human"
-    },
-    "hCoV-19/Brazil/RS-LACENRS-431812826/2022": {
-      "country": "Brazil",
-      "division": "Rio Grande do Sul",
+      "division_confidence": {
+        "Rio Grande do Sul": 1.0
+      },
+      "division_entropy": -1.000088900581841e-12,
       "host": "Human"
     },
     "hCoV-19/Brazil/RS-LACENRS-431812828/2022": {
       "country": "Brazil",
       "division": "Rio Grande do Sul",
+      "division_confidence": {
+        "Rio Grande do Sul": 1.0
+      },
+      "division_entropy": -1.000088900581841e-12,
       "host": "Human"
     },
     "hCoV-19/Brazil/RS-LACENRS-431812833/2022": {
       "country": "Brazil",
       "division": "Rio Grande do Sul",
+      "division_confidence": {
+        "Rio Grande do Sul": 1.0
+      },
+      "division_entropy": -1.000088900581841e-12,
       "host": "Human"
     },
     "hCoV-19/Brazil/RS-LACENRS-431812844/2022": {
       "country": "Brazil",
       "division": "Rio Grande do Sul",
+      "division_confidence": {
+        "Rio Grande do Sul": 1.0
+      },
+      "division_entropy": -1.000088900581841e-12,
       "host": "Human"
     },
     "hCoV-19/Brazil/RS-LACENRS-431812849/2022": {
       "country": "Brazil",
       "division": "Rio Grande do Sul",
+      "division_confidence": {
+        "Rio Grande do Sul": 0.9999999999999999
+      },
+      "division_entropy": -9.99866855976916e-13,
       "host": "Human"
     },
     "hCoV-19/Brazil/RS-LACENRS-431827090/2023": {
       "country": "Brazil",
       "division": "Rio Grande do Sul",
-      "host": "Human"
-    },
-    "hCoV-19/Brazil/RS-LACENRS-431827092/2023": {
-      "country": "Brazil",
-      "division": "Rio Grande do Sul",
+      "division_confidence": {
+        "Rio Grande do Sul": 1.0
+      },
+      "division_entropy": -1.000088900581841e-12,
       "host": "Human"
     },
     "hCoV-19/Brazil/RS-LACENRS-431827098/2023": {
       "country": "Brazil",
       "division": "Rio Grande do Sul",
+      "division_confidence": {
+        "Rio Grande do Sul": 1.0
+      },
+      "division_entropy": -1.000088900581841e-12,
       "host": "Human"
     },
     "hCoV-19/Brazil/RS-LACENRS-431827106/2023": {
       "country": "Brazil",
       "division": "Rio Grande do Sul",
-      "host": "Human"
-    },
-    "hCoV-19/Brazil/RS-LACENRS-431827118/2023": {
-      "country": "Brazil",
-      "division": "Rio Grande do Sul",
+      "division_confidence": {
+        "Rio Grande do Sul": 1.0
+      },
+      "division_entropy": -1.000088900581841e-12,
       "host": "Human"
     },
     "hCoV-19/Brazil/RS-LACENRS-431827120/2023": {
       "country": "Brazil",
       "division": "Rio Grande do Sul",
+      "division_confidence": {
+        "Rio Grande do Sul": 1.0
+      },
+      "division_entropy": -1.000088900581841e-12,
       "host": "Human"
     },
     "hCoV-19/Brazil/RS-LACENRS-431827121/2023": {
       "country": "Brazil",
       "division": "Rio Grande do Sul",
+      "division_confidence": {
+        "Rio Grande do Sul": 1.0
+      },
+      "division_entropy": -1.000088900581841e-12,
       "host": "Human"
     },
     "hCoV-19/Brazil/RS-LACENRS-431827130/2023": {
       "country": "Brazil",
       "division": "Rio Grande do Sul",
+      "division_confidence": {
+        "Rio Grande do Sul": 1.0
+      },
+      "division_entropy": -1.000088900581841e-12,
       "host": "Human"
     },
     "hCoV-19/Brazil/RS-LACENRS-431827131/2023": {
       "country": "Brazil",
       "division": "Rio Grande do Sul",
+      "division_confidence": {
+        "Rio Grande do Sul": 1.0
+      },
+      "division_entropy": -1.000088900581841e-12,
       "host": "Human"
     },
     "hCoV-19/Brazil/RS-LACENRS-431827140/2023": {
       "country": "Brazil",
       "division": "Rio Grande do Sul",
+      "division_confidence": {
+        "Rio Grande do Sul": 0.9999999999999999
+      },
+      "division_entropy": -9.99866855976916e-13,
       "host": "Human"
     },
     "hCoV-19/Brazil/RS-LACENRS-431827147/2023": {
       "country": "Brazil",
       "division": "Rio Grande do Sul",
-      "host": "Human"
-    },
-    "hCoV-19/Brazil/RS-LACENRS-431827157/2023": {
-      "country": "Brazil",
-      "division": "Rio Grande do Sul",
+      "division_confidence": {
+        "Rio Grande do Sul": 1.0
+      },
+      "division_entropy": -1.000088900581841e-12,
       "host": "Human"
     },
     "hCoV-19/Brazil/RS-LACENRS-431827159/2023": {
       "country": "Brazil",
       "division": "Rio Grande do Sul",
+      "division_confidence": {
+        "Rio Grande do Sul": 1.0
+      },
+      "division_entropy": -1.000088900581841e-12,
       "host": "Human"
     },
     "hCoV-19/Brazil/RS-LACENRS-431827160/2023": {
       "country": "Brazil",
       "division": "Rio Grande do Sul",
+      "division_confidence": {
+        "Rio Grande do Sul": 1.0
+      },
+      "division_entropy": -1.000088900581841e-12,
       "host": "Human"
     },
     "hCoV-19/Brazil/RS-LACENRS-431827162/2023": {
       "country": "Brazil",
       "division": "Rio Grande do Sul",
+      "division_confidence": {
+        "Rio Grande do Sul": 1.0
+      },
+      "division_entropy": -1.000088900581841e-12,
       "host": "Human"
     },
     "hCoV-19/Brazil/RS-LACENRS-431827163/2023": {
       "country": "Brazil",
       "division": "Rio Grande do Sul",
+      "division_confidence": {
+        "Rio Grande do Sul": 1.0
+      },
+      "division_entropy": -1.000088900581841e-12,
       "host": "Human"
     },
     "hCoV-19/Brazil/RS-LACENRS-431827164/2023": {
       "country": "Brazil",
       "division": "Rio Grande do Sul",
+      "division_confidence": {
+        "Rio Grande do Sul": 1.0
+      },
+      "division_entropy": -1.000088900581841e-12,
       "host": "Human"
     },
     "hCoV-19/Brazil/RS-LACENRS-431827166/2023": {
       "country": "Brazil",
       "division": "Rio Grande do Sul",
+      "division_confidence": {
+        "Rio Grande do Sul": 1.0
+      },
+      "division_entropy": -1.000088900581841e-12,
       "host": "Human"
     },
     "hCoV-19/Brazil/RS-LGBM-HMV-0085F/2022": {
       "country": "Brazil",
       "division": "Rio Grande do Sul",
-      "host": "Human"
-    },
-    "hCoV-19/Brazil/RS-LGBM-HMV-01-0037-F/2022": {
-      "country": "Brazil",
-      "division": "Rio Grande do Sul",
+      "division_confidence": {
+        "Rio Grande do Sul": 1.0
+      },
+      "division_entropy": -1.000088900581841e-12,
       "host": "Human"
     },
     "hCoV-19/Brazil/RS-LGBM-HMV-01-0040-F/2022": {
       "country": "Brazil",
       "division": "Rio Grande do Sul",
-      "host": "Human"
-    },
-    "hCoV-19/Brazil/RS-LGBM-HMV-01-0046-F/2022": {
-      "country": "Brazil",
-      "division": "Rio Grande do Sul",
+      "division_confidence": {
+        "Rio Grande do Sul": 1.0
+      },
+      "division_entropy": -1.000088900581841e-12,
       "host": "Human"
     },
     "hCoV-19/Brazil/RS-LGBM-HMV-01-0047-F/2022": {
       "country": "Brazil",
       "division": "Rio Grande do Sul",
-      "host": "Human"
-    },
-    "hCoV-19/Brazil/RS-LGBM-HMV-01-0048-P/2022": {
-      "country": "Brazil",
-      "division": "Rio Grande do Sul",
+      "division_confidence": {
+        "Rio Grande do Sul": 1.0
+      },
+      "division_entropy": -1.000088900581841e-12,
       "host": "Human"
     },
     "hCoV-19/Brazil/RS-LGBM-HMV-01-0050-P/2022": {
       "country": "Brazil",
       "division": "Rio Grande do Sul",
+      "division_confidence": {
+        "Rio Grande do Sul": 1.0
+      },
+      "division_entropy": -1.000088900581841e-12,
       "host": "Human"
     },
     "hCoV-19/Brazil/RS-LGBM-HMV-01-0051-F/2022": {
       "country": "Brazil",
       "division": "Rio Grande do Sul",
-      "host": "Human"
-    },
-    "hCoV-19/Brazil/RS-LGBM-HMV-01-0055-F/2022": {
-      "country": "Brazil",
-      "division": "Rio Grande do Sul",
+      "division_confidence": {
+        "Rio Grande do Sul": 0.9999999999999999
+      },
+      "division_entropy": -9.99866855976916e-13,
       "host": "Human"
     },
     "hCoV-19/Brazil/RS-LGBM-HMV-01-0056-P/2022": {
       "country": "Brazil",
       "division": "Rio Grande do Sul",
-      "host": "Human"
-    },
-    "hCoV-19/Brazil/RS-LGBM-HMV-01-0064-F/2022": {
-      "country": "Brazil",
-      "division": "Rio Grande do Sul",
-      "host": "Human"
-    },
-    "hCoV-19/Brazil/RS-LGBM-HMV-01-0066-P/2022": {
-      "country": "Brazil",
-      "division": "Rio Grande do Sul",
+      "division_confidence": {
+        "Rio Grande do Sul": 1.0
+      },
+      "division_entropy": -1.000088900581841e-12,
       "host": "Human"
     },
     "hCoV-19/Brazil/RS-LGBM-HMV-01-0079-F/2022": {
       "country": "Brazil",
       "division": "Rio Grande do Sul",
+      "division_confidence": {
+        "Rio Grande do Sul": 1.0
+      },
+      "division_entropy": -1.000088900581841e-12,
       "host": "Human"
     },
     "hCoV-19/Brazil/RS-LGBM-HMV-01-0081-F/2022": {
       "country": "Brazil",
       "division": "Rio Grande do Sul",
+      "division_confidence": {
+        "Rio Grande do Sul": 1.0
+      },
+      "division_entropy": -1.000088900581841e-12,
       "host": "Human"
     },
     "hCoV-19/Brazil/RS-LGBM-HMV-01-0082-F/2022": {
       "country": "Brazil",
       "division": "Rio Grande do Sul",
-      "host": "Human"
-    },
-    "hCoV-19/Brazil/RS-LGBM-HMV-01-0084-F/2022": {
-      "country": "Brazil",
-      "division": "Rio Grande do Sul",
+      "division_confidence": {
+        "Rio Grande do Sul": 1.0
+      },
+      "division_entropy": -1.000088900581841e-12,
       "host": "Human"
     },
     "hCoV-19/Brazil/RS-LGBM-HMV-01-0089-F/2022": {
       "country": "Brazil",
       "division": "Rio Grande do Sul",
+      "division_confidence": {
+        "Rio Grande do Sul": 0.9999999999999999
+      },
+      "division_entropy": -9.99866855976916e-13,
       "host": "Human"
     },
     "hCoV-19/Brazil/RS-LGBM-HMV-01-0092-P/2022": {
       "country": "Brazil",
       "division": "Rio Grande do Sul",
+      "division_confidence": {
+        "Rio Grande do Sul": 1.0
+      },
+      "division_entropy": -1.000088900581841e-12,
       "host": "Human"
     },
     "hCoV-19/Brazil/RS-LGBM-HMV-01-0093-P/2022": {
       "country": "Brazil",
       "division": "Rio Grande do Sul",
-      "host": "Human"
-    },
-    "hCoV-19/Brazil/RS-LGBM-HMV-01-0097-F/2022": {
-      "country": "Brazil",
-      "division": "Rio Grande do Sul",
+      "division_confidence": {
+        "Rio Grande do Sul": 1.0
+      },
+      "division_entropy": -1.000088900581841e-12,
       "host": "Human"
     },
     "hCoV-19/Brazil/RS-LGBM-HMV-01-0104-F/2022": {
       "country": "Brazil",
       "division": "Rio Grande do Sul",
+      "division_confidence": {
+        "Rio Grande do Sul": 1.0
+      },
+      "division_entropy": -1.000088900581841e-12,
       "host": "Human"
     },
     "hCoV-19/Brazil/RS-LGBM-HMV-01-0116-F/2022": {
       "country": "Brazil",
       "division": "Rio Grande do Sul",
-      "host": "Human"
-    },
-    "hCoV-19/Brazil/RS-LGBM-HMV-01-0169-F/2022": {
-      "country": "Brazil",
-      "division": "Rio Grande do Sul",
+      "division_confidence": {
+        "Rio Grande do Sul": 1.0
+      },
+      "division_entropy": -1.000088900581841e-12,
       "host": "Human"
     },
     "hCoV-19/Brazil/RS-LGBM-HMV-01-0186-F/2022": {
       "country": "Brazil",
       "division": "Rio Grande do Sul",
+      "division_confidence": {
+        "Rio Grande do Sul": 1.0
+      },
+      "division_entropy": -1.000088900581841e-12,
       "host": "Human"
     },
     "hCoV-19/Brazil/RS-LGBM-HMV-01-0195-F/2022": {
       "country": "Brazil",
       "division": "Rio Grande do Sul",
+      "division_confidence": {
+        "Rio Grande do Sul": 1.0
+      },
+      "division_entropy": -1.000088900581841e-12,
       "host": "Human"
     },
     "hCoV-19/Brazil/RS-LGBM-HMV-0158F/2022": {
       "country": "Brazil",
       "division": "Rio Grande do Sul",
+      "division_confidence": {
+        "Rio Grande do Sul": 1.0
+      },
+      "division_entropy": -1.000088900581841e-12,
       "host": "Human"
     },
     "hCoV-19/Brazil/RS-LGBM-HMV-0182F/2022": {
       "country": "Brazil",
       "division": "Rio Grande do Sul",
-      "host": "Human"
-    },
-    "hCoV-19/Brazil/RS-LMM-72976/2022": {
-      "country": "Brazil",
-      "division": "Rio Grande do Sul",
+      "division_confidence": {
+        "Rio Grande do Sul": 1.0
+      },
+      "division_entropy": -1.000088900581841e-12,
       "host": "Human"
     },
     "hCoV-19/Brazil/RS-LMM-72980/2022": {
       "country": "Brazil",
       "division": "Rio Grande do Sul",
+      "division_confidence": {
+        "Rio Grande do Sul": 0.9999999999999999
+      },
+      "division_entropy": -9.99866855976916e-13,
       "host": "Human"
     },
     "hCoV-19/Brazil/RS-LMM-73022/2022": {
       "country": "Brazil",
       "division": "Rio Grande do Sul",
+      "division_confidence": {
+        "Rio Grande do Sul": 0.9999999999999999
+      },
+      "division_entropy": -9.99866855976916e-13,
       "host": "Human"
     },
     "hCoV-19/Brazil/RS-LMM73061/2022": {
       "country": "Brazil",
       "division": "Rio Grande do Sul",
+      "division_confidence": {
+        "Rio Grande do Sul": 0.9999999999999999
+      },
+      "division_entropy": -9.99866855976916e-13,
       "host": "Human"
     },
     "hCoV-19/Brazil/RS-LMM73087/2022": {
       "country": "Brazil",
       "division": "Rio Grande do Sul",
-      "host": "Human"
-    },
-    "hCoV-19/Brazil/RS-LMM73172/2022": {
-      "country": "Brazil",
-      "division": "Rio Grande do Sul",
+      "division_confidence": {
+        "Rio Grande do Sul": 0.9999999999999999
+      },
+      "division_entropy": -9.99866855976916e-13,
       "host": "Human"
     },
     "hCoV-19/Brazil/RS-LMM73274/2022": {
       "country": "Brazil",
       "division": "Rio Grande do Sul",
+      "division_confidence": {
+        "Rio Grande do Sul": 1.0
+      },
+      "division_entropy": -1.000088900581841e-12,
       "host": "Human"
     },
     "hCoV-19/Brazil/SC-FIOCRUZ-11725/2022": {
       "country": "Brazil",
       "division": "Santa Catarina",
+      "division_confidence": {
+        "Santa Catarina": 1.0
+      },
+      "division_entropy": -1.000088900581841e-12,
       "host": "Human"
     },
     "hCoV-19/Brazil/SC-FIOCRUZ-8817/2022": {
       "country": "Brazil",
       "division": "Santa Catarina",
+      "division_confidence": {
+        "Santa Catarina": 1.0
+      },
+      "division_entropy": -1.000088900581841e-12,
       "host": "Human"
     },
     "hCoV-19/Brazil/SC-FIOCRUZ-9555/2022": {
       "country": "Brazil",
       "division": "Santa Catarina",
+      "division_confidence": {
+        "Santa Catarina": 1.0
+      },
+      "division_entropy": -1.000088900581841e-12,
       "host": "Human"
     },
     "hCoV-19/Brazil/SP-HIAE-ID1687/2022": {
       "country": "Brazil",
       "division": "Sao Paulo",
+      "division_confidence": {
+        "Sao Paulo": 1.0
+      },
+      "division_entropy": -1.000088900581841e-12,
       "host": "Human"
     },
     "hCoV-19/Brazil/SP-HIAE-ID1759/2022": {
       "country": "Brazil",
       "division": "Sao Paulo",
+      "division_confidence": {
+        "Sao Paulo": 1.0
+      },
+      "division_entropy": -1.000088900581841e-12,
       "host": "Human"
     },
     "hCoV-19/Brazil/SP-HIAE-ID1772/2022": {
       "country": "Brazil",
       "division": "Sao Paulo",
+      "division_confidence": {
+        "Sao Paulo": 1.0
+      },
+      "division_entropy": -1.000088900581841e-12,
       "host": "Human"
     },
     "hCoV-19/Brazil/SP-HIAE-ID1939/2022": {
       "country": "Brazil",
       "division": "Sao Paulo",
+      "division_confidence": {
+        "Sao Paulo": 0.9999999999999999
+      },
+      "division_entropy": -9.99866855976916e-13,
       "host": "Human"
     },
     "hCoV-19/Brazil/SP-HIAE-ID1999/2022": {
       "country": "Brazil",
       "division": "Sao Paulo",
+      "division_confidence": {
+        "Sao Paulo": 1.0
+      },
+      "division_entropy": -1.000088900581841e-12,
       "host": "Human"
     },
     "hCoV-19/Brazil/SP-HIAE-ID2088/2022": {
       "country": "Brazil",
       "division": "Sao Paulo",
+      "division_confidence": {
+        "Sao Paulo": 1.0
+      },
+      "division_entropy": -1.000088900581841e-12,
       "host": "Human"
     },
     "hCoV-19/Brazil/SP-IB_156544/2022": {
       "country": "Brazil",
       "division": "Sao Paulo",
+      "division_confidence": {
+        "Sao Paulo": 1.0
+      },
+      "division_entropy": -1.000088900581841e-12,
       "host": "Human"
     },
     "hCoV-19/Brazil/SP-IB_158543/2022": {
       "country": "Brazil",
       "division": "Sao Paulo",
+      "division_confidence": {
+        "Sao Paulo": 1.0
+      },
+      "division_entropy": -1.000088900581841e-12,
       "host": "Human"
     },
     "hCoV-19/Brazil/SP-IB_159103/2022": {
       "country": "Brazil",
       "division": "Sao Paulo",
+      "division_confidence": {
+        "Sao Paulo": 1.0
+      },
+      "division_entropy": -1.000088900581841e-12,
       "host": "Human"
     },
     "hCoV-19/Brazil/SP-NVBS16922GENOV829041407131/2022": {
       "country": "Brazil",
       "division": "Sao Paulo",
+      "division_confidence": {
+        "Sao Paulo": 1.0
+      },
+      "division_entropy": -1.000088900581841e-12,
       "host": "Human"
     },
     "hCoV-19/Brazil/SP-NVBS16931GENOV829066190452/2022": {
       "country": "Brazil",
       "division": "Sao Paulo",
+      "division_confidence": {
+        "Sao Paulo": 1.0
+      },
+      "division_entropy": -1.000088900581841e-12,
       "host": "Human"
     },
     "hCoV-19/Brazil/SP-NVBS16960GENOV829099044449/2022": {
       "country": "Brazil",
       "division": "Sao Paulo",
+      "division_confidence": {
+        "Sao Paulo": 1.0
+      },
+      "division_entropy": -1.000088900581841e-12,
       "host": "Human"
     },
     "hCoV-19/Brazil/SP-NVBS16971GENOV829086334355/2022": {
       "country": "Brazil",
       "division": "Sao Paulo",
+      "division_confidence": {
+        "Sao Paulo": 0.9999999999999999
+      },
+      "division_entropy": -9.99866855976916e-13,
       "host": "Human"
     },
     "hCoV-19/Brazil/SP-NVBS17016GENOV829076103244/2022": {
       "country": "Brazil",
       "division": "Sao Paulo",
+      "division_confidence": {
+        "Sao Paulo": 1.0
+      },
+      "division_entropy": -1.000088900581841e-12,
       "host": "Human"
     },
     "hCoV-19/Brazil/SP-NVBS17107GENOV829099296732/2022": {
       "country": "Brazil",
       "division": "Sao Paulo",
+      "division_confidence": {
+        "Sao Paulo": 1.0
+      },
+      "division_entropy": -1.000088900581841e-12,
       "host": "Human"
     },
     "hCoV-19/Brazil/SP-NVBS17157GENOV701853706711/2022": {
       "country": "Brazil",
       "division": "Sao Paulo",
+      "division_confidence": {
+        "Sao Paulo": 0.9999999999999999
+      },
+      "division_entropy": -9.99866855976916e-13,
       "host": "Human"
     },
     "hCoV-19/Brazil/SP-NVBS17267GENOV829094832300/2022": {
       "country": "Brazil",
       "division": "Sao Paulo",
+      "division_confidence": {
+        "Sao Paulo": 1.0
+      },
+      "division_entropy": -1.000088900581841e-12,
       "host": "Human"
     },
     "hCoV-19/Brazil/SP-NVBS17544GENOV829077453072/2022": {
       "country": "Brazil",
       "division": "Sao Paulo",
+      "division_confidence": {
+        "Sao Paulo": 0.9999999999999999
+      },
+      "division_entropy": -9.99866855976916e-13,
       "host": "Human"
     },
     "hCoV-19/Brazil/SP-NVBS17588GENOV045618632816/2022": {
       "country": "Brazil",
       "division": "Sao Paulo",
+      "division_confidence": {
+        "Sao Paulo": 1.0
+      },
+      "division_entropy": -1.000088900581841e-12,
       "host": "Human"
     },
     "hCoV-19/Brazil/SP-NVBS18679GENOV829171756406/2022": {
       "country": "Brazil",
       "division": "Sao Paulo",
+      "division_confidence": {
+        "Sao Paulo": 0.9999999999999999
+      },
+      "division_entropy": -9.99866855976916e-13,
       "host": "Human"
     },
     "hCoV-19/Brazil/SP-NVBS18682GENOV829171485368/2022": {
       "country": "Brazil",
       "division": "Sao Paulo",
+      "division_confidence": {
+        "Sao Paulo": 0.9999999999999999
+      },
+      "division_entropy": -9.99866855976916e-13,
       "host": "Human"
     },
     "hCoV-19/Brazil/SP-NVBS18963GENOV829205603386/2022": {
       "country": "Brazil",
       "division": "Sao Paulo",
+      "division_confidence": {
+        "Sao Paulo": 1.0
+      },
+      "division_entropy": -1.000088900581841e-12,
       "host": "Human"
     }
   }
