@@ -16,6 +16,7 @@ augur index \
     --sequences input_data/brazil_sequences.fasta \
     --output processed_data/sequences_index.tsv
 
+
 # filter out sequences
 augur filter \
   --sequences input_data/brazil_sequences.fasta \
@@ -23,11 +24,24 @@ augur filter \
   --metadata input_data/brazil_metadata.tsv \
   --exclude input_data/poor_quality_genomes.txt \
   --output processed_data/filtered.fasta \
-  --group-by pangolin_lineage month \
+  --output-metadata processed_data/metadata_filtered.tsv \
+  --group-by  month \
   --subsample-max-sequences 200 \
   --max-length 29900 \
   --min-date 2021 \
   --subsample-seed 455
+```
+
+To provide additional context, a few more Brazilian strains will be added after filtering. The fasta files can be merged in the command line, but its better to handle the metadata carefully, so we merge the contextual information with augur too.
+
+```sh
+cat input_data/complementary_sequences.fasta processed_data/filtered.fasta > processed_data/assignment_sequences.fasta
+
+# merge metadata tables
+augur merge \
+    --metadata  STUDY=processed_data/metadata_filtered.tsv \
+                ADDITIONAL=input_data/complementary_metadata.tsv \
+    --output-metadata processed_data/merged_metadata.tsv
 
 ```
 
@@ -42,15 +56,15 @@ Create multiple sequence alignment to identify differences among sequences, a ne
 ```sh
 # Time: 1 minute each
 augur align \
-    --sequences processed_data/filtered.fasta \
+    --sequences processed_data/assignment_sequences.fasta \
     --reference-sequence input_data/reference_MN908947.3.fasta \
-    --output results/alignment_brazil.fasta \
+    --output processed_data/alignment_brazil.fasta \
     --method mafft 
 
 augur tree \
-  --alignment results/alignment_brazil.fasta \
-  --method iqtree \
-  --output results/tree_raw.nwk
+    --alignment processed_data/alignment_brazil.fasta \
+    --method iqtree \
+    --output processed_data/tree_raw.nwk
 ```
 
 ## Basic phylodynamics
@@ -64,9 +78,9 @@ With `augur`, we can try to approximate the ancestral relationships among the st
 ```sh
 # Time: 3 minutes
 augur refine \
-  --tree results/tree_raw.nwk \
-  --alignment results/alignment_brazil.fasta \
-  --metadata input_data/brazil_metadata.tsv \
+  --tree processed_data/tree_raw.nwk \
+  --alignment processed_data/alignment_brazil.fasta \
+  --metadata processed_data/merged_metadata.tsv \
   --output-tree results/time_tree.nwk \
   --output-node-data results/branch_lengths.json \
   --divergence-units mutations \
@@ -84,7 +98,7 @@ Now that we have adjusted the branch lengths according to the sample date, we wi
 # Time: 1 minute
 augur traits \
     --tree results/time_tree.nwk \
-    --metadata input_data/brazil_metadata.tsv  \
+    --metadata processed_data/merged_metadata.tsv  \
     --columns host division country \
     --output-node-data results/trait_node.json
     --confidence
@@ -95,7 +109,7 @@ Finally, we explore if there are nucleotide mutations in an internal node that c
 ```sh
 augur ancestral \
   --tree results/time_tree.nwk \
-  --alignment results/alignment_brazil.fasta \
+  --alignment processed_data/alignment_brazil.fasta \
   --output-node-data results/nt_muts.json \
   --inference joint
 ```
@@ -108,7 +122,7 @@ Now we have everything we need to visualize it on the web. After exporting the f
 # Time: 10 second
 augur export v2 \
     --tree results/time_tree.nwk \
-    --metadata input_data/brazil_metadata.tsv  \
+    --metadata processed_data/merged_metadata.tsv  \
     --node-data results/branch_lengths.json \
                 results/trait_node.json \
     --maintainers "hsci/mbb_478" \
