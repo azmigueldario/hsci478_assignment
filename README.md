@@ -1,4 +1,4 @@
-# Instruction for Nexstrain assignment analysis 
+# Instruction for Nexstrain assignment analysis
 
 The input data is taken from GISAID (EPI_SET_240315sp) as specified in the paper by [Piccoli et al. (2024)](https://doi.org/10.1038/s41598-024-67828-7) with a few modifications to improve the runtime. The specific accession numbers are available in the Supplementary table 1 of the paper.
 
@@ -134,7 +134,7 @@ augur ancestral \
 Now we have everything we need to visualize it on the web. After exporting the files, load them into the [Nextstrain Auspice webtool](https://auspice.us/). Augur sends all the information in a format called [JSON](https://en.wikipedia.org/wiki/JSON) that contains information about the phylogenetic relationship and also the node data we just inferred.
 
 ```sh
-# Time: 10 second
+# Time: 10 seconds
 augur export v2 \
     --tree results/time_tree.nwk \
     --metadata processed_data/merged_metadata.tsv  \
@@ -145,3 +145,16 @@ augur export v2 \
     --output results/analysis-package.json \
     --geo-resolutions division
 ```
+
+## References
+
+We gratefully acknowledge all data contributors, i.e., the Authors and their Originating laboratories responsible for obtaining the specimens, and their Submitting laboratories for generating the genetic sequence and metadata and sharing via the GISAID Initiative, on which this research is based. Elbe, S. and Buckland-Merrett, G. (2017) [Data, disease and diplomacy: GISAID’s innovative contribution to global health.](http://dx.doi.org/10.46234/ccdcw2021.255) Global Challenges, 1:33-46. [
+**Note:** _The complete list of used sequences is availble in the file [sample_list_gisaid.txt](./input_data/sample_list_gisaid.txt)_ ]
+
+Nextstrain - Hadfield et al. [Nextstrain: real-time tracking of pathogen evolution](https://doi.org/10.1093/bioinformatics/bty407), Bioinformatics (2018).
+
+IQTREE2 - B.Q. Minh, et al. (2020) [IQ-TREE 2: New models and efficient methods for phylogenetic inference in the genomic era.]( https://doi.org/10.1093/molbev/msaa015) Mol. Biol. Evol., 37:1530-1534.
+
+TimeTree - Pavel Sagulenko, Vadim Puller, Richard A Neher. (2018) [TreeTime: Maximum-likelihood phylodynamic analysis.](https://doi.org/10.1093/ve/vex042) Virus evolution.
+
+MAGFFT - Katoh K and Standley D. (2013) [MAFFT Multiple Sequence Alignment Software Version 7](https://doi.org/10.1093/molbev/mst010). Mol Biol Evo Jan 16;30(4)
